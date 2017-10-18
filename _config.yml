@@ -21,10 +21,7 @@ baseurl: # the optional subpath of your site, e.g. "/blog"
 url: visioneval.github.org # the base hostname & protocol for your site 
 author:
   name:
-  twitter:
-  picture:
-twitter_username:
-github_username:
+github_username: VisionEval
 logo: /assets/images/VisionEval_logo_d2.png # path of site logo, e.g. "/assets/images/logo.png"
 
 # Build settings
