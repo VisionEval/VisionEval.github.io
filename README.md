@@ -1,3 +1,6 @@
+## Website management
+
+This website is built with the '[Basically Basic](https://github.com/mmistakes/jekyll-theme-basically-basic)' theme for GitHub pages. 
 
 ## VisionEval
 
@@ -12,5 +15,3 @@ An overview of VisionEval is currently [here](https://gregorbj.github.io/VisionE
 - Federal Highway Administration (FHWA)
 - Oregon Department of Transportation
 - Volpe National Transportation Systems Center
-
-![](https://gregorbj.github.io/VisionEval/website/visioneval_logo.png)
