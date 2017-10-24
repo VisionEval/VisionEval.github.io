@@ -16,4 +16,5 @@ An overview of VisionEval is currently [here](https://gregorbj.github.io/VisionE
 - Oregon Department of Transportation
 - Volpe National Transportation Systems Center
 
-![](https://gregorbj.github.io/VisionEval/website/visioneval_logo.png)
+
+<center><img src="https://gregorbj.github.io/VisionEval/website/visioneval_logo.png" alt="VisionEval Logo" height='95' width='95'></center>
