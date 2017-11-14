@@ -4,14 +4,9 @@ This website is built with the '[Basically Basic](https://github.com/mmistakes/j
 
 ## VisionEval
 
-The working verision of the VisionEval project is currently [here](https://github.com/gregorbj/VisionEval).
+The working verision of the VisionEval project is currently [here](https://github.com/visioneval/VisionEval).
 
 ### What is VisionEval?
 
-An overview of VisionEval is currently [here](https://gregorbj.github.io/VisionEval/)
+An overview of VisionEval is currently [here](https://VisionEval.org/)
 
-### Partner agencies
-
-- Federal Highway Administration (FHWA)
-- Oregon Department of Transportation
-- Volpe National Transportation Systems Center
