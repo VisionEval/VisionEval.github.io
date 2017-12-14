@@ -2,19 +2,20 @@
 layout: home
 ---
 
-VisionEval is a programming framework for disaggregate strategic planning models.
+**VisionEval** is a collaborative project to merge the successful GreenSTEP family of strategic planning tools into an open-source framework, and support a broad array of tool uses. Using strategic tools for long range performance-based planning is becoming increasingly valuable as a means to help state and metropolitan area governments select policies and actions to address pressing issues that are fraught with uncertainty. Strategic tools are designed to address a wide range of trends and policies, rather than focusing on details. As a result, many alternative futures and policies can be evaluated. A network of regional agencies, with the support of the Federal Highway Administration (FHWA), has come together to accelerate the adoption and deployment of strategic planning tools to aid in performance-based planning. The shared development approach of VisionEval enables pooled enhancements to expand the types of outcomes available in the Greenstep family of strategic planning models.
 
-The working verision of the VisionEval project is currently [here](https://github.com/gregorbj/VisionEval).
+FHWA is hosting a pooled fund project (http://pooledfund.org/Details/Solicitation/1446) to support VisionEval outreach, development, technical maintenance, and tool upgrades. The VisionEval project is maintained and governed by a community of agency sponsors, active users and developers. Partners both define the policy needs and uses of these tools, and set the direction for future tool development. VisionEval also provides forums for agencies to share best practices in applying strategic planning tools. In addition, agencies can share their experiences customizing the applications for local conditions in support of long range policy conversations.
 
-### What is VisionEval?
+### Resources
 
-An overview of VisionEval is currently [here](https://gregorbj.github.io/VisionEval/).
+VisionEval Active Development:  https://gregorbj.github.io/VisionEval/
+GreenSTEP: https://www.oregon.gov/ODOT/TD/TP/pages/greenstep.aspx
+RSPM: http://www.oregon.gov/ODOT/TD/OSTI/Pages/scenario_planning.aspx#reg 
+RPAT: https://planningtools.transportation.org/551/rapid-policy-analysis-tool.html
+
 
 ### Partner agencies
 
-- Federal Highway Administration (FHWA)
-- Oregon Department of Transportation
-- Volpe National Transportation Systems Center
 
 
 <center><img src="https://gregorbj.github.io/VisionEval/website/visioneval_logo.png" alt="VisionEval Logo" height='95' width='95'></center>
