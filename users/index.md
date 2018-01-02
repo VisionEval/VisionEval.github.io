@@ -2,6 +2,8 @@
 layout: page
 title: Information for users
 excerpt: "An collection of resources for VisionEval users."
+image:
+  feature: so-simple-sample-image-4-narrow.jpg
 search_omit: true
 ---
 

@@ -5,7 +5,7 @@ date:
 modified:
 excerpt:
 image:
-  feature:
+  feature: so-simple-sample-image-4-narrow.jpg
 search_omit: true
 sitemap: false
 ---
