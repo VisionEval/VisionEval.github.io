@@ -7,8 +7,8 @@ categories: articles
 tags: [sample-post]
 image:
   feature: so-simple-sample-image-1.jpg
-  credit: #WeGraphics
-  creditlink: #http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  credit:  
+  creditlink:  
 comments: true
 share: true
 ---
