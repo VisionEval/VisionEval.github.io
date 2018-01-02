@@ -1,25 +1,35 @@
-<nav id="nav-primary" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
-  <ul id="menu-main-navigation" class="menu">
-    <!-- Home link -->
-    <li class="menu-item">
-      <a href="{{ '/' | relative_url }}" itemprop="url">
-        <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
-      </a>
-    </li>
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      {% for link in site.data.navigation %}
+		    {% if link.url contains 'http' %}
+		        {% assign domain = '' %}
+		        {% else %}
+		        {% assign domain = site.url %}
+		    {% endif %}
+		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+		  {% endfor %}
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
 
-    <!-- site.pages links -->
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.data.theme.navigation_pages | default: default_paths %}
+{% include browser-upgrade.html %}
 
-    {% for path in page_paths %}
-      {% assign my_page = site.pages | where: "path", path | first %}
-      {% if my_page.title %}
-        <li class="menu-item">
-          <a href="{{ my_page.url | relative_url }}" itemprop="url">
-            <span itemprop="name">{{ my_page.title | escape }}</span>
-          </a>
-        </li>
+{% if page.image.feature %}<header class="masthead">
+	{% if site.logo != null %}
+		<div class="wrap">
+			<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
+		</div>
+	{% endif %}
+</header><!-- /.masthead -->
+{% else %}<header class="masthead">
+	<div class="wrap">
+      {% if site.logo != null %}
+  		<a href="{{ site.url }}/" class="site-logo" rel="home" title="{{ site.title }}"><img src="{{ site.url }}/images/{{ site.logo }}" width="200" height="200" alt="{{ site.title }} logo" class="animated fadeInDown"></a>
       {% endif %}
-    {% endfor %}
-  </ul>
-</nav>
+      <h1 class="site-title animated fadeIn"><a href="{{ site.url }}/">{{ site.title }}</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">{{ site.description }}</h2>
+	</div>
+</header><!-- /.masthead -->{% endif %}
+
+<div class="js-menu-screen menu-screen"></div>

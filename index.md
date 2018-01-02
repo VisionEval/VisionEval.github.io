@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 
 **VisionEval** is a collaborative project to merge the successful GreenSTEP family of strategic planning tools into an open-source framework, and support a broad array of tool uses. Using strategic tools for long range performance-based planning is becoming increasingly valuable as a means to help state and metropolitan area governments select policies and actions to address pressing issues that are fraught with uncertainty. Strategic tools are designed to address a wide range of trends and policies, rather than focusing on details. As a result, many alternative futures and policies can be evaluated. A network of regional agencies, with the support of the Federal Highway Administration (FHWA), has come together to accelerate the adoption and deployment of strategic planning tools to aid in performance-based planning. The shared development approach of VisionEval enables pooled enhancements to expand the types of outcomes available in the Greenstep family of strategic planning models.

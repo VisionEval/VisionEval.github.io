@@ -13,61 +13,61 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
+locale: en-US
 title: VisionEval
-email:
-description:
-baseurl: # the optional subpath of your site, e.g. "/blog"
-url: visioneval.github.org # the base hostname & protocol for your site 
-author: 
-github_username: VisionEval
-logo: /assets/images/VisionEval_logo_d2.png # path of site logo, e.g. "/assets/images/logo.png"
+url: http://localhost:4000 # visioneval.org # the base hostname & protocol for your site. Localhost for testing
+logo: VisionEval_logo_d2.png # path of site logo, e.g. "/assets/images/logo.png"
+search: true
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-basically-basic
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
-feed:
-  path: atom.xml
+  - jekyll-gist
+  - jekyll-feed
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
 
-# Exclude from processing.
-exclude:
-  - .asset-cache
-  - .bundle
-  - .codeclimate.yml
-  - .editorconfig
-  - .gitattributes
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .scss-lint.yml
-  - CHANGELOG
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - node_modules
-  - Rakefile
-  - README
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - /docs # ignore Basically Basic sample site
-  - /example # ignore Basically Basic dev site
+mathjax: true
 
-# Front Matter Defaults
-defaults:
-  # _posts
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      read_time: true
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: VisionEval
+  avatar: #bio-photo.jpg
+  email: #you@email.com
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  github: visioneval 
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+

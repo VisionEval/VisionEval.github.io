@@ -12,7 +12,7 @@ https://github.com/stan-dev/stan-dev.github.io/wiki/Using-the-Jeykll-Based-Websi
 
 ## VisionEval
 
-The working verision of the VisionEval project is currently [here](https://github.com/visioneval/VisionEval).
+The working version of the VisionEval project is currently [here](https://github.com/visioneval/VisionEval).
 
 ### What is VisionEval?
 

@@ -1,0 +1,14 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Partners
+  url: /articles/
+
+- title: Models
+  url: /blog/
+
+ 
+- title: Search
+  url: /search/
