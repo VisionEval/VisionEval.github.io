@@ -1,12 +1,19 @@
 ## Website management
 
-This website is built with the '[Basically Basic](https://github.com/mmistakes/jekyll-theme-basically-basic)' theme for GitHub pages. 
-This 
+This website is built with the '[Basically Basic](https://github.com/mmistakes/jekyll-theme-basically-basic)' theme for GitHub pages. It uses Jekyll, a tool built in Ruby to generate web pages from content written in Markdown, and is integrated with GitHub.
 
-To test on a local machine, make sure Ruby is installed:
-https://rubyinstaller.org/downloads/
+To make updates to this website, the following steps are required:
+ - Download and install [Ruby](https://rubyinstaller.org/downloads/)
+ - install Jekyll with `gem install jekyll`. See details [here](https://jekyllrb.com/docs/installation)
+ - install bundler with `gem install bundler`
+ - Clone this repository to your machine, navigate to it, and `bundle install`
+ - Now you can make edits to the contents. After doing so, you can preview the changes before pushing to the repository with:
+	+ `bundle exec jekyll build`
+	+ `bundle exec jekyll serve`
+	+ These are the steps that GitHub takes when generating a `gh-pages` page from a repository.
+  
 
-And follow instructions here
+Example instructions from another open-source project are here:
 https://github.com/stan-dev/stan-dev.github.io/wiki/Using-the-Jeykll-Based-Website
 
 
@@ -16,5 +23,5 @@ The working version of the VisionEval project is currently [here](https://github
 
 ### What is VisionEval?
 
-An overview of VisionEval is currently [here](https://VisionEval.org/)
+See the overview of VisionEval [here](http://VisionEval.org/)
 

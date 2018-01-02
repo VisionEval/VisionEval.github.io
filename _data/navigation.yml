@@ -3,12 +3,11 @@
 - title: About
   url: /about/
 
-- title: Partners
-  url: /articles/
-
-- title: Models
-  url: /blog/
-
+- title: Users
+  url: /users/
+  
+- title: Developers
+  url: /developers/
  
 - title: Search
   url: /search/
