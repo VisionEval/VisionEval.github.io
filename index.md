@@ -12,7 +12,7 @@ FHWA is hosting a [Pooled Fund project](http://pooledfund.org/Details/Solicitati
 ### Resources
 
 - The collaborative development of VisionEval occurs on [GitHub](https://www.github.com/visioneval/VisionEval/).
-- For information on the key models of GreenSTEP, the Regional Strategic Planning Model (RSPM), and the Rapid Policy and Analysis Tool (RSPM), see the [About]({{ site.url }}/about.html) page.
+- For information on the key models of GreenSTEP, the Regional Strategic Planning Model (RSPM), and the Rapid Policy and Analysis Tool (RSPM), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/users) pages.
 
 
 <!-- ### Partner agencies -->

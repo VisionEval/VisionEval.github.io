@@ -5,33 +5,33 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Information for Developers &#8211; VisionEval</title>
-<meta name="description" content="A collection of resources for VisionEval developers.">
-
+<title>Rapid Policy Analysis Tool (RPAT) &#8211; VisionEval</title>
+<meta name="description" content="Overview of the RPAT model.">
+<meta name="keywords" content="models">
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Information for Developers">
-<meta name="twitter:description" content="A collection of resources for VisionEval developers.">
+<meta name="twitter:title" content="Rapid Policy Analysis Tool (RPAT)">
+<meta name="twitter:description" content="Overview of the RPAT model.">
 
 
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:4000/images/so-simple-sample-image-4-narrow.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://localhost:4000/images/VisionEval_logo_d2.png">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en-US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Information for Developers">
-<meta property="og:description" content="A collection of resources for VisionEval developers.">
-<meta property="og:url" content="http://localhost:4000/developers/">
+<meta property="og:title" content="Rapid Policy Analysis Tool (RPAT)">
+<meta property="og:description" content="Overview of the RPAT model.">
+<meta property="og:url" content="http://localhost:4000/users/2-rpat/">
 <meta property="og:site_name" content="VisionEval">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/developers/">
+<link rel="canonical" href="http://localhost:4000/users/2-rpat/">
 <link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="VisionEval Feed">
 
 <!-- https://t.co/dKP3o1e -->
@@ -76,7 +76,7 @@
 
 </head>
 
-<body id="page">
+<body id="post">
 
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
@@ -104,41 +104,60 @@
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 
 <header class="masthead">
-	
-		<div class="wrap">
-			<a href="http://localhost:4000/" class="site-logo" rel="home" title="VisionEval"><img src="http://localhost:4000/images/VisionEval_logo_d2.png" width="200" height="200" alt="VisionEval logo" class="animated fadeInDown"></a>
-		</div>
-	
+	<div class="wrap">
+      
+  		<a href="http://localhost:4000/" class="site-logo" rel="home" title="VisionEval"><img src="http://localhost:4000/images/VisionEval_logo_d2.png" width="200" height="200" alt="VisionEval logo" class="animated fadeInDown"></a>
+      
+      <h1 class="site-title animated fadeIn"><a href="http://localhost:4000/">VisionEval</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description"></h2>
+	</div>
 </header><!-- /.masthead -->
-
 
 <div class="js-menu-screen menu-screen"></div>
 
 
 <div id="main" role="main">
-  <article class="entry">
-    <img src="http://localhost:4000/images/so-simple-sample-image-4-narrow.jpg" class="entry-feature-image" alt="Information for Developers" >
+  <article class="hentry">
+    
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">Information for Developers</h1>
+        <ul class="entry-tags">
+          <li><a href="http://localhost:4000/tags/#models" title="Pages tagged models">models</a></li>
+        </ul>
+        
+          <h1 class="entry-title">Rapid Policy Analysis Tool (RPAT)</h1>
+        
       </header>
+      <footer class="entry-meta">
+        
+        
+        <span class="author vcard">By <span class="fn">VisionEval</span></span>
+        <span class="entry-date date published"><time datetime="2018-01-01T00:00:00-05:00"><i class="fa fa-calendar-o"></i> January 01, 2018</time></span>
+        
+        
+        
+        
+      </footer>
       <div class="entry-content">
-        <p>See the VisionEval <a href="https://github.com/visioneval/VisionEval/wiki"><strong>wiki</strong></a> on GitHub for the following resources:</p>
+        <p>The Rapid Policy Analysis Tool (<a href="https://planningtools.transportation.org/551/rapid-policy-analysis-tool.html"><strong>RPAT</strong></a>) was developed under the federal Strategic Highway Research Program (SHRP2). The model was developed to help planners evaluate the potential effect of growth policies on regional travel. Portions of the GreenSTEP model were used in RPAT, but substantial revisions were made to the code, including use of land use place type categories representing the built environment.</p>
 
-<ul>
-  <li><a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started">Getting Started</a></li>
-  <li><a href="https://github.com/VisionEval/VisionEval/wiki/Developer-Orientation">Developer Orientation</a></li>
-  <li><a href="https://github.com/VisionEval/VisionEval/wiki/Automated-Testing">Automated Testing</a></li>
-  <li><a href="https://github.com/VisionEval/VisionEval/wiki/Modules-and-Packages">Modules and Packages</a></li>
-  <li><a href="https://github.com/VisionEval/VisionEval/wiki/Development-Roadmap">Development Roadmap</a></li>
-</ul>
+<p>Like RSPM, RPAT is built off of the GreenSTEP code for evaluating effects of scenarios at the household level, and operates on a single metropolitan region geographical level, disaggregated by land use place type. An additional distinction between RSPM and RPAT is the type of policies that are intended to be tested, and the data requirements to set up the model. RPAT is focused on smart growth and land use planning, and aims to identify the most promising polices to achieve smart growth targets. RPAT can evaluate policies which affect changes to the built environment (such as transit-oriented development and proportion of population in mixed-use areas), changes to travel demand (such as development near the urban core and changes in firm size and industry), changes in transportation supply (such as amount of regional transit service), and changes in policies (such as intelligent transportation system strategies and demand management). RPAT produces safety performance measures in addition to other travel and environmental results of RSPM.</p>
 
-<ul class="post-list">
+<h2 id="current-status">Current Status</h2>
 
-</ul>
+<p>A VisionEval version of RPAT is under design. Following the completion of the transition of RSPM to the VisionEval framework, RPAT will be transitioned as well.</p>
 
+        
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="http://localhost:4000/users/1-ongoing/" class="btn" title="Work Underway for all Tools">Previous</a>
+      
+      
+        <a href="http://localhost:4000/users/3-rspm/" class="btn" title="Regional Strategic Planning Model (RSPM) & Scenario Viewer">Next</a>
+      
+    </nav><!-- /.pagination -->
   </article>
 </div><!-- /#main -->
 
