@@ -4,7 +4,7 @@ This website is built with the '[So Simple](https://github.com/mmistakes/so-simp
 
 To make updates to this website, the following steps are required:
  - Download and install [Ruby](https://rubyinstaller.org/downloads/)
- - Open a Unix or Unix-like command-line utility (Terminal on Mac, (Git BASH)[http://gitforwindows.org/] on Windows will work)
+ - Open a Unix or Unix-like command-line utility (Terminal on Mac, [Git BASH](http://gitforwindows.org/) on Windows will work)
  - Install Jekyll with `gem install jekyll`. See details [here](https://jekyllrb.com/docs/installation)
  - Install bundler with `gem install bundler`. This Ruby tool updates all needed Ruby dependencies.
  - Clone this repository to your machine, navigate to it, and `bundle install`.
