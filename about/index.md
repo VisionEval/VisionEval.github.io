@@ -4,9 +4,7 @@ title: About VisionEval
 excerpt: "VisionEval is an open-source platform for strategic transportation planning."
 modified: 
 image:
-  feature: so-simple-sample-image-4-narrow.jpg
-  credit: 
-  creditlink:  
+  feature: so-simple-sample-image-4-narrow.jpg 
 ---
 
 
