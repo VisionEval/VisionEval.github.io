@@ -16,7 +16,7 @@
 locale: en-US
 title: VisionEval
 url: http://visioneval.org # the base hostname & protocol for your site. Localhost for testing http://localhost:4000 # 
-logo: VisionEval_logo_d2.png # path of site logo, e.g. "/assets/images/logo.png"
+logo: VisionEval_logo_d4.png # path of site logo, e.g. "/assets/images/logo.png"
 search: true
 
 
@@ -65,7 +65,7 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics:
+    analytics: UA-111927800-1
     verify:
     ad-client:
     ad-slot:
