@@ -3,7 +3,7 @@
   
     {
       "title"			: "GreenSTEP",
-      "link"			: "http://visioneval.org/users/4-greenstep/",
+      "link"			: "http://localhost:4000/users/4-greenstep/",
       "excerpt"		: "Overview of the GreenSTEP model."
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Regional Strategic Planning Model (RSPM) & Scenario Viewer",
-      "link"			: "http://visioneval.org/users/3-rspm/",
+      "link"			: "http://localhost:4000/users/3-rspm/",
       "excerpt"		: "Overview of the RSPM model."
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "Rapid Policy Analysis Tool (RPAT)",
-      "link"			: "http://visioneval.org/users/2-rpat/",
+      "link"			: "http://localhost:4000/users/2-rpat/",
       "excerpt"		: "Overview of the RPAT model."
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Work Underway for all Tools",
-      "link"			: "http://visioneval.org/users/1-ongoing/",
+      "link"			: "http://localhost:4000/users/1-ongoing/",
       "excerpt"		: "Ongoing work as listed in the Development Roadmap page on GitHub."
     }
   
@@ -49,7 +49,7 @@
   
     ,{
       "title"			: "VisionEval",
-      "link"			: "http://visioneval.org/",
+      "link"			: "http://localhost:4000/",
       "excerpt"		: ""
     }
   
@@ -59,7 +59,7 @@
   
     ,{
       "title"			: "About VisionEval",
-      "link"			: "http://visioneval.org/about/",
+      "link"			: "http://localhost:4000/about/",
       "excerpt"		: "VisionEval is an open-source platform for strategic transportation planning."
     }
   
