@@ -11,7 +11,8 @@ To make updates to this website, the following steps are required:
  - Now you can make edits to the contents. After doing so, you can preview the changes before pushing to the repository with:
 	+ `bundle exec jekyll build`
 	+ `bundle exec jekyll serve`
-	+ These are essentially the same steps that GitHub takes when generating a `gh-pages` page from a repository, and let you see the rendered site as you make changes on the fly.
+	
+    These are essentially the same steps that GitHub takes when generating a `gh-pages` page from a repository, and let you see the rendered site as you make changes on the fly.
   
 Example instructions from another open-source project are here:
 https://github.com/stan-dev/stan-dev.github.io/wiki/Using-the-Jeykll-Based-Website
