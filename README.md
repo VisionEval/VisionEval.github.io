@@ -2,8 +2,14 @@
 
 This website is built with the '[So Simple](https://github.com/mmistakes/so-simple-theme)' theme for GitHub pages. It uses Jekyll, a tool built in Ruby to generate web pages from content written in Markdown, and is integrated with GitHub.
 
-To make updates to this website, the following steps are required:
- - Download and install [Ruby](https://rubyinstaller.org/downloads/)
+There are three options for making updates to this website:
+
+1. Editing files directly on GitHub -- not recommended, but possible.
+2. Clone the repository, make changes with a text editor, and push commits back to master. You will only see the outcome of your changes after pushing your commits.
+3. Recommended approach: clone the repository, make changes with a text editor, preview those changes using Jekyll (see below), then push when satisfied with the changes. 
+
+The third approach is detailed here:
+ - Windows machines need to download and install [Ruby](https://rubyinstaller.org/downloads/)
  - Open a Unix or Unix-like command-line utility (Terminal on Mac, [Git BASH](http://gitforwindows.org/) on Windows will work)
  - Install Jekyll with `gem install jekyll`. See details [here](https://jekyllrb.com/docs/installation)
  - Install bundler with `gem install bundler`. This Ruby tool updates all needed Ruby dependencies.
