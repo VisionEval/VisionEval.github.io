@@ -15,10 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 locale: en-US
 title: VisionEval
+theme: minima
 url: http://visioneval.org # the base hostname & protocol for your site. Localhost for testing http://localhost:4000 # 
 logo: VisionEval_logo_d4.png # path of site logo, e.g. "/assets/images/logo.png"
 search: true
-
+repository: visioneval/visioneval.github.io.
 
 # Jekyll configuration
 
