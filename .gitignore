@@ -1,1 +1,5 @@
 *.Rhistory
+_site/*.html
+_site/*.xml
+*.scssc
+_site/404.html
