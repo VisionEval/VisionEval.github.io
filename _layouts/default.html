@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+
+    {% include sidebar.html %}
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+   {% include custom-foot.html %} 
+  </body>
+</html>
+
+<!-- Todo: Fix the footer.html location so that it is at the bottom, not a separate sidebar -->

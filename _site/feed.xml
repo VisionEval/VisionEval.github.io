@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-07T11:42:03-05:00</updated><id>http://localhost:4000/</id><title type="html">VisionEval</title><entry><title type="html">GreenSTEP</title><link href="http://localhost:4000/users/4-greenstep/" rel="alternate" type="text/html" title="GreenSTEP" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/4-greenstep</id><content type="html" xml:base="http://localhost:4000/users/4-greenstep/">&lt;p&gt;&lt;a href=&quot;http://www.oregon.gov/ODOT/Planning/Documents/GreenSTEP-Model-Overview.pdf&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;GreenSTEP&lt;/strong&gt;&lt;/a&gt; was the first of these models to be developed, and was designed by the Oregon Department of Transportation (ODOT) to assist in the development of plans to reduce greenhouse gas (GHG) emissions from light-duty vehicles to meet statutory goals. GreenSTEP models the consequences of changes in many different factors (such as transportation supply, prices, and land use) on household vehicle ownership and use, and the resulting effects on emissions, traffic congestion, and other outcomes. It’s strength is in the ability to incorporate significant detail through modeling a synthetic set of individual households and associated vehicles and fuels, incorporating a budget model for pricing policies, while avoiding network details that lead to long run times.  GreenSTEP, a statewide model with county and metro area “zones”, has been used to establish long-range goals and identify the possible strategies to achieve these goals, such as reducing transportation related emissions by a certain percent, or ensuring that a certain percent of households live in walkable neighborhoods.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-06T09:54:25-04:00</updated><id>http://localhost:4000/</id><title type="html">VisionEval</title><subtitle>A common framework for strategic planning models.</subtitle><author><name>VisionEval</name></author><entry><title type="html">GreenSTEP</title><link href="http://localhost:4000/users/2018/01/01/4-greenstep.html" rel="alternate" type="text/html" title="GreenSTEP" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/2018/01/01/4-greenstep</id><content type="html" xml:base="http://localhost:4000/users/2018/01/01/4-greenstep.html">&lt;p&gt;&lt;a href=&quot;http://www.oregon.gov/ODOT/Planning/Documents/GreenSTEP-Model-Overview.pdf&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;GreenSTEP&lt;/strong&gt;&lt;/a&gt; was the first of these models to be developed, and was designed by the Oregon Department of Transportation (ODOT) to assist in the development of plans to reduce greenhouse gas (GHG) emissions from light-duty vehicles to meet statutory goals. GreenSTEP models the consequences of changes in many different factors (such as transportation supply, prices, and land use) on household vehicle ownership and use, and the resulting effects on emissions, traffic congestion, and other outcomes. It’s strength is in the ability to incorporate significant detail through modeling a synthetic set of individual households and associated vehicles and fuels, incorporating a budget model for pricing policies, while avoiding network details that lead to long run times.  GreenSTEP, a statewide model with county and metro area “zones”, has been used to establish long-range goals and identify the possible strategies to achieve these goals, such as reducing transportation related emissions by a certain percent, or ensuring that a certain percent of households live in walkable neighborhoods.&lt;/p&gt;
 
 &lt;p&gt;The design concepts in GreenSTEP are the cornerstone of the related models. As a strategic planning model, GreenSTEP sits between sketch planning models that operate using simplified rule-based methods use, and modeling each individual’s daily trips by purpose on a detailed network with interacting policies. . GreenSTEP and the other VisionEval models simulate individual households and interactions between policies, but forecasts only overall travel based on metropolitan-wide travel conditions rather than detailed networks, striking a balance between rapid computation of alternative scenarios and accurate representations of how different types of households will change travel behavior in response to policies and investments. These models allow rapid analysis of how actions may interact, such as how urban area density may interact with electric vehicle ownership or car sharing. They can also test how household behavior may respond to policy changes, for instance how VMT may change in response to future increases in fuel cost or tighter budgets during stagnant economic times.&lt;/p&gt;
 
@@ -8,19 +8,19 @@
 
 &lt;p&gt;GreenSTEP continues to be used as a State-wide planning tool by ODOT, but is not available on a public repository currently. The FHWA maintains the similar statewide Energy and Emissions Reduction Policy Analysis Tool (EERPAT) model.  EERPAT has just made a significant enhancement to add a freight model and associated policies built on FHWA Freight Analysis Framework commodity flow data.&lt;/p&gt;
 
-&lt;p&gt;The models developed for GreenSTEP form the core of all VisionEval models. Following the successful transfer of RSPM and RPAT to the VisionEval project, Oreon DOT (and Maryland DOT) are leading the transfer of statewide GreenSTEP to VisionEval, via a contract led by CH2M Hill with sub-consultants RSG, Inc. and the original GreenSTEP author of Oregon Systems Analytics.  A VEGreenSTEP model should greatly facilitate transferring EERPAT to VisionEval.&lt;/p&gt;</content><author><name></name></author><category term="models" /><summary type="html">Overview of the GreenSTEP model.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Regional Strategic Planning Model (RSPM) &amp;amp; Scenario Viewer</title><link href="http://localhost:4000/users/3-rspm/" rel="alternate" type="text/html" title="Regional Strategic Planning Model (RSPM) &amp; Scenario Viewer" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/3-rspm</id><content type="html" xml:base="http://localhost:4000/users/3-rspm/">&lt;p&gt;The Regional Strategic Planning Model (&lt;a href=&quot;http://www.oregon.gov/ODOT/Planning/Documents/RSPM-Quick-Summary.pdf&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;RSPM&lt;/strong&gt;&lt;/a&gt;) was developed by ODOT as an offshoot of the GreenSTEP model to support metropolitan area scenario planning projects. The name reflects a broadening of the outcomes and policies for local agency use. Outcomes beyond GHG emissions requirements, such as non-motorized travel are emphasized with a focus on the types of policies and investment actions that are often implemented at the regional or local jurisdiction level. The essential steps of RSPM are similar to GreenSTEP, with a crucial difference of geographic scale. RSPM subdivides metropolitan areas into districts, which are similar to census tracts, and groups of districts, as divisions, to represent the separate policy actions of jurisdictions within the metropolitan area.&lt;/p&gt;
+&lt;p&gt;The models developed for GreenSTEP form the core of all VisionEval models. Following the successful transfer of RSPM and RPAT to the VisionEval project, Oreon DOT (and Maryland DOT) are leading the transfer of statewide GreenSTEP to VisionEval, via a contract led by CH2M Hill with sub-consultants RSG, Inc. and the original GreenSTEP author of Oregon Systems Analytics.  A VEGreenSTEP model should greatly facilitate transferring EERPAT to VisionEval.&lt;/p&gt;</content><author><name>VisionEval</name></author><category term="models" /><summary type="html">Overview of the GreenSTEP model.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Regional Strategic Planning Model (RSPM) &amp;amp; Scenario Viewer</title><link href="http://localhost:4000/users/2018/01/01/3-rspm.html" rel="alternate" type="text/html" title="Regional Strategic Planning Model (RSPM) &amp; Scenario Viewer" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/2018/01/01/3-rspm</id><content type="html" xml:base="http://localhost:4000/users/2018/01/01/3-rspm.html">&lt;p&gt;The Regional Strategic Planning Model (&lt;a href=&quot;http://www.oregon.gov/ODOT/Planning/Documents/RSPM-Quick-Summary.pdf&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;RSPM&lt;/strong&gt;&lt;/a&gt;) was developed by ODOT as an offshoot of the GreenSTEP model to support metropolitan area scenario planning projects. The name reflects a broadening of the outcomes and policies for local agency use. Outcomes beyond GHG emissions requirements, such as non-motorized travel are emphasized with a focus on the types of policies and investment actions that are often implemented at the regional or local jurisdiction level. The essential steps of RSPM are similar to GreenSTEP, with a crucial difference of geographic scale. RSPM subdivides metropolitan areas into districts, which are similar to census tracts, and groups of districts, as divisions, to represent the separate policy actions of jurisdictions within the metropolitan area.&lt;/p&gt;
 
 &lt;p&gt;An interactive viewer of previously run results from hundreds or thousands of scenarios was added to RSPM.  The viewer enables learning about the impact and tradeoffs of different policy combinations, resilience under a range of conditions, and can help to catch inconsistent thinking where residents support a broad community goal but discard the specific actions available to reach it. To date, several agencies have built web-based interactive viewers around scenarios run from VisionEval tools, allowing users a way to explore the effects of various choices for their region’s future.&lt;/p&gt;
 
 &lt;h2 id=&quot;current-status&quot;&gt;Current Status&lt;/h2&gt;
 
-&lt;p&gt;The RSPM model, along with a graphical user interface and output scenario viewer (similar to RSPM viewer) is actively being transferred to the common VisionEval framework by the end of 2017. The RSPM model is the first model to be transitioned to VisionEval. The front-end graphical user interface (GUI) for RSPM will serve as the GUI for the other VisionEval models. VisionEval versions of RPAT and GreenSTEP (statewide) models are funded, and expected to follow within 6-9 months. The under-development VERSPM is currently housed on a GitHub repository.&lt;/p&gt;</content><author><name></name></author><category term="models" /><summary type="html">Overview of the RSPM model.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Rapid Policy Analysis Tool (RPAT)</title><link href="http://localhost:4000/users/2-rpat/" rel="alternate" type="text/html" title="Rapid Policy Analysis Tool (RPAT)" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/2-rpat</id><content type="html" xml:base="http://localhost:4000/users/2-rpat/">&lt;p&gt;The Rapid Policy Analysis Tool (&lt;a href=&quot;https://planningtools.transportation.org/551/rapid-policy-analysis-tool.html&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;RPAT&lt;/strong&gt;&lt;/a&gt;) was developed under the federal Strategic Highway Research Program (SHRP2). The model was developed to help planners evaluate the potential effect of growth policies on regional travel. Portions of the GreenSTEP model were used in RPAT, but substantial revisions were made to the code, including use of land use place type categories representing the built environment.&lt;/p&gt;
+&lt;p&gt;The RSPM model, along with a graphical user interface and output scenario viewer (similar to RSPM viewer) is actively being transferred to the common VisionEval framework by the end of 2017. The RSPM model is the first model to be transitioned to VisionEval. The front-end graphical user interface (GUI) for RSPM will serve as the GUI for the other VisionEval models. VisionEval versions of RPAT and GreenSTEP (statewide) models are funded, and expected to follow within 6-9 months. The under-development VERSPM is currently housed on a GitHub repository.&lt;/p&gt;</content><author><name>VisionEval</name></author><category term="models" /><summary type="html">Overview of the RSPM model.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Rapid Policy Analysis Tool (RPAT)</title><link href="http://localhost:4000/users/2018/01/01/2-rpat.html" rel="alternate" type="text/html" title="Rapid Policy Analysis Tool (RPAT)" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/2018/01/01/2-rpat</id><content type="html" xml:base="http://localhost:4000/users/2018/01/01/2-rpat.html">&lt;p&gt;The Rapid Policy Analysis Tool (&lt;a href=&quot;https://planningtools.transportation.org/551/rapid-policy-analysis-tool.html&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;RPAT&lt;/strong&gt;&lt;/a&gt;) was developed under the federal Strategic Highway Research Program (SHRP2). The model was developed to help planners evaluate the potential effect of growth policies on regional travel. Portions of the GreenSTEP model were used in RPAT, but substantial revisions were made to the code, including use of land use place type categories representing the built environment.&lt;/p&gt;
 
 &lt;p&gt;Like RSPM, RPAT is built off of the GreenSTEP code for evaluating effects of scenarios at the household level, and operates on a single metropolitan region geographical level, disaggregated by land use place type. An additional distinction between RSPM and RPAT is the type of policies that are intended to be tested, and the data requirements to set up the model. RPAT is focused on smart growth and land use planning, and aims to identify the most promising polices to achieve smart growth targets. RPAT can evaluate policies which affect changes to the built environment (such as transit-oriented development and proportion of population in mixed-use areas), changes to travel demand (such as development near the urban core and changes in firm size and industry), changes in transportation supply (such as amount of regional transit service), and changes in policies (such as intelligent transportation system strategies and demand management). RPAT produces safety performance measures in addition to other travel and environmental results of RSPM.&lt;/p&gt;
 
 &lt;h2 id=&quot;current-status&quot;&gt;Current Status&lt;/h2&gt;
 
-&lt;p&gt;A VisionEval version of RPAT is under design. Following the completion of the transition of RSPM to the VisionEval framework, RPAT will be transitioned as well.&lt;/p&gt;</content><author><name></name></author><category term="models" /><summary type="html">Overview of the RPAT model.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Work Underway for all Tools</title><link href="http://localhost:4000/users/1-ongoing/" rel="alternate" type="text/html" title="Work Underway for all Tools" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/1-ongoing</id><content type="html" xml:base="http://localhost:4000/users/1-ongoing/">&lt;p&gt;The ongoing work involves:&lt;/p&gt;
+&lt;p&gt;A VisionEval version of RPAT is under design. Following the completion of the transition of RSPM to the VisionEval framework, RPAT will be transitioned as well.&lt;/p&gt;</content><author><name>VisionEval</name></author><category term="models" /><summary type="html">Overview of the RPAT model.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Work Underway for all Tools</title><link href="http://localhost:4000/users/2018/01/01/1-ongoing.html" rel="alternate" type="text/html" title="Work Underway for all Tools" /><published>2018-01-01T00:00:00-05:00</published><updated>2018-01-01T00:00:00-05:00</updated><id>http://localhost:4000/users/2018/01/01/1-ongoing</id><content type="html" xml:base="http://localhost:4000/users/2018/01/01/1-ongoing.html">&lt;p&gt;The ongoing work involves:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Outstanding work on the migration of RSPM, RPAT, and GreenSTEP to the VisionEval framework is outlined in the GitHub Wiki’s Modules &amp;amp; Packages and Roadmap pages. Once in a common framework, future enhancements of any tool should be usable by all other tools. For example, a module which captures multi-modal travel in VERSPM can also be used with VERPAT, as both models will use similar structures and share code.&lt;/li&gt;
@@ -33,4 +33,386 @@
 
 &lt;p&gt;VERSPM will be extended with additional modules via the pooled fund. These future enhancements are planned to be carried out in a way which can be used for RPAT and GreenSTEP as well as RSPM. A wish list of desired upgrades, reflecting agency partner priorities per an August 2016 Peer Exchange in Portland, is available at the GitHub Roadmap page.&lt;/p&gt;
 
-&lt;p&gt;In addition to new tool functionality, possible future enhancements might also include scenario planning support, such as case studies, reasonable ranges of various policy inputs, aids to facilitate transit and land use inputs, equity analyses, and peer review of VisionEval tools.&lt;/p&gt;</content><author><name></name></author><category term="models" /><category term="enhancements" /><summary type="html">Ongoing work as listed in the Development Roadmap page on GitHub.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry></feed>
+&lt;p&gt;In addition to new tool functionality, possible future enhancements might also include scenario planning support, such as case studies, reasonable ranges of various policy inputs, aids to facilitate transit and land use inputs, equity analyses, and peer review of VisionEval tools.&lt;/p&gt;</content><author><name>VisionEval</name></author><category term="models" /><category term="enhancements" /><summary type="html">Ongoing work as listed in the Development Roadmap page on GitHub.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22so-simple-sample-image-4-narrow.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Hello Hydeout</title><link href="http://localhost:4000/2017/06/01/hello-hydeout.html" rel="alternate" type="text/html" title="Hello Hydeout" /><published>2017-06-01T00:00:00-04:00</published><updated>2017-06-01T00:00:00-04:00</updated><id>http://localhost:4000/2017/06/01/hello-hydeout</id><content type="html" xml:base="http://localhost:4000/2017/06/01/hello-hydeout.html">&lt;p&gt;Hydeout updates the original &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;Hyde&lt;/a&gt;
+theme for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; 3.x and adds new functionality.&lt;/p&gt;
+
+&lt;h3 id=&quot;keep-it-simple&quot;&gt;Keep It Simple&lt;/h3&gt;
+
+&lt;p&gt;In keeping with the original Hyde theme, Hydeout aims to keep the overall
+design lightweight and plugin-free. JavaScript is currently limited only
+to Disqus and Google Analytics (and is only loaded if you provide configuration
+variables).&lt;/p&gt;
+
+&lt;p&gt;Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
+the CSS degrades into a single column layout.&lt;/p&gt;
+
+&lt;h3 id=&quot;customization&quot;&gt;Customization&lt;/h3&gt;
+
+&lt;p&gt;Hydeout replaces Hyde’s class-based theming with the use
+of the following SASS variables:&lt;/p&gt;
+
+&lt;div class=&quot;language-scss highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$sidebar-bg-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#202020&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$sidebar-sticky&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$layout-reverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$link-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;#268bd2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To override these variables, create your own &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/css/main.scss&lt;/code&gt; file.
+Define your own variables, then import in Hydeout’s SCSS, like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+# Jekyll needs front matter for SCSS files
+---
+
+$sidebar-bg-color: #ac4142;
+$link-color: #ac4142;
+$sidebar-sticky: false;
+@import &quot;hydeout&quot;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;_sass/hydeout/_variables.scss&quot;&gt;_variables&lt;/a&gt; file for other variables
+you can override.&lt;/p&gt;
+
+&lt;p&gt;You can also insert custom head tags (e.g. to load your own stylesheets) by
+defining your own &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/custom-head.html&lt;/code&gt; or insert tags at the end
+of the body (e.g. for custom JS) by defining your own
+&lt;code class=&quot;highlighter-rouge&quot;&gt;_includes/custom-foot.html&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;new-features&quot;&gt;New Features&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Hydeout also adds a new tags page (accessible in the sidebar) and a new
+“category” layout for dedicated category pages.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Category pages are automatically added to the sidebar. All other pages
+must have &lt;code class=&quot;highlighter-rouge&quot;&gt;sidebar_link: true&lt;/code&gt; in their front matter to show up in
+the sidebar.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A simple redirect-to-Google search is available. If you want to use
+Google Custom Search or Algolia or something with more involved,
+override the &lt;code class=&quot;highlighter-rouge&quot;&gt;search.html&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disqus integration is ready out of the box. Just add the following to
+your config file:&lt;/p&gt;
+
+    &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;my-disqus-shortname&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;If you don’t want Disqus or want to use something else, override
+&lt;code class=&quot;highlighter-rouge&quot;&gt;comments.html&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For Google Analytics support, define a &lt;code class=&quot;highlighter-rouge&quot;&gt;google_analytics&lt;/code&gt; variable with
+your property ID in your config file.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s also a bunch of minor tweaks and adjustments throughout the
+theme. Hope this works for you!&lt;/p&gt;</content><author><name>VisionEval</name></author><summary type="html">Hydeout updates the original Hyde theme for Jekyll 3.x and adds new functionality. Keep It Simple In keeping with the original Hyde theme, Hydeout aims to keep the overall design lightweight and plugin-free. JavaScript is currently limited only to Disqus and Google Analytics (and is only loaded if you provide configuration variables). Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available, the CSS degrades into a single column layout. Customization Hydeout replaces Hyde’s class-based theming with the use of the following SASS variables: $sidebar-bg-color: #202020 !default; $sidebar-sticky: true !default; $layout-reverse: false !default; $link-color: #268bd2 !default; To override these variables, create your own assets/css/main.scss file. Define your own variables, then import in Hydeout’s SCSS, like so: --- # Jekyll needs front matter for SCSS files --- $sidebar-bg-color: #ac4142; $link-color: #ac4142; $sidebar-sticky: false; @import &quot;hydeout&quot;; See the _variables file for other variables you can override. You can also insert custom head tags (e.g. to load your own stylesheets) by defining your own _includes/custom-head.html or insert tags at the end of the body (e.g. for custom JS) by defining your own _includes/custom-foot.html. New Features Hydeout also adds a new tags page (accessible in the sidebar) and a new “category” layout for dedicated category pages. Category pages are automatically added to the sidebar. All other pages must have sidebar_link: true in their front matter to show up in the sidebar. A simple redirect-to-Google search is available. If you want to use Google Custom Search or Algolia or something with more involved, override the search.html. Disqus integration is ready out of the box. Just add the following to your config file: disqus: shortname: my-disqus-shortname If you don’t want Disqus or want to use something else, override comments.html. For Google Analytics support, define a google_analytics variable with your property ID in your config file. There’s also a bunch of minor tweaks and adjustments throughout the theme. Hope this works for you!</summary></entry><entry><title type="html">Introducing Hyde</title><link href="http://localhost:4000/2013/12/28/introducing-hyde.html" rel="alternate" type="text/html" title="Introducing Hyde" /><published>2013-12-28T00:00:00-05:00</published><updated>2013-12-28T00:00:00-05:00</updated><id>http://localhost:4000/2013/12/28/introducing-hyde</id><content type="html" xml:base="http://localhost:4000/2013/12/28/introducing-hyde.html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It’s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
+
+&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
+
+&lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Hyde here) includes the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/feed.xml&quot;&gt;RSS feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Mobile friendly design and development&lt;/li&gt;
+  &lt;li&gt;Easily scalable text and component sizing with &lt;code class=&quot;highlighter-rouge&quot;&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
+  &lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
+  &lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
+  &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hyde-features&quot;&gt;Hyde features&lt;/h3&gt;
+
+&lt;p&gt;In addition to the features of Poole, Hyde adds the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sidebar includes support for textual modules and a dynamically generated navigation with active link support&lt;/li&gt;
+  &lt;li&gt;Two orientations for content and sidebar, default (left sidebar) and &lt;a href=&quot;https://github.com/poole/lanyon#reverse-layout&quot;&gt;reverse&lt;/a&gt; (right sidebar), available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/poole/hyde#themes&quot;&gt;Eight optional color schemes&lt;/a&gt;, available via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; classes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/poole/hyde#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
+
+&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
+
+&lt;p&gt;Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
+
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;</content><author><name>VisionEval</name></author><summary type="html">Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content. It’s based on Poole, the Jekyll butler.</summary></entry><entry><title type="html">Example content</title><link href="http://localhost:4000/2012/02/07/example-content.html" rel="alternate" type="text/html" title="Example content" /><published>2012-02-07T00:00:00-05:00</published><updated>2012-02-07T00:00:00-05:00</updated><id>http://localhost:4000/2012/02/07/example-content</id><content type="html" xml:base="http://localhost:4000/2012/02/07/example-content.html">&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+  &lt;li&gt;Citations, like &lt;cite&gt;— Mark otto&lt;/cite&gt;, should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code class=&quot;highlighter-rouge&quot;&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+
+&lt;h3 id=&quot;gists-via-github-pages&quot;&gt;Gists via GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+  &lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+  &lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+  &lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+  &lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot; /&gt;
+&lt;img src=&quot;https://placehold.it/400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot; /&gt;
+&lt;img src=&quot;https://placehold.it/200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;</content><author><name>VisionEval</name></author><summary type="html">Howdy! This is an example blog post that shows several types of HTML content supported in this theme.</summary></entry><entry><title type="html">What’s Jekyll?</title><link href="http://localhost:4000/2012/02/06/whats-jekyll.html" rel="alternate" type="text/html" title="What's Jekyll?" /><published>2012-02-06T00:00:00-05:00</published><updated>2012-02-06T00:00:00-05:00</updated><id>http://localhost:4000/2012/02/06/whats-jekyll</id><content type="html" xml:base="http://localhost:4000/2012/02/06/whats-jekyll.html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Hyde.&lt;/p&gt;
+
+&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name>VisionEval</name></author><summary type="html">Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:</summary></entry><entry><title type="html">Markup: Syntax Highlighting</title><link href="http://localhost:4000/2012/02/05/markup-syntax-highlighting.html" rel="alternate" type="text/html" title="Markup: Syntax Highlighting" /><published>2012-02-05T00:00:00-05:00</published><updated>2012-02-05T10:27:01-05:00</updated><id>http://localhost:4000/2012/02/05/markup-syntax-highlighting</id><content type="html" xml:base="http://localhost:4000/2012/02/05/markup-syntax-highlighting.html">&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;gfm-code-blocks&quot;&gt;GFM Code Blocks&lt;/h2&gt;
+
+&lt;p&gt;GitHub Flavored Markdown &lt;a href=&quot;https://help.github.com/articles/creating-and-highlighting-code-blocks/&quot;&gt;fenced code blocks&lt;/a&gt; are supported by default with Jekyll. You may need to update your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to enable them if you’re using an older version.&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;kramdown&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;GFM&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here’s an example of a CSS code snippet written in GFM:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Yet another code snippet for demonstration purposes:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'index.html'&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'_layouts'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tag_index.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_prefix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Tagged: '&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_suffix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;amp;#8211;'&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'description'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;jekyll-highlight-liquid-tag&quot;&gt;Jekyll Highlight Liquid Tag&lt;/h2&gt;
+
+&lt;p&gt;Jekyll also has built-in support for syntax highlighting of code snippets using either Rouge or Pygments, using a dedicated Liquid tag as follows:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;scss&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+.highlight {
+  margin: 0;
+  padding: 1em;
+  font-family: $monospace;
+  font-size: $type-size-7;
+  line-height: 1.8;
+}
+&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endhighlight&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And the output will look like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.highlight&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$monospace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$type-size-7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;.8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here’s an example of a code snippet using the Liquid tag and &lt;code class=&quot;highlighter-rouge&quot;&gt;linenos&lt;/code&gt; enabled.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  {% if page.previous %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  {% endif %}
+  {% if page.next %}
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  {% endif %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;code-blocks-in-lists&quot;&gt;Code Blocks in Lists&lt;/h2&gt;
+
+&lt;p&gt;Indentation matters. Be sure the indent of the code block aligns with the first non-space character after the list item marker (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;1.&lt;/code&gt;). Usually this will mean indenting 3 spaces instead of 4.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Do step 1.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now do this:&lt;/p&gt;
+
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now you can do this.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h2&gt;
+
+&lt;p&gt;GitHub Gist embeds can also be used:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Which outputs as:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>VisionEval</name></author><category term="code" /><category term="syntax highlighting" /><summary type="html">Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll's `{% highlight %}` tag.</summary></entry><entry><title type="html">Layout: Excerpt (Defined)</title><link href="http://localhost:4000/layout/2012/02/04/layout-excerpt-defined.html" rel="alternate" type="text/html" title="Layout: Excerpt (Defined)" /><published>2012-02-04T00:00:00-05:00</published><updated>2012-02-04T12:43:31-05:00</updated><id>http://localhost:4000/layout/2012/02/04/layout-excerpt-defined</id><content type="html" xml:base="http://localhost:4000/layout/2012/02/04/layout-excerpt-defined.html">&lt;p&gt;This is the start of the post content.&lt;/p&gt;
+
+&lt;p&gt;This paragraph should be absent from an index page where &lt;code class=&quot;highlighter-rouge&quot;&gt;post.excerpt&lt;/code&gt; is shown.&lt;/p&gt;</content><author><name>VisionEval</name></author><category term="content" /><category term="excerpt" /><category term="layout" /><summary type="html">This is a user-defined post excerpt. It should be displayed in place of the auto-generated excerpt or post content on index pages.</summary></entry></feed>
