@@ -1,6 +1,6 @@
 ## Website management
 
-This website is built with the '[So Simple](https://github.com/mmistakes/so-simple-theme)' theme for GitHub pages. It uses Jekyll, a tool built in Ruby to generate web pages from content written in Markdown, and is integrated with GitHub.
+This website is built with the '[Hydeout](https://github.com/fongandrew/hydeout)' theme for GitHub pages. It uses Jekyll, a tool built in Ruby to generate web pages from content written in Markdown, and is integrated with GitHub.
 
 There are three options for making updates to this website:
 
@@ -20,11 +20,11 @@ The third approach is detailed here:
 bundle exec jekyll build
 bundle exec jekyll serve
 ```
-These are essentially the same steps that GitHub takes when generating a `gh-pages` page from a repository, and let you see the rendered site as you make changes on the fly.
+
+These are essentially the same steps that GitHub takes when generating a `gh-pages` page from a repository, and let you preview the rendered site as you make changes on the fly. Then you can push the completed batch of edits all at once.
   
 Example instructions from another open-source project are here:
 https://github.com/stan-dev/stan-dev.github.io/wiki/Using-the-Jeykll-Based-Website
-
 
 
 ## VisionEval

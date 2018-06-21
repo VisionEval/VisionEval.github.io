@@ -2,19 +2,19 @@
 layout: category
 title: Information for Developers
 excerpt: "A collection of resources for VisionEval developers."
-image:
-  feature: so-simple-sample-image-4-narrow.jpg
 search_omit: true
 ---
 
 
-See the VisionEval [**wiki**](https://github.com/visioneval/VisionEval/wiki) on GitHub for the following resources:
+See the VisionEval <a href="https://github.com/visioneval/VisionEval/wiki" target="_blank"><b>wiki</b></a> on GitHub for the following resources:
 
-- [Getting Started](https://github.com/VisionEval/VisionEval/wiki/Getting-Started)
-- [Developer Orientation](https://github.com/VisionEval/VisionEval/wiki/Developer-Orientation)
-- [Automated Testing](https://github.com/VisionEval/VisionEval/wiki/Automated-Testing)
-- [Modules and Packages](https://github.com/VisionEval/VisionEval/wiki/Modules-and-Packages)
-- [Development Roadmap](https://github.com/VisionEval/VisionEval/wiki/Development-Roadmap)
+- <a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started" target="_blank">Getting Started</a>
+- <a href="https://github.com/VisionEval/VisionEval/wiki/Developer-Orientation" target="_blank">Developer Orientation</a>
+- <a href="https://github.com/VisionEval/VisionEval/wiki/Automated-Testing" target="_blank">Automated Testing</a>
+- <a href="https://github.com/VisionEval/VisionEval/wiki/Modules-and-Packages" target="_blank">Modules and Packages</a>
+- <a href="https://github.com/VisionEval/VisionEval/wiki/Development-Roadmap" target="_blank">Development Roadmap</a>
+
+<a href="http://www.github.com/visioneval/visioneval" target="_blank"><b>VisionEval GitHub Repository</b></a> 
 
 <ul class="post-list">
 {% for post in site.categories.developers %} 
