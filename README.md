@@ -26,6 +26,7 @@ These are essentially the same steps that GitHub takes when generating a `gh-pag
 Example instructions from another open-source project are here:
 https://github.com/stan-dev/stan-dev.github.io/wiki/Using-the-Jeykll-Based-Website
 
+Maintain the Ruby Gems with `bundle update`.
 
 ## VisionEval
 
