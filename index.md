@@ -13,6 +13,9 @@ image:
 - Additional information can be found at <a href="https://gregorbj.github.io/VisionEval/" target="_blank">the previous project page</a>.
 - For information on the key models of GreenSTEP, the Regional Strategic Planning Model (RSPM), and the Rapid Policy and Analysis Tool (RPAT), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/category/users) pages.
 
+### Video introduction to VisionEval
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/915u9xuxbhY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
