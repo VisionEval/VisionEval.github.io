@@ -19,5 +19,13 @@ The work to date by the founding FHWA-Oregon DOT partnership has focused on the 
 {% endfor %}
 </ul>
 
+## Use cases
+
+The following use cases have been developed for the Rapid Policy Analysis Tool (RPAT). Click the links for detailed case studies:
+
+- [Durham-Chapel Hill-Carrboro Metropolitan Planning Organization (DCHC)]({{ site.url }}/assets/refs/2016_RPAT_Case_Study_DCHC.pdf) used RPAT to assess impacts of policies such as transit oriented development and smart growth development on regional travel behavior.
+- [Delware Valley Regional Planning Commission (DVRPC)]({{ site.url }}/assets/refs/2016_RPAT_Case_Study_DVRPC.pdf) compared RPAT to their Travel Improvement Model and a GIS-based land use forecasting model.
+- [Oregon Department of Transportation (ODOT) and the Corvallis Area Metropolitan Planning Organization (CAMPO)]({{ site.url }}/assets/refs/2016_RPAT_Case_Study_ODOT.pdf) used both RPAT and RSPM to test hundreds of scenarios for policies on land use, parking, mode choice, and transportation options.
+
 
 <!-- removed between title and excerpt: <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> -->
