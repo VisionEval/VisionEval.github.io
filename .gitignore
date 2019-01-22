@@ -1,5 +1,3 @@
-*.Rhistory
-_site/*.html
-_site/*.xml
+﻿*.Rhistory
 *.scssc
-_site\*
+_site/*
