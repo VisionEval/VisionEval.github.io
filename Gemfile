@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-gist"
   gem "jekyll-sitemap"
+  gem "nokogiri", ">= 1.8.5"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
