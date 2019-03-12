@@ -2,13 +2,11 @@
 layout: category
 title: Download
 excerpt: "How to download and install VisionEval"
-image:
-  feature: so-simple-sample-image-4-narrow.jpg
 ---
 
-## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v0.1/VE-installer-windows-R3.5.2.2019-03-11.zip)
+## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v0.1.1/VE-installer-windows-R3.5.2.2019-03-12.zip)
 
-*Note: 600 Mb download!*
+*Note: 600 Mb download! Packaged for R 3.5.2*
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
@@ -17,7 +15,7 @@ The link above will download a .zip file containing the following:
 
 ## Install for Windows
 
-After installing R 3.5.2 and downloading the VE Installer from the link at the top, unzip the folder to the destination folder of your choice.
+After installing R 3.5.2 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.
 
 To complete the installation and start VisionEval, simply:
    - Double-click **<tt>VisionEval.bat</tt>**
@@ -50,12 +48,15 @@ href="https://cran.r-project.org/bin/windows/base/old/3.5.2/" target="_blank">R 
 #### RStudio (optional)
 Many users find that <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> is a better version of the
 standard R interface.  RStudio is particularly recommended if you plan to clone and explore the
-<a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a> .
+<a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a>.
+
+#### Mac/Linux users
+VisionEval can be installed from source as well. Follow the 'Install from Source' steps on [the wiki](https://github.com/VisionEval/VisionEval/wiki/Getting-Started).
 
 ## Questions
 
 Questions about VisionEval installation can be directed to Jeremy.Raw or Daniel.Flynn at dot.gov.
 
-The installer and this website were built with the VE-Installer, which is <a target="_blank" href="https://github.com/VisionEval/VE-Installer">available on GitHub</a>
+The installers were built with the VE-Installer, which is <a target="_blank" href="https://github.com/VisionEval/VE-Installer">available on GitHub</a>
 
 <!-- removed between title and excerpt: <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> -->
