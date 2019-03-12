@@ -6,33 +6,21 @@ image:
   feature: so-simple-sample-image-4-narrow.jpg
 ---
 
-## [Get VisionEval Here](https://www.dropbox.com/s/hn3386ge2ajg4rz/VE-installer-windows-R3.5.1.zip?dl=1)
-**Warning** This Download is approximately **515 Megabytes** (Humongous!)
+## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v0.1/VE-installer-windows-R3.5.2.2019-03-11.zip)
+
+*Note: 600 Mb download!*
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
- - VE-RSPM, VE-RPAT, VE-GUI, and VE-ScenarioViewer 
+ - VE-RSPM, VE-RPAT, VE-GUI, VE-State and VE-ScenarioViewer 
  - All necessary R packages
 
-The current version of VisionEval requires R 3.5.1 to be installed on your computer.  You can find the <a
-href="https://cran.r-project.org/bin/windows/base/old/3.5.1/" target="_blank">R 3.5.1 installer for Windows here</a>.
+## Install for Windows
 
-Many users find that <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> is a better version of the
-standard R interface.  Rstudio is particularly recommended if you plan to clone and explore the
-<a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a> .
+After installing R 3.5.2 and downloading the VE Installer from the link at the top, unzip the folder to the destination folder of your choice.
 
-## Install
-
-After installing R 3.5.1 and downloading the VE Installer from the link at the top, unzip the folder to the destination folder of your choice.
-
-To complete the installation and start VisionEval, do the following:
-
-   1. Start R / RStudio
-   1. Use File / Change dir... to navigate to the destination folder (where you unzipped the installer)
-   1. Enter (or copyA) the following instructions one by one in the R command window:<br/>
-     `source("Install-VisionEval.R")`<br/>
-     `load("RunVisionEval.Rdata")`
-   1. You will see `Welcome to VisionEval!` at the end of the R startup message stream if everything went well.
+To complete the installation and start VisionEval, simply:
+   - Double-click **<tt>VisionEval.bat</tt>**
 
 ## Getting Started
 
@@ -48,13 +36,21 @@ The installation also creates some convenience functions which will run the mode
  - <tt>verspm()</tt> for the VERSPM test model
  - <tt>verspm(scenarios=TRUE)</tt> to run multiple scenarios in VERSPM
 
-### Multiprocess Version
 
-The download link above will install and run VisionEval without administrator privileges following the instructions above.
-However certain functions in the GUI may not operate correctly (e.g. status of running models).  For full
-functionality, you will need the ["multiprocess" version available
-here](https://www.dropbox.com/s/v8ijhdau334pyvj/VE-installer-windows-multi-R3.5.1.zip?dl=1).  In many enterprise
-environments, the multiprocess version cannot run at all without administrative rights to configure the Windows firewall.
+## Requirements
+
+If the above installation steps did not succeed, ensure that you have downloaded the appropriate version of VisionEval to match the version of R that you have installed.
+
+#### R
+The current version of VisionEval works best with R 3.5.2 to be installed on your computer.  If you currently have another version of R installed, you can go to the [GitHub release page](https://github.com/VisionEval/VisionEval/releases) to download VisionEval for R 3.4.4 or 3.5.1.
+
+You can find the <a
+href="https://cran.r-project.org/bin/windows/base/old/3.5.2/" target="_blank">R 3.5.2 installer for Windows here</a>.
+
+#### RStudio (optional)
+Many users find that <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> is a better version of the
+standard R interface.  RStudio is particularly recommended if you plan to clone and explore the
+<a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a> .
 
 ## Questions
 
