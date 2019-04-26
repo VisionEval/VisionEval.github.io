@@ -2,9 +2,25 @@
 
   
     {
+      "title"			: "Links to interactive viewers",
+      "link"			: "http://localhost:4000/interactive/2019/01/01/1-viewers.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Links to additional resources",
+      "link"			: "http://localhost:4000/resources/2019/01/01/1-resources.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
       "title"			: "GreenSTEP",
       "link"			: "http://localhost:4000/users/2018/01/01/4-greenstep.html",
-      "excerpt"		: "Overview of the GreenSTEP model."
+      "excerpt"		: "Overview"
     }
   
 
@@ -12,7 +28,7 @@
     ,{
       "title"			: "Regional Strategic Planning Model (RSPM) & Scenario Viewer",
       "link"			: "http://localhost:4000/users/2018/01/01/3-rspm.html",
-      "excerpt"		: "Overview of the RSPM model."
+      "excerpt"		: "Overview"
     }
   
 
@@ -20,15 +36,15 @@
     ,{
       "title"			: "Rapid Policy Analysis Tool (RPAT)",
       "link"			: "http://localhost:4000/users/2018/01/01/2-rpat.html",
-      "excerpt"		: "Overview of the RPAT model."
+      "excerpt"		: "  Overview"
     }
   
 
   
     ,{
-      "title"			: "Work Underway for all Tools",
+      "title"			: "Ongoing work for all tools",
       "link"			: "http://localhost:4000/users/2018/01/01/1-ongoing.html",
-      "excerpt"		: "Ongoing work as listed in the Development Roadmap page on GitHub."
+      "excerpt"		: "as listed on the Development Roadmap"
     }
   
 
@@ -104,6 +120,14 @@
     }
   
 
+  
+
+  
+    ,{
+      "title"			: "Home",
+      "link"			: "http://localhost:4000/page2/",
+      "excerpt"		: ""
+    }
   
 
   

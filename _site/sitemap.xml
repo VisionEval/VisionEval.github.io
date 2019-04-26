@@ -17,6 +17,14 @@
 <lastmod>2018-01-01T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/resources/2019/01/01/1-resources.html</loc>
+<lastmod>2019-01-01T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/interactive/2019/01/01/1-viewers.html</loc>
+<lastmod>2019-01-01T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/category/1users.html</loc>
 </url>
 <url>
@@ -44,6 +52,9 @@
 <loc>http://localhost:4000/tags.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/page2/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/assets/refs/2016_RPAT_Case_Study_DCHC.pdf</loc>
 <lastmod>2019-02-04T09:38:55-05:00</lastmod>
 </url>
@@ -54,6 +65,10 @@
 <url>
 <loc>http://localhost:4000/assets/refs/2016_RPAT_Case_Study_ODOT.pdf</loc>
 <lastmod>2019-02-04T09:38:55-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gregorbj_visioneval_website.html</loc>
+<lastmod>2019-04-25T20:10:48-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/images/VisionEval_logo_d2.pdf</loc>

@@ -27,5 +27,30 @@ The following use cases have been developed for the Rapid Policy Analysis Tool (
 - [Delware Valley Regional Planning Commission (DVRPC)]({{ site.url }}/assets/refs/2016_RPAT_Case_Study_DVRPC.pdf) compared RPAT to their Travel Improvement Model and a GIS-based land use forecasting model.
 - [Oregon Department of Transportation (ODOT) and the Corvallis Area Metropolitan Planning Organization (CAMPO)]({{ site.url }}/assets/refs/2016_RPAT_Case_Study_ODOT.pdf) used both RPAT and RSPM to test hundreds of scenarios for policies on land use, parking, mode choice, and transportation options.
 
+## Interactive viewers
+
+<ul class="post-list">
+{% for post in site.categories.interactive %} 
+  <li>
+  <article>
+			<a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
+  </article>
+  </li>
+{% endfor %}
+</ul>
+
+## Learn more
+
+<ul class="post-list">
+{% for post in site.categories.resources %} 
+  <li>
+  <article>
+			<a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
+  </article>
+  </li>
+{% endfor %}
+</ul>
+
+
 
 <!-- removed between title and excerpt: <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span> -->

@@ -276,7 +276,7 @@ pre { max-width: 100%; overflow-x: auto; }
 body { color: rgba(255, 255, 255, 0.75); background-color: #202020; background-image: linear-gradient(to bottom, #323232, #0e0e0e); display: flex; flex-direction: column; min-width: 100vw; min-height: 100vh; }
 
 #sidebar { flex: 0 0 auto; padding: 2rem; }
-#sidebar .site-title { font-family: "Abril Fatface", serif; font-weight: normal; font-size: 1.25rem; color: rgba(255, 255, 255, 0.75); margin-top: 0; margin-bottom: 0.5rem; }
+#sidebar .site-title { font-family: "Trebuchet MS"; font-weight: normal; font-size: 1.25rem; color: rgba(255, 255, 255, 0.75); margin-top: 0; margin-bottom: 0.5rem; }
 #sidebar .site-title a { color: inherit; }
 #sidebar .site-title a:hover { color: #ffffff; }
 #sidebar .site-title .back-arrow { margin-right: 0.5rem; }
