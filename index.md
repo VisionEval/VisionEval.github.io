@@ -10,7 +10,6 @@ image:
 ### Resources
 
 - The collaborative development of VisionEval occurs on <a href="http://www.github.com/visioneval/visioneval" target="_blank">GitHub</a>.
-- Additional information can be found at <a href="https://gregorbj.github.io/VisionEval/" target="_blank">the previous project page</a>.
 - For information on the key models of GreenSTEP, the Regional Strategic Planning Model (RSPM), and the Rapid Policy and Analysis Tool (RPAT), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/category/users) pages.
 
 ### Video introduction to VisionEval
