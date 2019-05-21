@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem "jekyll-gist"
   gem "jekyll-sitemap"
   gem "nokogiri", ">= 1.8.5"
+  gem 'jekyll-analytics'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

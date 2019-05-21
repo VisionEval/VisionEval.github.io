@@ -26,6 +26,12 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-111927800-1      # From Google Analytics
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 # Custom vars
 # version:            3.6.0
