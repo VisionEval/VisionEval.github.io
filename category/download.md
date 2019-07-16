@@ -4,9 +4,11 @@ title: Download
 excerpt: "How to download and install VisionEval"
 ---
 
-## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v0.1.1/VE-installer-windows-R3.5.2.2019-03-12.zip)
+## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v1.0.0/VE-installer-Windows-R3.6.1.2019-07-15.zip)
 
-*Note: 600 Mb download! Packaged for R 3.5.2*
+*Note: 583 Mb download! Packaged for R 3.6.1*
+
+[See this page for other R versions, 3.4.4 - 3.6.0](https://github.com/VisionEval/VisionEval/releases/tag/v1.0.0)
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
@@ -15,7 +17,7 @@ The link above will download a .zip file containing the following:
 
 ## Install for Windows
 
-After installing R 3.5.2 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.
+After installing R 3.6.1 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.
 
 To complete the installation and start VisionEval, simply:
    - Double-click **<tt>VisionEval.bat</tt>**
@@ -40,10 +42,10 @@ The installation also creates some convenience functions which will run the mode
 If the above installation steps did not succeed, ensure that you have downloaded the appropriate version of VisionEval to match the version of R that you have installed.
 
 #### R
-The current version of VisionEval works best with R 3.5.2 to be installed on your computer.  If you currently have another version of R installed, you can go to the [GitHub release page](https://github.com/VisionEval/VisionEval/releases) to download VisionEval for R 3.4.4 or 3.5.1.
+The current version of VisionEval is built for the latest version of R, 3.6.1.  If you currently have another version of R installed, you can go to the [GitHub release page](https://github.com/VisionEval/VisionEval/releases) to download VisionEval for R. 
 
 You can find the <a
-href="https://cran.r-project.org/bin/windows/base/old/3.5.2/" target="_blank">R 3.5.2 installer for Windows here</a>.
+href="https://cran.r-project.org/bin/windows/base/" target="_blank">R 3.6.1 installer for Windows here</a>.
 
 #### RStudio (optional)
 Many users find that <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> is a better version of the
