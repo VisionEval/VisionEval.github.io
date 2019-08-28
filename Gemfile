@@ -20,7 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-gist"
   gem "jekyll-sitemap"
-  gem "nokogiri", ">= 1.8.5"
+  gem "nokogiri", ">= 1.10.4"
   gem 'jekyll-analytics'
 end
 
