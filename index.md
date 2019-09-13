@@ -10,7 +10,7 @@ image:
 ### Resources
 
 - The collaborative development of VisionEval occurs on <a href="https://www.github.com/visioneval/visioneval" target="_blank">GitHub</a>.
-- End User and Developer documentation can be found in the <a href="<https://github.com/visioneval/visioneval/wiki" target="_blank">Wiki</a>. 
+- End User and Developer documentation can be found in the <a href="https://github.com/visioneval/visioneval/wiki" target="_blank">Wiki</a>. 
 - For introductions to the key models of VisionEval, including the Regional Strategic Planning Model (RSPM) and the Rapid Policy Analysis Tool (RPAT), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/category/users) pages.
 
 ### Video introduction to VisionEval
