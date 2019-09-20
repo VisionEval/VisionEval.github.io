@@ -4,11 +4,11 @@ title: Download
 excerpt: "How to download and install VisionEval"
 ---
 
-## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v1.0.0/VE-installer-Windows-R3.6.1.2019-07-15.zip)
+## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/v1.0.1/VE-installer-Windows-R3.6.1.2019-09-18.zip)
 
 *Note: 583 Mb download! Packaged for R 3.6.1*
 
-[See this page for other R versions, 3.4.4 - 3.6.0](https://github.com/VisionEval/VisionEval/releases/tag/v1.0.0)
+[See this page for other R versions, 3.5.1 - 3.6.0](https://github.com/VisionEval/VisionEval/releases/tag/v1.0.1)
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
