@@ -42,10 +42,12 @@ The installation also creates some convenience functions which will run the mode
 If the above installation steps did not succeed, ensure that you have downloaded the appropriate version of VisionEval to match the version of R that you have installed.
 
 #### R
-The current version of VisionEval is built for the latest version of R, 3.6.1.  If you currently have another version of R installed, you can go to the [GitHub release page](https://github.com/VisionEval/VisionEval/releases) to download VisionEval for R. 
+<strong>NOTE:</strong>The new R version, 3.6.2, was released on December 12, 2019. A corresponding version of VisionEval has been built and is undergoing testing. This page will be updated when the R 3.6.2 version of VisionEval is availble.
+
+The current version of VisionEval is built for R, 3.6.1.  If you currently have an earlier version of R installed, you can go to the [GitHub release page](https://github.com/VisionEval/VisionEval/releases) to download VisionEval for R. 
 
 You can find the <a
-href="https://cran.r-project.org/bin/windows/base/" target="_blank">R 3.6.1 installer for Windows here</a>.
+href="https://cran.r-project.org/bin/windows/base/old/3.6.1/" target="_blank">R 3.6.1 installer for Windows here</a>.
 
 #### RStudio (optional)
 Many users find that <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> is a better version of the
@@ -53,7 +55,7 @@ standard R interface.  RStudio is particularly recommended if you plan to clone 
 <a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a>.
 
 #### Mac/Linux users
-VisionEval can be installed from source as well. Follow the 'Install from Source' steps on [the wiki](https://github.com/VisionEval/VisionEval/wiki/Getting-Started).
+VisionEval can be installed from source as well. Contact Jeremy Raw for more information on source installations.
 
 ## Questions
 
