@@ -1,9 +1,12 @@
 ---
 layout: page
 title: VisionEval
-image:
-  feature: so-simple-sample-image-4-narrow.jpg
 ---
+
+<div style="background-color:lightblue;border-style:double">
+Resources for TRB 2020 Workshop on Designing Scenarios!
+<tt><b><a href="http://bit.ly/VisionEval_TRB" target = "_blank">http://bit.ly/VisionEval_TRB</a></b></tt>
+</div>
 
 <a href="http://www.github.com/visioneval/visioneval/wiki" target="_blank"><b>VisionEval</b></a> is a collaborative project in development to integrate the GreenSTEP family of strategic tools for performance-based transportation planning into a single open-source programming framework. Strategic tools are designed to evaluate many alternative futures and policies to help state and metropolitan area governments address pressing issues, despite uncertainty. The common framework enables new model features to be added in a 'plug-and-play' fashion so they can be easily shared among models. Use the resources below to learn more about this exciting project and how your agency can get involved.
 

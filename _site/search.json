@@ -3,7 +3,7 @@
   
     {
       "title"			: "Links to interactive viewers",
-      "link"			: "http://visioneval.org/interactive/2019/01/01/1-viewers.html",
+      "link"			: "http://localhost:4000/interactive/2019/01/01/1-viewers.html",
       "excerpt"		: ""
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Links to additional resources",
-      "link"			: "http://visioneval.org/resources/2019/01/01/1-resources.html",
+      "link"			: "http://localhost:4000/resources/2019/01/01/1-resources.html",
       "excerpt"		: ""
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "GreenSTEP",
-      "link"			: "http://visioneval.org/users/2018/01/01/4-greenstep.html",
+      "link"			: "http://localhost:4000/users/2018/01/01/4-greenstep.html",
       "excerpt"		: "Overview"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Regional Strategic Planning Model (RSPM) & Scenario Viewer",
-      "link"			: "http://visioneval.org/users/2018/01/01/3-rspm.html",
+      "link"			: "http://localhost:4000/users/2018/01/01/3-rspm.html",
       "excerpt"		: "Overview"
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "Rapid Policy Analysis Tool (RPAT)",
-      "link"			: "http://visioneval.org/users/2018/01/01/2-rpat.html",
+      "link"			: "http://localhost:4000/users/2018/01/01/2-rpat.html",
       "excerpt"		: "  Overview"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "Ongoing work for all tools",
-      "link"			: "http://visioneval.org/users/2018/01/01/1-ongoing.html",
+      "link"			: "http://localhost:4000/users/2018/01/01/1-ongoing.html",
       "excerpt"		: "as listed on the Development Roadmap"
     }
   
@@ -53,7 +53,7 @@
   
     {
       "title"			: "404: Page not found",
-      "link"			: "http://visioneval.org/404.html",
+      "link"			: "http://localhost:4000/404.html",
       "excerpt"		: ""
     }
   
@@ -63,7 +63,7 @@
   
     ,{
       "title"			: "About VisionEval",
-      "link"			: "http://visioneval.org/about.html",
+      "link"			: "http://localhost:4000/about.html",
       "excerpt"		: "VisionEval is an open-source platform for strategic transportation planning."
     }
   
@@ -73,7 +73,7 @@
   
     ,{
       "title"			: "Download",
-      "link"			: "http://visioneval.org/category/download.html",
+      "link"			: "http://localhost:4000/category/download.html",
       "excerpt"		: "How to download and install VisionEval"
     }
   
@@ -81,7 +81,7 @@
   
     ,{
       "title"			: "Home",
-      "link"			: "http://visioneval.org/",
+      "link"			: "http://localhost:4000/",
       "excerpt"		: ""
     }
   
@@ -91,7 +91,7 @@
   
     ,{
       "title"			: "VisionEval",
-      "link"			: "http://visioneval.org/",
+      "link"			: "http://localhost:4000/",
       "excerpt"		: ""
     }
   
@@ -103,7 +103,7 @@
   
     ,{
       "title"			: "Google Search",
-      "link"			: "http://visioneval.org/search.html",
+      "link"			: "http://localhost:4000/search.html",
       "excerpt"		: ""
     }
   
@@ -113,7 +113,7 @@
   
     ,{
       "title"			: "Tags",
-      "link"			: "http://visioneval.org/tags.html",
+      "link"			: "http://localhost:4000/tags.html",
       "excerpt"		: ""
     }
   
@@ -125,7 +125,7 @@
   
     ,{
       "title"			: "Home",
-      "link"			: "http://visioneval.org/page2/",
+      "link"			: "http://localhost:4000/page2/",
       "excerpt"		: ""
     }
   
