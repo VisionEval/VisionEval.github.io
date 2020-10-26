@@ -6,12 +6,14 @@ excerpt: "How to download and install VisionEval"
 
 ## [Get VisionEval Here](https://github.com/VisionEval/VisionEval-Dev/releases/download/V.2.0-Pre-Release_2020-10-21/VE-Installer-Windows-R4.0.2_2020-10-21.zip)
 
-*Note: 534 Mb download! Packaged for R 4.0.2*
+*Note: Version 2.0 pre-release. 534 Mb download! Packaged for R 4.0.2*
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
  - VE-RSPM, VE-RPAT, VE-State, *_Scenarios, and VE-ScenarioViewer 
  - All necessary R packages
+
+Previous versions are [available here](https://github.com/VisionEval/VisionEval-Dev/releases).
 
 ## Install for Windows
 
