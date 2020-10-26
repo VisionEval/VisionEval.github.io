@@ -319,42 +319,38 @@
 </header>
 <div class="content">
   
-  <h2 id="get-visioneval-here"><a href="https://github.com/VisionEval/VisionEval/releases/download/v1.0.1/VE-installer-Windows-R3.6.1.2019-09-18.zip">Get VisionEval Here</a></h2>
+  <h2 id="get-visioneval-here"><a href="https://github.com/VisionEval/VisionEval-Dev/releases/download/V.2.0-Pre-Release_2020-10-21/VE-Installer-Windows-R4.0.2_2020-10-21.zip">Get VisionEval Here</a></h2>
 
-<p><em>Note: 583 Mb download! Packaged for R 3.6.1</em></p>
-
-<p><a href="https://github.com/VisionEval/VisionEval/releases/tag/v1.0.1">See this page for other R versions, 3.5.1 - 3.6.0</a></p>
+<p><em>Note: 534 Mb download! Packaged for R 4.0.2</em></p>
 
 <p>The link above will download a .zip file containing the following:</p>
 <ul>
   <li>The VisionEval framework code</li>
-  <li>VE-RSPM, VE-RPAT, VE-GUI, VE-State and VE-ScenarioViewer</li>
+  <li>VE-RSPM, VE-RPAT, VE-State, *_Scenarios, and VE-ScenarioViewer</li>
   <li>All necessary R packages</li>
 </ul>
 
 <h2 id="install-for-windows">Install for Windows</h2>
 
-<p>After installing R 3.6.1 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.</p>
+<p>After installing R 4.0.2 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.</p>
 
 <p>To complete the installation and start VisionEval, simply:</p>
 <ul>
-  <li>Double-click <strong><tt>VisionEval.bat</tt></strong></li>
+  <li>Double-click <strong><tt>VisionEval.Rproj</tt></strong></li>
 </ul>
 
 <h2 id="getting-started">Getting Started</h2>
 
 <p>Once you have been welcomed to VisionEval, you can follow the instructions under “Running VE Models” on the
-<a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started">Getting Started</a> page.
+<a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started-v2">Getting Started</a> page.
 Your destination folder contains everything you need from the VisionEval “sources” folder.</p>
 
-<p>The installation also creates some convenience functions which will run the model test scenarios or start the VE GUI:</p>
+<p>The installation also creates some convenience functions which will run the model test scenarios:</p>
 <ul>
-  <li><tt>vegui()</tt> to start the GUI (navigate to your destination folder to find the scenario run scripts)</li>
   <li><tt>verpat()</tt> for the VERPAT test model</li>
-  <li><tt>verpat(scenarios=TRUE)</tt> to run multiple scenarios in VERPAT</li>
-  <li><tt>verpat(baseyear=TRUE)</tt> to run the alternate VERPAT sample scenario</li>
+  <li><tt>verpat(scenarios=TRUE)</tt> to run multiple scenarios in VERPAT.</li>
   <li><tt>verspm()</tt> for the VERSPM test model</li>
-  <li><tt>verspm(scenarios=TRUE)</tt> to run multiple scenarios in VERSPM</li>
+  <li><tt>verspm(scenarios=TRUE)</tt> to run multiple scenarios in VERSPM. <strong>Note:</strong> May take several hours to run.</li>
 </ul>
 
 <h2 id="requirements">Requirements</h2>
@@ -362,25 +358,30 @@ Your destination folder contains everything you need from the VisionEval “sour
 <p>If the above installation steps did not succeed, ensure that you have downloaded the appropriate version of VisionEval to match the version of R that you have installed.</p>
 
 <h4 id="r">R</h4>
-<p><strong>NOTE:</strong>The new R version, 3.6.2, was released on December 12, 2019. A corresponding version of VisionEval has been built and is undergoing testing. This page will be updated when the R 3.6.2 version of VisionEval is availble.</p>
 
-<p>The current version of VisionEval is built for R, 3.6.1.  If you currently have an earlier version of R installed, you can go to the <a href="https://github.com/VisionEval/VisionEval/releases">GitHub release page</a> to download VisionEval for R.</p>
+<p><strong>NOTE:</strong>This currently downloads from the <code class="language-plaintext highlighter-rouge">VisionEval-Dev</code> repository; the official version 2.0 will be released on <code class="language-plaintext highlighter-rouge">VisionEval</code> when all documentation is complete.</p>
 
-<p>You can find the <a href="https://cran.r-project.org/bin/windows/base/old/3.6.1/" target="_blank">R 3.6.1 installer for Windows here</a>.</p>
+<p>This release (current as of 2021-10-21) provides a VisonEval pre-release installer for the Version 2.0 version. The final Version 2.0, when it is released to the “master” branch and to the main VisionEval repository, will probably be identical to this pre-release.</p>
 
-<h4 id="rstudio-optional">RStudio (optional)</h4>
-<p>Many users find that <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> is a better version of the
-standard R interface.  RStudio is particularly recommended if you plan to clone and explore the
-<a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a>.</p>
+<p>Remaining work prior to finalizing the 2.0 release includes getting all the Website and Wiki documentation consistent with the code as released.</p>
+
+<p>The current version of VisionEval is built for R, 4.0.2.  If you have a different version installed and cannot install 4.0.2, please contact us at <a href="mailto:info@visioneval.org">info@visioneval.org</a> for a VisionEval built for your R version.</p>
+
+<p>You can find the <a href="https://cran.r-project.org/bin/windows/base/old/4.0.2/R-4.0.2-win.exe" target="_blank">R 4.0.2 installer for Windows here</a>.</p>
+
+<h4 id="rstudio">RStudio</h4>
+
+<p>We strongly recomment using <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> to work with VisionEval. RStudio is particularly recommended if you plan to clone and explore the
+<a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a>, and has become the de facto standard for most R users.</p>
 
 <h4 id="maclinux-users">Mac/Linux users</h4>
 <p>VisionEval can be installed from source as well. Contact Jeremy Raw for more information on source installations.</p>
 
 <h2 id="questions">Questions</h2>
 
-<p>Questions about VisionEval installation can be directed to Jeremy.Raw or Daniel.Flynn at dot.gov.</p>
+<p>Questions about VisionEval installation can be directed to Jeremy.Raw or Daniel.Flynn at dot.gov, or more generally to <a href="mailto:info@visioneval.org">info@visioneval.org</a>.</p>
 
-<p>The installers were built with the VE-Installer, which is <a target="_blank" href="https://github.com/VisionEval/VE-Installer">available on GitHub</a></p>
+<p>The installers were built with the using the process described <a target="_blank" href="https://github.com/VisionEval/VisionEval-Dev/blob/development/build/Building.md">here on GitHub</a></p>
 
 <!-- removed between title and excerpt: <span class="entry-date"><time datetime=""></time></span> -->
 
