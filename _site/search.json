@@ -51,14 +51,6 @@
 
 
   
-    {
-      "title"			: "404: Page not found",
-      "link"			: "http://localhost:4000/404.html",
-      "excerpt"		: ""
-    }
-  
-
-  
 
   
     ,{
@@ -80,10 +72,12 @@
 
   
     ,{
-      "title"			: "Home",
-      "link"			: "http://localhost:4000/",
+      "title"			: "An Alternative VisionEval Concepts Primer",
+      "link"			: "http://localhost:4000/alt-concept-primer/index.Rmd",
       "excerpt"		: ""
     }
+  
+
   
 
   
@@ -101,33 +95,9 @@
   
 
   
-    ,{
-      "title"			: "Google Search",
-      "link"			: "http://localhost:4000/search.html",
-      "excerpt"		: ""
-    }
-  
 
   
 
-  
-    ,{
-      "title"			: "Tags",
-      "link"			: "http://localhost:4000/tags.html",
-      "excerpt"		: ""
-    }
-  
-
-  
-
-  
-
-  
-    ,{
-      "title"			: "Home",
-      "link"			: "http://localhost:4000/page2/",
-      "excerpt"		: ""
-    }
   
 
   

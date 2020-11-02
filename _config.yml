@@ -1,10 +1,11 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+remote_theme:     fongandrew/hydeout
 
 # Setup
 title:            VisionEval
-tagline:          'A Jekyll theme'
+tagline:          'VisionEval Homepage'
 description:      'A common framework for strategic planning models.'
 url:              http://visioneval.org
 baseurl:          # the optional subpath of your site, e.g. "/blog"
