@@ -44,8 +44,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 
-github: 
-  repo: https://github.com/visioneval/visioneval
-
-  
 repository: visioneval/visioneval
