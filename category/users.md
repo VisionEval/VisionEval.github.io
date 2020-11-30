@@ -7,6 +7,13 @@ image:
 search_omit: true
 ---
 
+## Getting Started 
+
+Please see this page on the VisionEval GitHub site for the [latest instructions for getting started](https://github.com/VisionEval/VisionEval/wiki/Getting-Started-v2).
+
+
+## The VisionEval project
+
 The work to date by the founding FHWA-Oregon DOT partnership has focused on the technical components of establishing the common programming framework so that enhancements made in one model can be readily transferred to other models. Modules in the VisionEval common framework will work in consistent geographic scales so modules built for one will be usable in the others.  This common geography can either be directly input or synthesized. Efforts are also underway to build a supportive community around the tool, drawing from successful past and interested future users nationally, who will both define the policy needs and uses of these tools, and set their direction moving forward. A 	<a href="https://tmip.org/forum"><strong>VisionEval forum on TMIP</strong></a> has been established to discuss the use of VisionEval models. 
 
 The VisionEval framework is based on the following models.

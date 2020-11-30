@@ -28,12 +28,6 @@ Once you have been welcomed to VisionEval, you can follow the instructions under
 <a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started-v2">Getting Started</a> page.
 Your destination folder contains everything you need from the VisionEval "sources" folder.
 
-The installation also creates some convenience functions which will run the model test scenarios:
- - <tt>verpat()</tt> for the VERPAT test model
- - <tt>verpat(scenarios=TRUE)</tt> to run multiple scenarios in VERPAT.
- - <tt>verspm()</tt> for the VERSPM test model
- - <tt>verspm(scenarios=TRUE)</tt> to run multiple scenarios in VERSPM. **Note:** May take several hours to run.
-
 ## Requirements
 
 If the above installation steps did not succeed, ensure that you have downloaded the appropriate version of VisionEval to match the version of R that you have installed.
