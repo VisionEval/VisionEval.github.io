@@ -11,6 +11,19 @@ search_omit: true
 
 Please see this page on the VisionEval GitHub site for the [latest instructions for getting started](https://github.com/VisionEval/VisionEval/wiki/Getting-Started-v2).
 
+For an overview of the VisionEval Pooled Fund, [refer to this summary document]({{ site.url }}/assets/refs/VisionEval_PooledFund_ExecSummary.pdf).
+
+## Tutorials
+
+- [VE-RPAT](https://github.com/VisionEval/VisionEval/wiki/VERPAT-Tutorial-Overview)
+- [VE-RSPM](https://github.com/VisionEval/VisionEval-Dev/blob/readme-dev/docs/tutorials/verspm/Main.md)
+
+Stay tuned for these upcoming tutorials
+- VE-State 
+- Preparing inputs for VE-RSPM
+- Running VE-RSPM multimodal module
+- Running the scenario manager
+
 
 ## The VisionEval project
 
@@ -55,6 +68,8 @@ The following use cases have been developed for the Rapid Policy Analysis Tool (
 {% endfor %}
 	
 </ul>
+
+
 
 ## Interactive viewers
 

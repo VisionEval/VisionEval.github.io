@@ -7,7 +7,7 @@ remote_theme:     fongandrew/hydeout
 title:            VisionEval
 tagline:          'VisionEval Homepage'
 description:      'A common framework for strategic planning models.'
-url:              http://visioneval.org
+url:              https://visioneval.org
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
