@@ -22,8 +22,7 @@ There are three repositories to serve different purposes:
  
  - **[VisionEval.org](https://github.com/VisionEval/VisionEval.org)**: Website repository. You can [create issues](https://github.com/VisionEval/VisionEval.org/issues) here for website-related change requests.
 
-See the [Repository Structure document](https://github.com/VisionEval/VisionEval-Dev/blob/readme-dev/Repository-Structure.md) on the `readme-dev` branch of VisionEval-Dev for more details.
-
+See the [Repository Structure document](https://github.com/VisionEval/VisionEval/wiki/Repository-Structure) on the VisionEval wiki for more details.
 
 
 <ul class="post-list">
