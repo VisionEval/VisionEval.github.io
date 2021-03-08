@@ -16,10 +16,10 @@ For an overview of the VisionEval Pooled Fund, [refer to this summary document](
 ## Tutorials
 
 - [VE-RPAT](https://github.com/VisionEval/VisionEval/wiki/VERPAT-Tutorial-Overview)
-- [VE-RSPM](https://github.com/VisionEval/VisionEval-Dev/blob/readme-dev/docs/tutorials/verspm/Main.md)
+- [VE-RSPM](https://github.com/VisionEval/VisionEval-Docs/blob/master/tutorials/verspm/Main.md)
+- [VE-State](https://github.com/VisionEval/VisionEval-Docs/blob/master/tutorials/ve-state/Main.md)
 
 Stay tuned for these upcoming tutorials
-- VE-State 
 - Preparing inputs for VE-RSPM
 - Running VE-RSPM multimodal module
 - Running the scenario manager
