@@ -13,6 +13,10 @@ Please see this page on the VisionEval GitHub site for the [latest instructions 
 
 For an overview of the VisionEval Pooled Fund, [refer to this summary document]({{ site.url }}/assets/refs/VisionEval_PooledFund_ExecSummary.pdf).
 
+## Concept Primer
+
+- The [Concept Primer](https://visioneval.org/book) introduces the core concepts of VisionEval for transportation planners
+
 ## Tutorials
 
 - [VE-RPAT](https://github.com/VisionEval/VisionEval/wiki/VERPAT-Tutorial-Overview)
