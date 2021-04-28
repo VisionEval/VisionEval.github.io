@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem "nokogiri", ">= 1.11.0.rc4"
   gem 'jekyll-analytics'
   gem "activesupport", ">= 4.1.11"
+  gem "kramdown", ">= 2.3.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
