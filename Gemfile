@@ -19,7 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-gist"
   gem "jekyll-sitemap"
-  gem "nokogiri", ">= 1.11.0.rc4"
+  gem "nokogiri", ">= 1.11.4"
   gem 'jekyll-analytics'
   gem "activesupport", ">= 4.1.11"
   gem "kramdown", ">= 2.3.1"
