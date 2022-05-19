@@ -7,15 +7,19 @@ image:
 search_omit: true
 ---
 
-## Getting Started 
+# Documentation
 
-Please see this page on the VisionEval GitHub site for the [latest instructions for getting started](https://github.com/VisionEval/VisionEval/wiki/Getting-Started-v2).
+[Comprehensive documentation for VisionEval](https://visioneval.org/docs)
+
+## Getting Started
+
+Please see this page on the VisionEval documentation [latest instructions for getting started](https://visioneval.org/book/getting-started.html).
 
 For an overview of the VisionEval Pooled Fund, [refer to this summary document]({{ site.url }}/assets/refs/VisionEval_PooledFund_ExecSummary.pdf).
 
 ## Concept Primer
 
-- The [Concept Primer](https://visioneval.org/book) introduces the core concepts of VisionEval for transportation planners
+- The [Concept Primer](https://visioneval.org/docs) introduces the core concepts of VisionEval for transportation planners
 
 ## Tutorials
 
@@ -31,12 +35,12 @@ Stay tuned for these upcoming tutorials
 
 ## The VisionEval project
 
-The work to date by the founding FHWA-Oregon DOT partnership has focused on the technical components of establishing the common programming framework so that enhancements made in one model can be readily transferred to other models. Modules in the VisionEval common framework will work in consistent geographic scales so modules built for one will be usable in the others.  This common geography can either be directly input or synthesized. Efforts are also underway to build a supportive community around the tool, drawing from successful past and interested future users nationally, who will both define the policy needs and uses of these tools, and set their direction moving forward. A 	<a href="https://tmip.org/forum"><strong>VisionEval forum on TMIP</strong></a> has been established to discuss the use of VisionEval models. 
+The work to date by the founding FHWA-Oregon DOT partnership has focused on the technical components of establishing the common programming framework so that enhancements made in one model can be readily transferred to other models. Modules in the VisionEval common framework will work in consistent geographic scales so modules built for one will be usable in the others.  This common geography can either be directly input or synthesized. Efforts are also underway to build a supportive community around the tool, drawing from successful past and interested future users nationally, who will both define the policy needs and uses of these tools, and set their direction moving forward. A 	<a href="https://tmip.org/forum"><strong>VisionEval forum on TMIP</strong></a> has been established to discuss the use of VisionEval models.
 
 The VisionEval framework is based on the following models.
 
 <ul class="post-list">
-{% for post in site.categories.users %} 
+{% for post in site.categories.users %}
   <li>
   <article>
 			<a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
@@ -62,15 +66,15 @@ The following use cases have been developed for the Rapid Policy Analysis Tool (
 	<a href="https://tmip.org/forum">TMIP Forum for Discussion of VisionEval</a>. See instructions <a href="https://tmip.org/content/visioneval-discussion-forum-now-open-updatednow-works#new">here</a> to join the forum.
 	</article>
 </li>
-	
-{% for post in site.categories.resources %} 
+
+{% for post in site.categories.resources %}
   <li>
   <article>
 			<a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>
   </article>
   </li>
 {% endfor %}
-	
+
 </ul>
 
 
@@ -78,7 +82,7 @@ The following use cases have been developed for the Rapid Policy Analysis Tool (
 ## Interactive viewers
 
 <ul class="post-list">
-{% for post in site.categories.interactive %} 
+{% for post in site.categories.interactive %}
   <li>
   <article>
 			<a href="{{ site.url }}{{ post.url }}">{{ post.title }} {% if post.excerpt %} <span class="excerpt">{{ post.excerpt | remove: '\[ ... \]' | remove: '\( ... \)' | markdownify | strip_html | strip_newlines | escape_once }}</span>{% endif %}</a>

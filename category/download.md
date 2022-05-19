@@ -10,7 +10,7 @@ excerpt: "How to download and install VisionEval"
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
- - VE-RSPM, VE-RPAT, VE-State, *_Scenarios, and VE-ScenarioViewer 
+ - VE-RSPM, VE-RPAT, VE-State, *_Scenarios, and VE-ScenarioViewer
  - All necessary R packages
 
 Previous versions are [available here](https://github.com/VisionEval/VisionEval-Dev/releases).
@@ -36,12 +36,12 @@ If the above installation steps did not succeed, ensure that you have downloaded
 
 #### R
 
-The current version of VisionEval is built for R, 4.1.2.  If you have a different version installed and cannot install 4.1.2, please contact us at <a href="mailto:info@visioneval.org">info@visioneval.org</a> for a VisionEval built for your R version. 
+The current version of VisionEval is built for R, 4.1.2.  If you have a different version installed and cannot install 4.1.2, please contact us at <a href="mailto:info@visioneval.org">info@visioneval.org</a> for a VisionEval built for your R version.
 
 You can find the <a
 href="https://cran.r-project.org/bin/windows/base/" target="_blank">R 4.1.2 installer for Windows here</a>.
 
-#### RStudio 
+#### RStudio
 
 We strongly recomment using <a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank">RStudio</a> to work with VisionEval. RStudio is particularly recommended if you plan to clone and explore the
 <a target="_blank" href="https://github.com/VisionEval/VisionEval">Visioneval source code from GitHub</a>, and has become the de facto standard for most R users.
