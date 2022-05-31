@@ -27,11 +27,11 @@ code located in the [VisionEval GitHub repository](https://github.com/VisionEval
   + Install [Git for Windows](https://git-scm.com/) or equivalent\
 (optional: makes it easier to access the repositories)
   + [Install R](https://www.r-project.org/)\
-(usually the most recent version works; must be 3.6.0 or later)
+(usually the most recent version works; must be 3.6.0 or later, currently recommend 4.1.3)
   + [Install RTools 4.0](https://cran.r-project.org/bin/windows/Rtools/rtools40.html)
   + [Install RStudio](https://www.rstudio.com/)\
 (a version compatible with RTools40, and with the version of R you're using)
-  + Copy or clone the [VisionEval](https://github.com/VisionEval/VisionEval) (or [VisionEval-dev](https://github.com/VisionEval/VisionEval-dev)) repository
+  + Copy or clone the [VisionEval](https://github.com/VisionEval/VisionEval) (or [VisionEval-Dev](https://github.com/VisionEval/VisionEval-dev)) repository
   + Start RStudio and open the VisionEval-dev.Rproj project file\ (On most graphic display machines, just double-click it)
   + Execute the `ve.build()` function:\
   (A full build from scratch takes from 45 minutes to an hour and a
@@ -56,14 +56,14 @@ ve.build("installer")
 ```
 
   2. Alternatively, you can start with a binary VisionEval installation (unzipping the installer file) and then unzip the VisionEval source code file ("src") to create a "src" directory within your runtime. The steps for rebuilding a package using this method are document in ["build/RStudio.md"](https://github.com/VisionEval/VisionEval/blob/master/build/RStudio.md) in the Github source tree.
-    + Download the runtime installer (zip file) from [the VisionEval Download Page](https://visioneval.org/category/download.html "VisionEval Download")
-      * Pick the installer for your version of R and your Operating System
-      * Windows and Mac OSX are supported for binary installations
-    + Install the PackageSources (zip file) for the same release date, also from [the VisionEval Download Page](https://visioneval.org/category/download.html "VisionEval Download")
-      * Just unzip the PackageSources into the exact same folder you put the VisionEval runtime
-      * It will create a new `src` sub-directory next to the other VisionEval folders
-    + On a Windows machine, make sure you have [RTools40](https://cran.r-project.org/bin/windows/Rtools/rtools40.html)
-      * RStudio itself will help you get it, or you can download and install it manually.
+  + Download the runtime installer (zip file) from [the VisionEval Download Page](https://visioneval.org/category/download.html "VisionEval Download")
+    * Pick the installer for your version of R and your Operating System
+    * Windows and Mac OSX are supported for binary installations
+  + Install the PackageSources (zip file) for the same release date, also from [the VisionEval Download Page](https://visioneval.org/category/download.html "VisionEval Download")
+    * Just unzip the PackageSources into the exact same folder you put the VisionEval runtime
+    * It will create a new `src` sub-directory next to the other VisionEval folders
+  + On a Windows machine, make sure you have [RTools40](https://cran.r-project.org/bin/windows/Rtools/rtools40.html)
+    * RStudio itself will help you get it, or you can download and install it manually.
 
 ### Generic VisionEval Module
 
