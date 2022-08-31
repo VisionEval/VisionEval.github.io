@@ -4,7 +4,7 @@ title: VisionEval
 ---
 
 <div style="background-color:lightblue;border-style:double">
-We are honored to announce that VisionEval has received the
+We are honored to announce that VisionEval received the
 <tt><b><a href="https://zephyrtransport.org/technical-achievement-award/" target = "_blank">Zephyr Foundation Exceptional Technical Achievement Award</a></b></tt>
  in 2021!
 </div>
@@ -16,9 +16,9 @@ We are honored to announce that VisionEval has received the
 ### Resources
 
 - The collaborative development of VisionEval occurs on <a href="https://www.github.com/visioneval/visioneval" target="_blank">GitHub</a>.
-- End User and Developer documentation can be found in the <a href="https://github.com/visioneval/visioneval/wiki" target="_blank">Wiki</a>. 
+- End User and Developer documentation can be found in the <a href="https://visioneval.org/docs/" target="_blank">Docs</a>.
 - For introductions to the key models of VisionEval, including the Regional Strategic Planning Model (VE-RSPM) and the Rapid Policy Analysis Tool (VE-RPAT), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/category/users) pages.
-- The <a href="https://visioneval.org/book" target="_blank"> Concept Primer </a> covers the concepts of VisionEval for transportation planners.
+- The <a href="https://visioneval.org/docs/conceptprimer.html#conceptprimer" target="_blank"> Concept Primer </a> covers the concepts of VisionEval for transportation planners.
 
 ### Video introduction to VisionEval
 

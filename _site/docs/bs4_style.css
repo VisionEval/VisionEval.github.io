@@ -1,0 +1,27 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+img#cover {
+    margin-top: 1.5rem;
+    width: 60%;
+}
+
+table td:first-child > code {
+  white-space: nowrap;
+}
+
+.table-wrapper {
+  white-space: nowrap;
+}

@@ -71,6 +71,12 @@
   
 
   
+    ,{
+      "title"			: "VisionEval User Guide",
+      "link"			: "http://localhost:4000/docs/",
+      "excerpt"		: ""
+    }
+  
 
   
     ,{
@@ -89,9 +95,139 @@
   
 
   
+
+  
     ,{
-      "title"			: "Do not edit here",
-      "link"			: "http://localhost:4000/book/Edit_in_VisionEval-Docs.html",
+      "title"			: "Getting Started",
+      "link"			: "http://localhost:4000/docs/01-getting-started.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Concept Primer {#conceptprimer}",
+      "link"			: "http://localhost:4000/docs/02-concept-primer.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VisionEval Tutorial {#tutorial}",
+      "link"			: "http://localhost:4000/docs/03-tutorial.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Model Inputs",
+      "link"			: "http://localhost:4000/docs/04-inputs.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Validation and Troubleshooting",
+      "link"			: "http://localhost:4000/docs/05-validation.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Estimation in VisionEval {#ve-estimation}",
+      "link"			: "http://localhost:4000/docs/06-estimation.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VERSPM Model Details {#verspm}",
+      "link"			: "http://localhost:4000/docs/06-verspm.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VisionEval Model Details",
+      "link"			: "http://localhost:4000/docs/07-verspm.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VE-State Model Details {#vestate}",
+      "link"			: "http://localhost:4000/docs/07-vestate.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VERPAT Model Details {#verpat}",
+      "link"			: "http://localhost:4000/docs/08-verpat.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VE-State Tutorial {#vestate}",
+      "link"			: "http://localhost:4000/docs/08-vestate.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Estimation in VisionEval {#ve-estimation}",
+      "link"			: "http://localhost:4000/docs/09-estimation.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "VERPAT Tutorial {#verpat}",
+      "link"			: "http://localhost:4000/docs/09-verpat.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Module Build Process {#ve-buildprocess}",
+      "link"			: "http://localhost:4000/docs/10-build-process.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Developer Documentation {#developer}",
+      "link"			: "http://localhost:4000/docs/10-developer.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "API Documentation",
+      "link"			: "http://localhost:4000/docs/11-api.html",
+      "excerpt"		: ""
+    }
+  
+
+  
+    ,{
+      "title"			: "Software Framework",
+      "link"			: "http://localhost:4000/docs/12-software.html",
       "excerpt"		: ""
     }
   

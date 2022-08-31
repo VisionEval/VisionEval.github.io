@@ -27,7 +27,7 @@ To complete the installation and start VisionEval, simply:
 ## Getting Started
 
 Once you have been welcomed to VisionEval, you can follow the instructions under "Editing and Running Models" on the
-<a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started-v2#editing-and-running-models">Getting Started</a> page.
+<a href="https://visioneval.org/docs/getting-started.html#editrun">Getting Started</a> page.
 Your destination folder contains everything you need from the VisionEval "sources" folder.
 
 ## Requirements

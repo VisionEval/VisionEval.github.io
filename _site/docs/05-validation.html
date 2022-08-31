@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <title>
+    
+      Validation and Troubleshooting &middot; VisionEval
+    
+  </title>
+
+  
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+
+  <!-- Additional head bits without overriding original head -->
+</head>
+
+
+  <body class="page">
+
+    <div id="sidebar">
+  <header>
+    <div class="site-title">
+      <a href="/">
+        
+          <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0h24v24H0z" fill="none"/>
+  <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+</svg></span>
+        
+        
+		<img src="/images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
+		
+		
+		VisionEval
+		
+      </a>
+    </div>
+    <p class="lead">A common framework for strategic planning models.</p>
+  </header>
+  <nav id="sidebar-nav-links">
+  
+    <a class="home-link "
+        href="/">Home</a>
+  
+  
+
+  
+
+  <!-- 
+
+
+  
+    
+  
+
+  
+    
+      <a class="page-link "
+          href="/about.html">About VisionEval</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+
+ -->
+  <!-- 
+
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/developers.html">Information for Developers</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/download.html">Download</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/users.html">Information for Users</a>
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
+ -->
+
+  <!-- Optional additional links to insert in sidebar nav -->
+
+<a class="category-link " href="https://visioneval.org/category/download.html">Download</a>
+<a class="category-link " href="https://visioneval.org/category/users.html"> Information for Users </a>
+<a class="category-link " href="https://visioneval.org/category/developers.html"> Information for Developers </a>
+<a class="category-link " href="https://visioneval.org/about.html"> About VisionEval </a>
+
+</nav>
+
+
+  
+
+  <nav id="sidebar-icon-links">
+  
+
+  <!-- <a id="subscribe-link"
+     class="icon" title="Subscribe" aria-label="Subscribe"
+     href="/feed.xml">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <circle cx="6.18" cy="17.82" r="2.18"/>
+    <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/>
+</svg>
+  </a> -->
+
+  
+  
+  
+  
+
+  
+
+  
+
+  <!-- Optional additional links to insert for icons links -->
+</nav>
+  <!-- <p>
+  &copy; 2022.
+  <a href="/LICENSE.md">MIT License.</a>
+</p>
+ -->
+  
+
+<span><font size="2"> VisionEval is currently operated by the <a href="https://pooledfund.org/Details/Study/621" target="_blank">Collaborative Development of New Strategic Planning Models Pooled Fund</a>.</font>
+
+<br>
+
+<font size="2"><a href="mailto:info@visioneval.org"><tt>info@visioneval.org</tt></a></font></span>
+
+<div class="social-icons">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  
+	
+  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+
+
+</div>
+
+    <main class="container">
+      <header>
+  <h1 class="page-title">Validation and Troubleshooting</h1>
+</header>
+<div class="content">
+  <h1 id="validation-and-troubleshooting">Validation and Troubleshooting</h1>
+
+<p>Each model run will produce a time stamped <code class="language-plaintext highlighter-rouge">Log.txt file</code>. This log file is the first thing that the user should reference in troubleshooting errors. The log file should point to which input files have errors and help to define the error. If a model is not producing a log file, that indicates a more deep-rooted issue related to the model set-up, installation, or one or more packages.</p>
+
+<p>Other common errors users should watch out for include:</p>
+
+<ul>
+  <li>Files having data for years other than model run years will generate an error, files can only have data for model run years</li>
+  <li>Consistent geography names across input files</li>
+  <li>Input files in different modules need to be consistent
+    <ul>
+      <li>Zero land area for an azone location type when there are non-zero values for households in that azone location type</li>
+      <li>Zero land area for an azone location type when there are non-zero values for employment in that azone location type</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="validation">Validation</h2>
+
+<p>This section summarizes additional detail on the validation of VisionEval models with key considerations by concept. Each concept will highlight its respective model inputs and assumptions that can be changed to better match observed local patterns and trends. These outputs covered are only a handful that can be used to validate the VE model.</p>
+
+<h3 id="household-synthesis-and-land-use-validation">Household Synthesis and Land Use Validation</h3>
+
+<p>Two key metrics to validate are <strong>population</strong> and <strong>income</strong> due to the influential nature of these metrics on model results. Some additional considerations are as follows:</p>
+
+<ul>
+  <li>The choice of geographies used in VisionEval can influence validation results. For example, if economic conditions or driver licensing rates vary significantly across the modeled area it might be a good idea to define Azones to reflect those differences.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">VESimHouseholds</code> package processes PUMS data to derive parameters for several of its sub-modules. The default PUMS files in the <code class="language-plaintext highlighter-rouge">inst/extdata</code> folder from Oregon should be replaced with data for the area they are modeling. This is done by simply replacing the PUMS data in the <code class="language-plaintext highlighter-rouge">inst/extdata</code> folder with local data, which are then processed by several modules as part of a normal model run. This requires rebuilding the <code class="language-plaintext highlighter-rouge">VESimHousehold</code> package, more information can be found in the <a href="#ve-buildprocess">Module Build Process</a> chapter.</li>
+  <li>The average household size (<code class="language-plaintext highlighter-rouge">AveHhSize</code>) and proportion of one-person households (<code class="language-plaintext highlighter-rouge">Prop1PerHh</code>) can be set in the <code class="language-plaintext highlighter-rouge">azone_hhsize_targets.csv</code> file.</li>
+  <li>Care should be taken to match the real dollar amount of <code class="language-plaintext highlighter-rouge">azone_per_cap_inc.csv</code> and other files with dollar values to the year specified in the file to account for inflation.</li>
+  <li>The relative employment rate by age group by Azone can be specified to match observed differences across a metropolitan area or levels at various points of economic cycles. Lower employment rates, especially in certain age groups, should be reflected in <code class="language-plaintext highlighter-rouge">azone_relative_employment.csv</code>. The relative employment rate is relative to the average employment rate for the worker group in the PUMS data (e.g., a value of 0.5 would be entered if the employment rate for 20-29 age group in one Azone was half the employment rate for persons in that age group in the metropolitan area).</li>
+  <li>The <code class="language-plaintext highlighter-rouge">VELandUse</code> package also uses the PUMS data, which can be further adjusted in two ways:
+    <ul>
+      <li>The mix of single family versus multi-family households will reflect local patterns if PUMS data for the modeled region are used instead of the default data from Oregon. See the [ insert link to the build process PUMS case study]</li>
+      <li>The proportion of households residing in mixed-use neighborhoods within each Bzone can optionally be set in the <code class="language-plaintext highlighter-rouge">bzone_urban-mixed-use_prop.csv</code> file. Such adjustments are subjective, as the definition of “urban mixed-use” neighborhoods <a href="https://nhts.ornl.gov/2009/pub/DerivedAddedVariables2009.pdf">derived from the Claritas data</a> in the <a href="https://nhts.ornl.gov/">NHTS</a> are imprecise.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="household-travel-behavior-validation">Household Travel Behavior Validation</h3>
+
+<p>One key metric to validate for household travel behavior is <strong>household DVMT</strong>. Because VisionEval models do not have a network, users should prioritize validating household DVMT using NHTS or local household travel survey data. Users can also use Highway Statistics reports or imputed from annual HPMS estimates to validate at higher levels of geography, such as the state or metropolitan area level.</p>
+
+<ul>
+  <li>Care should be taken in choosing the validation targets to match model predictions. VE household travel modules predict household travel regardless of where the travel occurs within the modeled region. Therefore the results should be compared with household survey data where possible which provide similarly defined estimates.</li>
+  <li>Care should similarly be taken in comparing the model results with daily roadway VMT data, such as those reported in Highway Statistics reports or imputed from annual HPMS estimates. If such comparisons are made the model estimates of roadway DVMT calculated by the <code class="language-plaintext highlighter-rouge">CalculateRoadDvmt</code> module should be used for comparison (rather than HPMS data that is defined as all vehicles but only those miles on roadways within a specific geography).</li>
+  <li>If the modeled road DVMT estimates match for the base year but not for prior years the modeled household DVMT trends should be checked against road DVMT trends. In particular, check whether reduction of DVMT (or reduction of DVMT growth rate) observed during the <a href="https://en.wikipedia.org/wiki/Great_Recession">Great Recession</a> and increase in DVMT (or increase in the DVMT growth rate) afterwards are reflected in the modeled household DVMT. If not, the values in the following files should be checked and adjusted if warranted:</li>
+  <li>There are few opportunities to adjust the parameters in the <code class="language-plaintext highlighter-rouge">VEHouseholdTravel</code> package, as most are derived from the NHTS and PUMS input data. Note that the optionally specified driver licensing rates described above can substantially affect daily household VMT. It is possible to specify the percentage of household SOV travel diverted to bicycles in the <code class="language-plaintext highlighter-rouge">azone_prop_sov_dvmt_diverted.csv</code> file to better match observed local values.</li>
+</ul>
+
+<h3 id="vehicles-and-fuels-validation">Vehicles and Fuels Validation</h3>
+
+<p>Another important metric to validate is <strong>vehicle ownership</strong>, which has a strong correlation with household DVMT.</p>
+
+<ul>
+  <li>If modeled DVMT matches validation data but fuel consumption does not (e.g. light-duty vehicle fuel consumption reported in Highway Statistics), the values in <code class="language-plaintext highlighter-rouge">ldv_powertrain_characteristics.csv</code> for current and past years can be adjusted to achieve a match. Fuel consumption may not match for several reasons such as:
+    <ul>
+      <li>The definition of crossover vehicles as light trucks vs. autos used in the vehicle type model does not match the average fuel consumption characteristics in the <code class="language-plaintext highlighter-rouge">ldv_powertrain_characteristics.csv</code> file.</li>
+      <li>The average fuel consumption characteristics in <code class="language-plaintext highlighter-rouge">ldv_powertrain_characteristics.csv</code> do not represent real world fuel economy.</li>
+    </ul>
+  </li>
+  <li>Most of the parameters in the <code class="language-plaintext highlighter-rouge">VEHouseholdVehicles</code> package are self-calibrating. However, the relative driver licensing rate by age group can be coded in the <code class="language-plaintext highlighter-rouge">region_hh_driver_adjust_prop.csv</code> file and should be used to account for the reduction in driver licensing rates among young or elderly drivers.</li>
+  <li>Users can also use the <code class="language-plaintext highlighter-rouge">azone_hh_ave_veh_per_driver.csv</code> to reduce or increase vehicle ownership at the Azone level. It should be noted that this file inherently reduces the sensitivity of the <code class="language-plaintext highlighter-rouge">AdjustVehicleOwnership</code> module.</li>
+  <li>If validation data are available for commercial service vehicles, heavy trucks, and public transit vehicles changes can be made to the respective powertrain characteristics files for those vehicle types to match observed values.</li>
+  <li>Rebuilding the <code class="language-plaintext highlighter-rouge">VEPowertrainsAndFuels</code> package is good practice. The default data inputs in the <code class="language-plaintext highlighter-rouge">VEPowertrainsAndFuels</code> package substantially affect modeled fuel consumption and vehicle emissions rates. These default inputs are contained in the <code class="language-plaintext highlighter-rouge">inst/extdata</code> folder of the source package. Note that the package needs to be built (installed) from the source package after adjustments have been made in order for the changes to have effect.  more information can be found in the <a href="#ve-buildprocess">Module Build Process</a> chapter.</li>
+</ul>
+
+<h3 id="congestion-and-roadway-travel-validation">Congestion and Roadway Travel Validation</h3>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">VETravelPerformance</code> package is self-calibrating. However, the user must provide several estimates used as constraints during that process:
+    <ul>
+      <li>Estimates of urbanized area light-duty vehicle and heavy truck VMT (<code class="language-plaintext highlighter-rouge">UrbanLdvDvmt</code> and <code class="language-plaintext highlighter-rouge">UrbanHvyTrkDvmt</code>, respectively) must be coded in the <code class="language-plaintext highlighter-rouge">marea_base_year_dvmt.csv</code> input file.</li>
+    </ul>
+  </li>
+  <li>The user must also provide a regional estimate of heavy truck VMT (<code class="language-plaintext highlighter-rouge">HvyTrkDvmt</code>) in the <code class="language-plaintext highlighter-rouge">region_base_year_dvmt.csv</code> that is consistent with the urbanized area heavy truck VMT estimates.</li>
+  <li>The user should check the basis used for estimating commercial service VMT (<code class="language-plaintext highlighter-rouge">ComSvcDvmtGrowthBasis</code>) and heavy truck VMT (<code class="language-plaintext highlighter-rouge">HvyTrkDvmtGrowthBasis</code>).</li>
+</ul>
+
+<h2 id="additional-customizations">Additional Customizations</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">VESimHouseholds</code> and <code class="language-plaintext highlighter-rouge">PowertrainsAndFuels</code> packages are the two that should be prioritized for re-estimating with local data. Users do have the option to customize or re-estimate other model packages based on local data. Some additional packages with built-in estimation scripts are described below.</p>
+
+<p>Note: For a deeper dive into how to customize packages and the various data that is available for local estimation, users should reference the [Estimation in VisionEval][Estimation in VisionEval] and <a href="#ve-buildprocess">Module Build Process</a> chapters.</p>
+
+<ul>
+  <li>
+    <p><strong>VETravelPerformance</strong>: The <a href="https://github.com/VisionEval/VisionEval-Dev/blob/development-next/sources/modules/VETravelPerformance/R/LoadDefaultRoadDvmtValues.R">LoadDefaultRoadDvmtValues</a> script pulls in datasets from the 2010 Highway Statistics reports are used to calculate state and urbanized area travel statistics as described below. A data from the Transportation Energy Databook (Edition 31) are used to calculate the ratio of commercial service vehicle DVMT with household DVMT. These datasets are in the “inst/extdata” folder of the package. Documentation for these datasets are included. Advanced users may update the datasets if desired.</p>
+  </li>
+  <li>
+    <p><strong>BudgetHouseholdDvmt</strong>: The CES data used to estimate the BudgetHouseholdDvmt model are included in  <code class="language-plaintext highlighter-rouge">inst/extdata</code> folder of the source package in the <code class="language-plaintext highlighter-rouge">ces_vehicle_op-cost.csv</code> with documentation in <code class="language-plaintext highlighter-rouge">ces_vehicle_op-cost.txt</code>. The <code class="language-plaintext highlighter-rouge">ces.R</code> R script file contains the code used to download the raw CES dataset from the BLS website and process it to produce the dataset in the <code class="language-plaintext highlighter-rouge">ces_vehicle_op-cost.csv</code> file. CES data for the years 2003 to 2015 are used in model estimation. 2003 being the first year that the BLS included income subcategories for incomes greater than $70,000. 2015 being the last year of complete data when the model was estimated.</p>
+  </li>
+  <li>
+    <p><strong>VETravelPerformance &amp; CalculateVehicleOperatingCost</strong>: Vehicle maintenance, repair, and tire costs as a function of the vehicle age are calculated based on data from the American Automobile Association (AAA) and the Bureau of Labor Statistics (BLS). AAA publishes reports yearly on the cost of vehicle use by vehicle type over the first 5 years of the vehicle’s life. The 2017 report, a copy of which is included as the ‘17-0013_Your-Driving-Costs-Brochure-2017-FNL-CX-1.pdf’ file in the <code class="language-plaintext highlighter-rouge">inst/extdata/sources</code> directory of this package, is used to calculate baseline MRT cost by vehicle type. Data from a BLS report, “Beyond the Numbers, Prices and Spending, Americans’ Aging Autos, BLS, May 2014, Vol.3/No.9”, are used to establish the relationship between MRT cost and vehicle age. A copy of the report is included as the ‘americans-aging-autos.pdf’ file in the <code class="language-plaintext highlighter-rouge">inst/extdata/sources</code> directory of this package. This report includes estimates of average MRT cost by vehicle age category for all household vehicles. The MRT costs by vehicle type and age are calculated as the outer product of the AAA costs by vehicle type and the BLS ratio of MRT cost by vehicle age. Since the BLS data don’t distinguish between vehicle types, it is assumed that the effect of age on MRT expenses is the same for all vehicle types.</p>
+  </li>
+  <li>
+    <p><strong>VETravelPerformance &amp; CalculateVehicleOperatingCost</strong>: Default carbon cost values are from “Technical Support Document: Technical Update of the Social Cost of Carbon for Regulatory Impact Analysis Under Executive Order 12866, Interagency Working Group on Social Cost of Greenhouse Gases, United States Government, August 2016”. A copy of the report is included as the ‘sc_co2_tsd_august_2016.pdf’ file in the <code class="language-plaintext highlighter-rouge">inst/extdata</code> directory of this package. Carbon costs are estimated by year and assumed discount rate scenarios: 5%, 3%, 2.5%. In addition, they are calculated for a lower probability but higher impact scenario. The default carbon costs used in the model are the values listed for the 3% discount rate. Non-carbon social costs for other social costs are derived from an  white paper prepared for ODOT to support the development of ODOT’s statewide transportation strategy for reducing greenhouse gas emissions from the transportation sector. This paper is included as the ‘STS_White_Paper_on_External_Costs_9-21-2011.pdf’ file in the <code class="language-plaintext highlighter-rouge">inst/extdata</code> directory of this package. The included social cost categories are air pollution, other resource pollution, energy security, safety, and noise.</p>
+  </li>
+</ul>
+
+<h1 id="developing-scenarios">Developing Scenarios</h1>
+
+<p>Strategic planning often requires the assessment of large numbers of future scenarios, each assessing a different combination of prioritizations, policy decisions, and constraints.</p>
+
+<p>The VEScenarios module provides the capability to quickly set up, run, and visualize large numbers of VERSPM scenarios using a baseline scenario combined with multiple changes to model inputs. 
+After going to <code class="language-plaintext highlighter-rouge">../models/VERSPM_Scenarios</code> folder, you will see multiple subfolders and scripts.</p>
+
+<p><img src="/docs/images/multiple_scenarios.PNG" alt="" />{width=100%}</p>
+
+<h2 id="verspm-base-model">VERSPM Base Model</h2>
+
+<p>This directory contains the inputs and R script necessary to run the base scenario, as described above.</p>
+
+<h3 id="defs">defs</h3>
+
+<p><code class="language-plaintext highlighter-rouge">VE-RSPM_Scenarios/defs</code> directory contains the same files as the <code class="language-plaintext highlighter-rouge">VERSPM_base_model/defs</code> directory, but the <code class="language-plaintext highlighter-rouge">model_parameters.json</code> file differs between <code class="language-plaintext highlighter-rouge">VERSPM_base_model/defs</code> and<code class="language-plaintext highlighter-rouge">VE-RSPM_Scenarios/defs</code> differs in that the latter 
+version contains just four parameters specifying the locations of inputs and outputs, as well as the number of processors (NWorkers) to use. The default is 4, but be sure to set this to a number appropriate to your machine.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[
+  {
+    "NAME": "ModelFolder",
+    "VALUE": "VERSPM_base_model",
+    "TYPE": "character",
+    "UNITS": "NA",
+    "PROHIBIT": "NA",
+    "SIZE": 20,
+    "ISELEMENTOF": ""
+  },
+  {
+    "NAME": "ScenarioInputFolder",
+    "VALUE": "scenario_inputs",
+    "TYPE": "character",
+    "UNITS": "NA",
+    "PROHIBIT": "NA",
+    "SIZE": 20,
+    "ISELEMENTOF": ""
+  },
+  {
+    "NAME" : "ScenarioOutputFolder",
+    "VALUE": "scenarios",
+   "TYPE": "character",
+   "UNITS": "NA",
+   "PROHIBIT": "NA",
+   "SIZE": 20,
+   "ISELEMENTOF": ""
+  },
+  {
+    "NAME" : "NWorkers",
+    "VALUE": "6",
+    "TYPE" : "integer",
+    "UNITS" : "NA",
+    "PROHIBIT" : "c('NA', '&lt; 0')",
+    "ISELEMENTOF" : ""
+  }
+]
+</code></pre></div></div>
+
+<h3 id="inputs">Inputs</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">inputs</code> folder in <code class="language-plaintext highlighter-rouge">VERRSPM_Scenarios</code> also differs from that in <code class="language-plaintext highlighter-rouge">VERSPM_base_model</code>.  In this case, there is only a single file specifying the output data tables that should be exported as CSV files in the <code class="language-plaintext highlighter-rouge">outputs</code> directory.</p>
+
+<p><img src="/docs/images/VERSPM_scenarios.PNG" alt="" />{width=100%}</p>
+
+<h5 id="scenario_inputs">scenario_inputs</h5>
+
+<p>Model scenarios are defined in terms of combinations of individual model input parameters and policy choices.  The various inputs are defined in the <code class="language-plaintext highlighter-rouge">scenario_inputs</code> folder.</p>
+
+<p>Scenario inputs consist of eleven folders, one for each of a particular category of input, as described below.  All eleven folders are required.</p>
+
+<p>Within each folder, there are subfolders containing input files, one per specific input. Each of the folders must contain at least one subfolder named “1”, defining the input for the base scenario.  Subsequent numbered folders contain input files modifying parameters of interest, as shown in the screenshots below:</p>
+
+<p>Model inputs not otherwise specified in the <code class="language-plaintext highlighter-rouge">scenario_inputs</code> directory are drawn from files in <code class="language-plaintext highlighter-rouge">VERSPM_base_model/defs</code> and <code class="language-plaintext highlighter-rouge">VERSPM_base_model/inputs</code></p>
+
+<p><img src="/docs/images/VERSPM_scenarios2.PNG" alt="" />{width=100%}</p>
+
+<p>The subfolder names and scenario inputs are defined as follows (input file to modify given in parentheses):</p>
+
+<ul>
+  <li>B - Bicycles (<code class="language-plaintext highlighter-rouge">azone_prop_sov_dvmt_diverted.csv</code>) : Network improvements, incentives, and technologies that encourage bicycling and other light-weight vehicle travel
+    <ul>
+      <li>1 - Base bicycling percentage of SOV tours less than 20 miles (9.75%)</li>
+      <li>2 - Increase diversion of SOV tours to 20%</li>
+    </ul>
+  </li>
+  <li>C - Vehicle Travel Cost (<code class="language-plaintext highlighter-rouge">azone_hh_veh_own_taxes.csv</code>) and (<code class="language-plaintext highlighter-rouge">region_prop_externalities_paid.csv</code>) : Combination of fuel prices and charges to pay for roadway costs and possibly externalities
+    <ul>
+      <li>1 - No change in fuel prices or increase in roadway or externality charges</li>
+      <li>2 - Keep the vehicle ownership cost the same</li>
+      <li>3 - Higher climate cost and pay as you drive insurance</li>
+    </ul>
+  </li>
+  <li>D - DemandManagement (<code class="language-plaintext highlighter-rouge">bzone_travel_demand_mgt.csv</code>) : Programs to encourage less private vehicle travel
+    <ul>
+      <li>1 - Baseline implementation of ITS</li>
+      <li>2 - Increase the effectiveness of implementation of ITS</li>
+    </ul>
+  </li>
+  <li>E - Driving Efficiency (<code class="language-plaintext highlighter-rouge">marea_operations_deployment.csv</code>) and (<code class="language-plaintext highlighter-rouge">marea_speed_smooth_ecodrive.csv</code>) and (<code class="language-plaintext highlighter-rouge">other_ops_effectiveness.csv</code>) : Driving efficiency by increasing implementation of ITS
+    <ul>
+      <li>1 - Base</li>
+      <li>2 - Increased the proportion by 10%</li>
+    </ul>
+  </li>
+  <li>F - Technology Mix and CI (<code class="language-plaintext highlighter-rouge">marea_transit_powertrain_prop.csv</code>) and (<code class="language-plaintext highlighter-rouge">region_carsvc_powertrain_prop.csv</code>) and (region_comsvc_powertrain_prop.csv`) : Vehicle technology mix and carbon intensity of fuels.
+    <ul>
+      <li>1 - Baseline vehicle technology mix</li>
+      <li>2 - Increased percentage of electric vehicles in household and commercial setting by 20%</li>
+    </ul>
+  </li>
+  <li>G - Fuel Price (<code class="language-plaintext highlighter-rouge">azone_fuel_power_cost.csv</code>) : Real fuel price in 2010 USD
+    <ul>
+      <li>1 - Baseline fuel price</li>
+      <li>2 - Double fuel price</li>
+      <li>3 - Quadruple fuel price</li>
+    </ul>
+  </li>
+  <li>I - Income (<code class="language-plaintext highlighter-rouge">azone_fuel_power_cost.csv</code>) : Real average household income in 2010 USD
+    <ul>
+      <li>1 - Baseline household income</li>
+      <li>2 - Income growth of 7% w.r.t reference</li>
+      <li>3 - Income growth of 14% w.r.t reference</li>
+    </ul>
+  </li>
+  <li>L - LandUse (<code class="language-plaintext highlighter-rouge">azone_hhsize_targets.csv</code>) and (<code class="language-plaintext highlighter-rouge">bzone_urban_du_proportions.csv</code>) : Distribution of population and employment by place type
+    <ul>
+      <li>1 - Base, Maintain current distribution</li>
+      <li>2 - LU overlaps with HHsize + Population</li>
+    </ul>
+  </li>
+  <li>P - Parking (<code class="language-plaintext highlighter-rouge">bzone_parking.csv</code>) : The extent of paid parking and its price
+    <ul>
+      <li>1 - Current extent and daily fee</li>
+      <li>2 - Increase parking cost by 100% and proportion charted by 10%.</li>
+    </ul>
+  </li>
+  <li>T - Transit (<code class="language-plaintext highlighter-rouge">marea_transit_service.csv</code>) : The extent and frequency of transit service
+    <ul>
+      <li>1 - Current public transit service level</li>
+      <li>2 - Double public transit service level</li>
+      <li>3 - Quadruple public transit service level</li>
+    </ul>
+  </li>
+  <li>V - Vehicle Characteristics (<code class="language-plaintext highlighter-rouge">azone_hh_veh_mean_age.csv</code>) and (<code class="language-plaintext highlighter-rouge">azone_lttrk_prop</code>): The combination of fuel prices and vehicle travel charges to pay for roadways and to pay for externalities such as carbon pricing
+    <ul>
+      <li>1 - Base</li>
+      <li>2 - Light truck proportion at 35% of the fleet and the average vehicle age at 8 years</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Running all of these input values will result in 10368 total scenarios, which would take days to run.  User usually does not need all the possible combinations of scenarios. 
+VE-RSPM Scenarios are grouped in 5 different categories which you can modify in <code class="language-plaintext highlighter-rouge">category_config.json</code> :</p>
+
+<ul>
+  <li><strong>Community Design</strong> :  Policies that seek to enable shorter trips and alternate modes such as promotion of mixed use land use, transit service, bicycling, and parking management. ( group of L, B, P , T )</li>
+  <li><strong>Marketing/Incentive</strong> : Policies that improve driving efficiency such as ecodriving,and Intelligent Transportation System efforts, as well as programs that reduce auto demand such as carsharing, and home or work-based transportation demand management.( group of D, E )</li>
+  <li><strong>Pricing : Policies</strong> that move towards true cost pricing such as road user fees to pay for the cost of operating, maintaining and improving roads, pay-as-you-drive (PAYD) insurance, and environmental impact fees such as a carbon tax. ( C )</li>
+  <li><strong>Vehicles/Fuels</strong> : Factors representing changes to future vehicles and fuels ( group of V, F )</li>
+  <li><strong>Income</strong> : Context factor on the assumed growth of statewide average per capita income ( I )</li>
+</ul>
+
+<p>Depending on how many scenarios exist in each of these five groups, total number of scenarios will be determined.</p>
+
+<p>To test the multi-scenario capability in less time, reduce the number of scenario inputs by deleting some of the numbered folders, making sure to retain the “1” folder for each of the six options.
+Note that if you change the directory structure in scenario_inputs, you will have to change <code class="language-plaintext highlighter-rouge">category_config.json</code> and <code class="language-plaintext highlighter-rouge">scenario_config.json</code> to match the new directory structure.</p>
+
+<p>To modify the scenario inputs, the numbered subdirectories can be created or deleted. Each directory contains a single input file containing the modified model parameter.</p>
+
+<h5 id="running-the-model-for-multiple-scenarios">Running the model for multiple scenarios</h5>
+
+<p>Similar to base case the model can be run in the command line. To run the model using R, run the following commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scenario_rspm &lt;- openModel('VERSPM_Scenarios')
+scenario_rspm$run()
+</code></pre></div></div>
+
+<p>After starting the run,model automatically builds scenarios by creating all possible combinations of settings found in scenario_inputs. The scenarios to run are found in the newly created scenarios directory.</p>
+
+<p><img src="/docs/images/scenarios.PNG" alt="" />{width=100%}</p>
+
+<p>Each directory is essentially a copy of VERSPM_base_model, with inputs modified as specified in the scenario_inputs directory. Each scenario directory contains the results of a model run with its own inputs, datastore, and log file.</p>
+
+<p>When finished, the VE-RSPM Scenario Viewer will automatically open to display the results.</p>
+
+<p>In detail, the model specified by the <code class="language-plaintext highlighter-rouge">run_model.R</code> script. In this case, the script runs four modules that create the scenarios from the inputs, runs each and combines the results.</p>
+
+<p><img src="/docs/images/run_model_Scenario.PNG" alt="" />{width=100%}</p>
+
+<h2 id="case-studies">Case Studies</h2>
+
+<h3 id="using-visioneval-to-assess-bike-network-changes">Using VisionEval to Assess Bike Network Changes</h3>
+<p>A 2020 OregonDOT-Metro-NITC research project being led by Joe Broach of Portland State University, will update VisionEval code (VE-RSPM) to enable VisionEval to respond to bike networks as perceived by differnt users. This includes the following elements.</p>
+
+<p>In the current VE-RSPM light vehicle (e.g. bicycle, electric bicycle, scooter) diversion module users specify the proportion of single-occupant vehicle (SOV) mileage diverted to light-vehicle travel in the base and future years.  Historical value can be derived from household travel surveys bike usage; future year inputs are specified through aspirational goals or exploratory processes. Methods for generating realistic bicycle diversion input have not been established, and the inputs are hard to tie to specific investment actions. The exploratory or aspirational approaches can be useful for strategic planning purposes, providing decision makers with information about what levels of SOV diversion to bicycle travel are necessary to meet identified goals, but they do not offer information about the level of infrastructure or other transportation system investments needed to achieve the given levels of bicycle diversion.</p>
+
+<p>The objective of the proposed research is to develop a new bicycle diversion module for the GreenSTEP-derived family of scenario planning models that internalizes bicycle diversion within the model by allowing users to specify changes in cycling infrastructure (and allow the model to estimate diversion), rather than assuming the outcome of cycling investments.</p>
+
+<p>The research will develop new VE-RSPM modules to estimate SOV short-trip diversion, using input variables related to:</p>
+<ol>
+  <li>Socio-demographic and other household characteristics (drawing from existing variables in the model),</li>
+  <li>Land use characteristics (again drawing from existing variables in the model), and</li>
+  <li>Bicycle network characteristics.</li>
+</ol>
+
+<p>Because VisionEval does not use an explicit network, bicycle network indicators will be used to represent the attractiveness of the bicycle facilities near the home location. The anticipated work includes pre-processors to extract bicycle network indicators from detailed bike network data, and potentially terrain data (from a digital elevation model) to capture the effects of hills on cycling propensity. Bicycle network indicators that may be included in VisionEval include the coverage, connectivity, and quality of bicycle facilities, and other measures shown in past research to have a significant relationship with cycling volumes, cycling mode share, or cycling attractiveness.</p>
+
+<p>Several pre-processors are under consideration to develop connectivity and quality of bike networks, including:  Bike Level of Traffic Stress (LTS)(<a href="https://www.oregon.gov/ODOT/Planning/Documents/APMv2_Ch14.pdf">see ODOT APMv2_Ch14</a>), Highway Capacity Manual Multi-Modal LOS methods (<a href="https://trid.trb.org/view/1326489">see TRB</a>), and Scalable-Risk Analysis Method (<a href="https://safety.fhwa.dot.gov/ped_bike/tools_solve/fhwasa17041/index.cfm">SCRAM</a>).</p>
+
+<p>The following figures highlight the selected changes that the model makes to the VE-RSPM packages and modules.</p>
+
+<p><img src="VE_PackagesModules/VERSPM_Bike.JPG" alt="Bike Network Research" />{width=100%}</p>
+
+<p>Note:  The project also intends to synchronize the disaggregate Bike Network assumptions with the Bike Module in Portland Metro’s new Activity Based Model, where the full network, not just the aggregated metrics of VisionEval, could be utilized directly.</p>
+
+<h3 id="user-impact">User Impact</h3>
+<p>The VisionEval Bike upgrades will change both methods, inputs and outputs.  Methods will reflect the new functional form of travel by mode, and new data (updated NHTS2009 and EPA SLD land use data), leading to different outcomes for household travel by bike.</p>
+
+<p>Users will likely need to provide more detailed bike network data (for historic and forecast years) to a pre-processor to develop Bzone inputs for use in VisionEval.</p>
+
+<h3 id="status">Status</h3>
+<p>The multi-agency research agreement was signed in early 2020.  The Research team anticipates the project will last roughly 12-18 months.  As with other VE research, additional efforts may be needed to implement the work within the VE codebase.</p>
+
+
+</div>
+
+    </main>
+
+   <!-- Optional footer content -->
+ 
+  </body>
+</html>
+
+<!-- Todo: Fix the footer.html location so that it is at the bottom, not a separate sidebar -->

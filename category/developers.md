@@ -5,13 +5,11 @@ excerpt: "A collection of resources for VisionEval developers."
 search_omit: true
 ---
 
-See the VisionEval <a href="https://github.com/visioneval/VisionEval/wiki" target="_blank"><b>wiki</b></a> on GitHub for the following resources:
+See the VisionEval <a href="https://visioneval.org/docs/index.html" target="_blank"><b>Docs</b></a> for the following resources:
 
-- <a href="https://github.com/VisionEval/VisionEval/wiki/Getting-Started" target="_blank">Getting Started</a>
-- <a href="https://github.com/VisionEval/VisionEval/wiki/Developer-Orientation" target="_blank">Developer Orientation</a>
-- <a href="https://github.com/VisionEval/VisionEval/wiki/Automated-Testing" target="_blank">Automated Testing</a>
-- <a href="https://github.com/VisionEval/VisionEval/wiki/Modules-and-Packages" target="_blank">Modules and Packages</a>
-- <a href="https://github.com/VisionEval/VisionEval/wiki/Development-Roadmap" target="_blank">Development Roadmap</a>
+- <a href="https://visioneval.org/docs/getting-started.html#getting-started" target="_blank">Getting Started</a>
+- <a href="https://visioneval.org/docs/index.html#developer" target="_blank">Developer Orientation</a>
+- <a href="https://visioneval.org/docs/software-framework.html" target="_blank">Software Framework</a>
 
 # VisionEval Repositories
 
