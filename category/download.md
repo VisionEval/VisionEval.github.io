@@ -4,9 +4,9 @@ title: Download
 excerpt: "How to download and install VisionEval"
 ---
 
-## [Get VisionEval Here](https://github.com/VisionEval/VisionEval/releases/download/public-2.0/VE-2.0-Installer-Windows-R4.1.2_2022-01-03.zip)
+## [Get VisionEval Here](https://github.com/VisionEval/VisionEval-Dev/releases/download/beta-release-0.9/VE-3.0-Installer-Windows-R4.1.3_2022-05-27.zip)
 
-*Version 2.0. 555 Mb download! Packaged for R 4.1.2*
+*Version 3.0. 581 Mb download! Packaged for R 4.1.3*
 
 The link above will download a .zip file containing the following:
  - The VisionEval framework code
@@ -19,7 +19,7 @@ Previous versions are [available here](https://github.com/VisionEval/VisionEval-
 
 ## Install for Windows
 
-After installing R 4.1.2 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.
+After installing R 4.1.3 and downloading the VE Installer from the link above, unzip the folder to the destination folder of your choice.
 
 To complete the installation and start VisionEval, simply:
    - Double-click **<tt>VisionEval.Rproj</tt>**
@@ -36,10 +36,10 @@ If the above installation steps did not succeed, ensure that you have downloaded
 
 #### R
 
-The current version of VisionEval is built for R, 4.1.2.  If you have a different version installed and cannot install 4.1.2, please contact us at <a href="mailto:info@visioneval.org">info@visioneval.org</a> for a VisionEval built for your R version.
+The current version of VisionEval is built for R, 4.1.3.  If you have a different version installed and cannot install 4.1.3, please contact us at <a href="mailto:info@visioneval.org">info@visioneval.org</a> for a VisionEval built for your R version.
 
 You can find the <a
-href="https://cran.r-project.org/bin/windows/base/" target="_blank">R 4.1.2 installer for Windows here</a>.
+href="https://cran.r-project.org/bin/windows/base/old/4.1.3/R-4.1.3-win.exe" target="_blank">R 4.1.3 installer for Windows here</a>.
 
 #### RStudio
 
