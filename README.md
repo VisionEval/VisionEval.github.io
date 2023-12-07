@@ -39,4 +39,4 @@ The working version of the VisionEval project is currently [here](https://github
 
 ### What is VisionEval?
 
-See the overview of VisionEval [here](https://VisionEval.org/)
+See the overview of VisionEval [here](https://VisionEval.github.io/)
