@@ -47,12 +47,12 @@
   <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
 </svg></span>
         
-        
-		<img src="/images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
-		
+
+		<img src="https://visioneval.github.io//images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
+
 		
 		VisionEval
-		
+
       </a>
     </div>
     <p class="lead">A common framework for strategic planning models.</p>
@@ -106,26 +106,6 @@
 
   
 
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
   
 
   
@@ -284,34 +264,14 @@
   
 
   
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
  -->
 
   <!-- Optional additional links to insert in sidebar nav -->
 
-<a class="category-link " href="https://visioneval.org/category/download.html">Download</a>
-<a class="category-link " href="https://visioneval.org/category/users.html"> Information for Users </a>
-<a class="category-link " href="https://visioneval.org/category/developers.html"> Information for Developers </a>
-<a class="category-link " href="https://visioneval.org/about.html"> About VisionEval </a>
+<a class="category-link " href="https://visioneval.github.io/category/download.html">Download</a>
+<a class="category-link " href="https://visioneval.github.io/category/users.html"> Information for Users </a>
+<a class="category-link " href="https://visioneval.github.io/category/developers.html"> Information for Developers </a>
+<a class="category-link " href="https://visioneval.github.io/about.html"> About VisionEval </a>
 
 </nav>
 
@@ -342,6 +302,7 @@
 
   <!-- Optional additional links to insert for icons links -->
 </nav>
+
   <!-- <p>
   &copy; 2023.
   <a href="/LICENSE.md">MIT License.</a>
@@ -353,7 +314,7 @@
 
 <br>
 
-<font size="2"><a href="mailto:info@visioneval.org"><tt>info@visioneval.org</tt></a></font></span>
+<font size="2"><a href="mailto:jeremy.raw@dot.gov"><tt>jeremy.raw@dot.gov</tt></a></font></span>
 
 <div class="social-icons">
 	
@@ -367,11 +328,12 @@
 	
   
 	
-  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+  <a href="https://visioneval.github.io//feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
 </div><!-- /.social-icons -->
 
 
 </div>
+
 
     <main class="container">
       <header>
@@ -927,6 +889,7 @@ The following section describes each module, its required inputs, and its genera
   </tr>
 </tbody>
 </table>
+
 <h4 id="internal-module-inputs---2">Internal Module Inputs {-}</h4>
 
 <div class="table-wrapper">
@@ -4671,11 +4634,11 @@ This module uses optional user inputs if <a href="#initialize-vetravelperformanc
 
         <h3 id="external-costs-regionpropexternalitiespaidcsv--">External Costs (region_prop_externalities_paid.csv) {-}</h3>
 
-        <p>Proportional external costs for the ragion  (This file supplies data for climate change and other social costs.</p>
+        <p>Proportional external costs for the region. This input file allocates the percent of the total cost that is charged to region vehicles on a per mile basis.</p>
 
         <ul>
-          <li><strong>PropClimateCostPaid</strong>: Proportion of climate change costs paid by users (i.e. ratio of carbon taxes to climate change costs</li>
-          <li><strong>PropOtherExtCostPaid</strong>: Proportion of other social costs paid by users</li>
+          <li><strong>PropClimateCostPaid</strong>: Proportion of climate change costs paid by users (i.e. ratio of carbon taxes to climate change costs). The dollar value of Climate Cost Paid is given in the optional input file: <em>region_co2e_costs.csv</em>.</li>
+          <li><strong>PropOtherExtCostPaid</strong>: Proportion of other social costs paid by users. The other social costs paid are included in an input file within the VETravelPerformance package. For more information on these values <a href="https://github.com/RSGInc/VisionEval-Dev/blob/development-next/sources/modules/VETravelPerformance/inst/module_docs/CalculateVehicleOperatingCost.md#social-costs">click here</a>.</li>
         </ul>
 
         <p>Here is a snapshot of the file:</p>
@@ -4757,7 +4720,7 @@ This module uses optional user inputs if <a href="#initialize-vetravelperformanc
         <h3 id="verspm-budgethouseholddvmt">BudgetHouseholdDvmt</h3>
 
         <p>This module adjusts average household DVMT to keep the quantity within household operating cost limits. The limit for each household is calculated in several steps. First, the proportion of the household’s income that may be spent on vehicle operating costs is calculated using a model that is explained below. This is called the budget proportion. Then an adjusted household income
-for budget calculation purposes is calculated by adding the annual cost of insurance for households subscribing to payd-as-you-drive (PAYD) insurance, cash-out parking payments for workers who work at an employer that has cash-out-buy-back parking, and any vehicle ownership cost savings for households that substitute high level car service for one or more household vehicles. The adjusted household income is muliplied by the budget proportion and divided by the average vehicle operating cost per mile for the household to determine the maximum household DVMT that fits within the household budget. The household DVMT is then set at the lesser of this budget maximum or the modeled household DVMT.</p>
+for budget calculation purposes is calculated by adding the annual cost of insurance for households subscribing to payd-as-you-drive (PAYD) insurance, cash-out parking payments for workers who work at an employer that has cash-out-buy-back parking, and any vehicle ownership cost savings for households that substitute high level car service for one or more household vehicles. The adjusted household income is multiplied by the budget proportion and divided by the average vehicle operating cost per mile for the household to determine the maximum household DVMT that fits within the household budget. The household DVMT is then set at the lesser of this budget maximum or the modeled household DVMT.</p>
 
         <p>The budget proportion model is estimated using data from the Bureau of Labor’s consumer expenditure survey for the years from 2003 to 2015. The data used are the nominal dollar expenditures by household income category and year by transportation category. The values for the operating cost categories (gas and oil, and maintenance and repair) are summed and then divided by the midpoint value for each income category to calculate the budget proportion for each income group and each year. From this the mean value is computed for each income group. The budget proportions for each income group and year are divided by the mean values by income group to normalize values. The standard deviation for the combined normalized values is computed and value of 3 deviations above the mean is set as the maximum normalized value. The mean values by income group are multiplied by this normalized maximum to derive a budget proportion maximum by income group. A smoothed splines model of the budget proportion as a function of income is then estimated from the calculated budget proportion maximums. This model is used to calculate the budget proportion for a household based on the household income. The minimum and
 maximum values of the calculated budget proportion maximums are used as constraints to avoid unreasonable results for very low incomes and very high incomes.</p>

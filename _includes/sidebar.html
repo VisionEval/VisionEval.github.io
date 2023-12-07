@@ -5,12 +5,12 @@
         {% unless page.url == "/" %}
           <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
         {% endunless %}
-        
-		<img src="/images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
-		
+
+		<img src="{{site.url}}/images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
+
 		{{ }}
 		{{ site.title }}
-		
+
       </a>
     </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
     <p class="lead">{{ site.description }}</p>

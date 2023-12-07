@@ -3,7 +3,7 @@
   
     {
       "title"			: "Links to interactive viewers",
-      "link"			: "http://localhost:4000/interactive/2019/01/01/1-viewers.html",
+      "link"			: "https://visioneval.github.io//interactive/2019/01/01/1-viewers.html",
       "excerpt"		: ""
     }
   
@@ -11,7 +11,7 @@
   
     ,{
       "title"			: "Links to additional resources",
-      "link"			: "http://localhost:4000/resources/2019/01/01/1-resources.html",
+      "link"			: "https://visioneval.github.io//resources/2019/01/01/1-resources.html",
       "excerpt"		: ""
     }
   
@@ -19,7 +19,7 @@
   
     ,{
       "title"			: "GreenSTEP",
-      "link"			: "http://localhost:4000/users/2018/01/01/4-greenstep.html",
+      "link"			: "https://visioneval.github.io//users/2018/01/01/4-greenstep.html",
       "excerpt"		: "Overview"
     }
   
@@ -27,7 +27,7 @@
   
     ,{
       "title"			: "Regional Strategic Planning Model (RSPM) & Scenario Viewer",
-      "link"			: "http://localhost:4000/users/2018/01/01/3-rspm.html",
+      "link"			: "https://visioneval.github.io//users/2018/01/01/3-rspm.html",
       "excerpt"		: "Overview"
     }
   
@@ -35,7 +35,7 @@
   
     ,{
       "title"			: "Rapid Policy Analysis Tool (RPAT)",
-      "link"			: "http://localhost:4000/users/2018/01/01/2-rpat.html",
+      "link"			: "https://visioneval.github.io//users/2018/01/01/2-rpat.html",
       "excerpt"		: "  Overview"
     }
   
@@ -43,7 +43,7 @@
   
     ,{
       "title"			: "Ongoing work for all tools",
-      "link"			: "http://localhost:4000/users/2018/01/01/1-ongoing.html",
+      "link"			: "https://visioneval.github.io//users/2018/01/01/1-ongoing.html",
       "excerpt"		: "as listed on the Development Roadmap"
     }
   
@@ -55,7 +55,7 @@
   
     ,{
       "title"			: "About VisionEval",
-      "link"			: "http://localhost:4000/about.html",
+      "link"			: "https://visioneval.github.io//about.html",
       "excerpt"		: "VisionEval is an open-source platform for strategic transportation planning."
     }
   
@@ -65,7 +65,7 @@
   
     ,{
       "title"			: "Download",
-      "link"			: "http://localhost:4000/category/download.html",
+      "link"			: "https://visioneval.github.io//category/download.html",
       "excerpt"		: "How to download and install VisionEval"
     }
   
@@ -73,7 +73,7 @@
   
     ,{
       "title"			: "VisionEval User Guide",
-      "link"			: "http://localhost:4000/docs/",
+      "link"			: "https://visioneval.github.io//docs/",
       "excerpt"		: ""
     }
   
@@ -81,7 +81,7 @@
   
     ,{
       "title"			: "VisionEval",
-      "link"			: "http://localhost:4000/",
+      "link"			: "https://visioneval.github.io//",
       "excerpt"		: ""
     }
   
@@ -99,7 +99,7 @@
   
     ,{
       "title"			: "Getting Started",
-      "link"			: "http://localhost:4000/docs/01-getting-started.html",
+      "link"			: "https://visioneval.github.io//docs/01-getting-started.html",
       "excerpt"		: ""
     }
   
@@ -107,7 +107,7 @@
   
     ,{
       "title"			: "Concept Primer {#conceptprimer}",
-      "link"			: "http://localhost:4000/docs/02-concept-primer.html",
+      "link"			: "https://visioneval.github.io//docs/02-concept-primer.html",
       "excerpt"		: ""
     }
   
@@ -115,7 +115,7 @@
   
     ,{
       "title"			: "VisionEval Tutorial {#tutorial}",
-      "link"			: "http://localhost:4000/docs/03-tutorial.html",
+      "link"			: "https://visioneval.github.io//docs/03-tutorial.html",
       "excerpt"		: ""
     }
   
@@ -123,7 +123,7 @@
   
     ,{
       "title"			: "Model Inputs",
-      "link"			: "http://localhost:4000/docs/04-inputs.html",
+      "link"			: "https://visioneval.github.io//docs/04-inputs.html",
       "excerpt"		: ""
     }
   
@@ -131,15 +131,7 @@
   
     ,{
       "title"			: "Validation and Troubleshooting",
-      "link"			: "http://localhost:4000/docs/05-validation.html",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Estimation in VisionEval {#ve-estimation}",
-      "link"			: "http://localhost:4000/docs/06-estimation.html",
+      "link"			: "https://visioneval.github.io//docs/05-validation.html",
       "excerpt"		: ""
     }
   
@@ -147,15 +139,7 @@
   
     ,{
       "title"			: "VERSPM Model Details {#verspm}",
-      "link"			: "http://localhost:4000/docs/06-verspm.html",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "VisionEval Model Details",
-      "link"			: "http://localhost:4000/docs/07-verspm.html",
+      "link"			: "https://visioneval.github.io//docs/06-verspm.html",
       "excerpt"		: ""
     }
   
@@ -163,7 +147,7 @@
   
     ,{
       "title"			: "VE-State Model Details {#vestate}",
-      "link"			: "http://localhost:4000/docs/07-vestate.html",
+      "link"			: "https://visioneval.github.io//docs/07-vestate.html",
       "excerpt"		: ""
     }
   
@@ -171,15 +155,7 @@
   
     ,{
       "title"			: "VERPAT Model Details {#verpat}",
-      "link"			: "http://localhost:4000/docs/08-verpat.html",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "VE-State Tutorial {#vestate}",
-      "link"			: "http://localhost:4000/docs/08-vestate.html",
+      "link"			: "https://visioneval.github.io//docs/08-verpat.html",
       "excerpt"		: ""
     }
   
@@ -187,31 +163,15 @@
   
     ,{
       "title"			: "Estimation in VisionEval {#ve-estimation}",
-      "link"			: "http://localhost:4000/docs/09-estimation.html",
+      "link"			: "https://visioneval.github.io//docs/09-estimation.html",
       "excerpt"		: ""
     }
   
 
   
     ,{
-      "title"			: "VERPAT Tutorial {#verpat}",
-      "link"			: "http://localhost:4000/docs/09-verpat.html",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Module Build Process {#ve-buildprocess}",
-      "link"			: "http://localhost:4000/docs/10-build-process.html",
-      "excerpt"		: ""
-    }
-  
-
-  
-    ,{
-      "title"			: "Developer Documentation {#developer}",
-      "link"			: "http://localhost:4000/docs/10-developer.html",
+      "title"			: "VisionEval Module Build Process {#ve-buildprocess}",
+      "link"			: "https://visioneval.github.io//docs/10-build-process.html",
       "excerpt"		: ""
     }
   
@@ -219,7 +179,7 @@
   
     ,{
       "title"			: "API Documentation",
-      "link"			: "http://localhost:4000/docs/11-api.html",
+      "link"			: "https://visioneval.github.io//docs/11-api.html",
       "excerpt"		: ""
     }
   
@@ -227,7 +187,7 @@
   
     ,{
       "title"			: "Software Framework",
-      "link"			: "http://localhost:4000/docs/12-software.html",
+      "link"			: "https://visioneval.github.io//docs/12-software.html",
       "excerpt"		: ""
     }
   

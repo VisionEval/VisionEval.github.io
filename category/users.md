@@ -9,17 +9,17 @@ search_omit: true
 
 # Documentation
 
-[Comprehensive documentation for VisionEval](https://visioneval.org/docs)
+[Comprehensive documentation for VisionEval]({{ site.url }}/docs)
 
 ## Getting Started
 
-Please see this page on the VisionEval documentation [latest instructions for getting started](https://visioneval.org/docs/getting-started.html#getting-started).
+Please see this page on the VisionEval documentation [latest instructions for getting started]({{ site.url }}/docs/getting-started.html#getting-started).
 
 For an overview of the VisionEval Pooled Fund, [refer to this summary document]({{ site.url }}/assets/refs/VisionEval_PooledFund_ExecSummary.pdf).
 
 ## Concept Primer
 
-- The [Concept Primer](https://visioneval.org/docs/conceptprimer.html#conceptprimer) introduces the core concepts of VisionEval for transportation planners
+- The [Concept Primer]({{ site.url }}/docs/conceptprimer.html#conceptprimer) introduces the core concepts of VisionEval for transportation planners
 
 ## Tutorials
 

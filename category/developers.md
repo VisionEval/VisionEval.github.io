@@ -5,11 +5,11 @@ excerpt: "A collection of resources for VisionEval developers."
 search_omit: true
 ---
 
-See the VisionEval <a href="https://visioneval.org/docs/index.html" target="_blank"><b>Docs</b></a> for the following resources:
+See the VisionEval <b>[Docs]({{site.url}}/docs/index.html)</b> for the following resources:
 
-- <a href="https://visioneval.org/docs/getting-started.html#getting-started" target="_blank">Getting Started</a>
-- <a href="https://visioneval.org/docs/index.html#developer" target="_blank">Developer Orientation</a>
-- <a href="https://visioneval.org/docs/software-framework.html" target="_blank">Software Framework</a>
+- [Getting Started]({{site.url}}/docs/getting-started.html#getting-started)
+- [Developer]({{site.url}}/docs/index.html#developer)
+- [Software Framework]({{site.url}}/docs/software-framework.html)
 
 # VisionEval Repositories
 

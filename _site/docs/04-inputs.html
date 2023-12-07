@@ -47,12 +47,12 @@
   <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
 </svg></span>
         
-        
-		<img src="/images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
-		
+
+		<img src="https://visioneval.github.io//images/VisionEval_logo_d4.png" alt="VisionEval_Logo" width="75" height="75">
+
 		
 		VisionEval
-		
+
       </a>
     </div>
     <p class="lead">A common framework for strategic planning models.</p>
@@ -106,26 +106,6 @@
 
   
 
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
   
 
   
@@ -284,34 +264,14 @@
   
 
   
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
  -->
 
   <!-- Optional additional links to insert in sidebar nav -->
 
-<a class="category-link " href="https://visioneval.org/category/download.html">Download</a>
-<a class="category-link " href="https://visioneval.org/category/users.html"> Information for Users </a>
-<a class="category-link " href="https://visioneval.org/category/developers.html"> Information for Developers </a>
-<a class="category-link " href="https://visioneval.org/about.html"> About VisionEval </a>
+<a class="category-link " href="https://visioneval.github.io/category/download.html">Download</a>
+<a class="category-link " href="https://visioneval.github.io/category/users.html"> Information for Users </a>
+<a class="category-link " href="https://visioneval.github.io/category/developers.html"> Information for Developers </a>
+<a class="category-link " href="https://visioneval.github.io/about.html"> About VisionEval </a>
 
 </nav>
 
@@ -342,6 +302,7 @@
 
   <!-- Optional additional links to insert for icons links -->
 </nav>
+
   <!-- <p>
   &copy; 2023.
   <a href="/LICENSE.md">MIT License.</a>
@@ -353,7 +314,7 @@
 
 <br>
 
-<font size="2"><a href="mailto:info@visioneval.org"><tt>info@visioneval.org</tt></a></font></span>
+<font size="2"><a href="mailto:jeremy.raw@dot.gov"><tt>jeremy.raw@dot.gov</tt></a></font></span>
 
 <div class="social-icons">
 	
@@ -367,11 +328,12 @@
 	
   
 	
-  <a href="http://localhost:4000/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+  <a href="https://visioneval.github.io//feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
 </div><!-- /.social-icons -->
 
 
 </div>
+
 
     <main class="container">
       <header>
@@ -436,7 +398,7 @@
 </span></code></pre></div></div>
 
 <h3 id="model_parametersjson">model_parameters.json</h3>
-<p>This file contains global parameters for a particular model configuration that may be used by multiple modules. A more detailed description of the file and its structure can be found <a href="https://github.com/visioneval/VisionEval/blob/master/api/model_system_design.md#61-model-directory-structure">here</a>. The source of the default $16/hr is per a Nov 2016 ODOT Report: <a href="https://www.oregon.gov/ODOT/Data/Documents/Value-of-Travel-Time-for-Vehicles.pdf">“The Value of Travel-Time: Estimates of the Hourly Value of Time for Vehicles in Oregon”</a>.</p>
+<p>This file contains global parameters for a particular model configuration that may be used by multiple modules. A more detailed description of the file and its structure can be found <a href="https://github.com/visioneval/VisionEval/blob/master/api/model_system_design.md#61-model-directory-structure">here</a>. The source of the default $16/hr in 2010$ was derived from a Nov 2014 Oregon DOT Report: <a href="https://www.oregon.gov/ODOT/Data/Documents/Value-of-Travel-Time-for-Vehicles.pdf">“The Value of Travel-Time: Estimates of the Hourly Value of Time for Vehicles in Oregon”</a>.  Note the input looks for the dollars in the year of the base model.</p>
 
 <p>The format of this file is as follows:</p>
 
@@ -631,11 +593,11 @@
       <td>PRSN</td>
     </tr>
     <tr>
-      <td>trips</td>
+      <td>vehicles</td>
       <td>VEH</td>
     </tr>
     <tr>
-      <td>area</td>
+      <td>trips</td>
       <td>TRIP</td>
     </tr>
     <tr>
@@ -659,7 +621,7 @@
 
 <ul>
   <li><a href="#verspm-inputs">VERSPM inputs</a></li>
-  <li><a href="vestate-inputs">Ve-State inputs</a></li>
+  <li><a href="vestate-inputs">VE-State inputs</a></li>
   <li><a href="#verpat-inputs">VERPAT inputs</a></li>
 </ul>
 
@@ -691,7 +653,7 @@
     <p><strong>Dwelling units.</strong> Numbers of <a href="#dwelling-unit-type"><span style="color:green">dwelling units by type</span></a> in each model year and proportions of each in each <a href="#development-type"><span style="color:green">development type</span></a>. Income quartiles tied to households in dwelling units help VisionEval assign households to a compatible Bzone location. The base year dwelling unit data can sourced from either the Census or an available travel demand model. Future year dwelling units can be obtained from local Comprehensive Plans. Adjustments may be needed to count only occupied units, and occupancy rates can be obtained from Census block group data, as a starting point. Base and future year dwelling unit counts should be consistent with household assumptions in the region’s travel demand model.</p>
   </li>
   <li>
-    <p><strong>Land use.</strong> Inputs set the total developable land area, by <a href="#development-type"><span style="color:green">development type</span></a>. VERSPM also requires its location (centroid latitude-longitude) for spatially linking to source data, and input assumptions on the <a href="#buit-form-measures"><span style="color:green">built form measures</span></a>. These inputs can change by model run year. Some land use data use <a href="https://www.epa.gov/smartgrowth/smart-location-mapping">EPA Smart Location Datasbase</a> (SLD) data. Geospatial SLD data can be downloaded at the block group level and extrapolated to other geographies if needed using just used the EPA block group data.</p>
+    <p><strong>Land use.</strong> Inputs set the total developable land area, by <a href="#development-type"><span style="color:green">development type</span></a>. VERSPM also requires its location (centroid latitude-longitude) for spatially linking to source data, and input assumptions on the <a href="#buit-form-measures"><span style="color:green">built form measures</span></a>. These inputs can change by model run year. Some land use data use <a href="https://www.epa.gov/smartgrowth/smart-location-mapping">EPA Smart Location Database</a> (SLD) data. Geospatial SLD data can be downloaded at the block group level and extrapolated to other geographies if needed using just used the EPA block group data.</p>
   </li>
   <li>
     <p><strong>Land use-household linkages.</strong> VisionEval assigns a Bzone to each household’s home and to each household worker’s work location, with the associated Bzone attributes. The VisionEval-calculated <a href="#urban-mixed-use"><span style="color:green">urban mixed use</span></a> designation of the Bzone can optionally be modified by input targets on the proportion of households assigned that designation in each Bzone  in this process.</p>
@@ -709,9 +671,11 @@
 
 <ul>
   <li>Urbanized Areas (UAs) of 50,000 or more people are defined as <strong>metro</strong></li>
-  <li>Urban Clusters (UCs) of at least 2,500 and less than 50,000 people are definied as <strong>town</strong></li>
+  <li>Urban Clusters (UCs) of at least 2,500 and less than 50,000 people are defined as <strong>town</strong></li>
   <li>Everything else is <strong>rural</strong></li>
 </ul>
+
+<p>**NOTE: the 2020 Census has removed the Urban Cluster specification.</p>
 
 <h4 id="defining-area-type-center-inner-outer-fringe">Defining “Area Type” (center, inner, outer, fringe)</h4>
 
@@ -873,7 +837,7 @@
     <p><strong>Road cost recovery VMT fee.</strong> Inputs include a fuel tax or levying a fuel-equivalent tax on travel by some/all electric vehicles (PevSurchgTaxProp), for their use of roads in lieu of gas purchases. User can also directly specify a VMT (mileage) fee, to further recover road costs, or optionally flag VisionEval to iteratively estimate the VMT fee to fully recover user-defined road costs incurred by household VMT.</p>
   </li>
   <li>
-    <p><strong>Social cost recovery/carbon fees.</strong>  (Optional) Inputs allow per mile fee to cover social costs or externalities, not recovered in this way today, but instead incur costs elsewhere in the economy (e.g., safety, health).  This is the cost imposed on society and future generations, not the cost to the vehicle user. This requires assumptions on the cost incurred from these externalities (per mile, per gallon) and the proportion to be paid by drivers as a per mile fee (varies by vehicle powertrain). The proportion of carbon costs (e.g., impact on fuel price from cap &amp; trade policy) imposed on drivers is specified separately from other social costs, so it can be assessed on its own if desired; including (optionally) specifying the cost of carbon to over-ride the default value of carbon.</p>
+    <p><strong>Social cost recovery/carbon fees.</strong>  (Optional) Inputs allow per mile fee to cover social costs or externalities, not recovered in this way today, but instead incur costs elsewhere in the economy (e.g., safety, health).  This is the cost imposed on society and future generations, not the cost to the vehicle user. This requires assumptions on the cost incurred from these externalities (per mile, per gallon) and the proportion to be paid by drivers as a per mile fee (varies by vehicle powertrain). The proportion of carbon costs (e.g., impact on fuel price from cap &amp; trade policy) imposed on drivers is specified separately from other social costs, so it can be assessed on its own if desired; including (optionally) specifying the cost of carbon to over-ride the default value of carbon. The two specific inputs: Carbon costs in dollars per metric ton of CO2e and other social externalities. The Carbon Costs have default data which can be overridden by using the optional input file <em>region_co2e_costs.csv</em>. Note: the Carbon Costs are specified in 2005$. The Social Externality costs are specified in the VETravelPerformance package External Data files. The values are in 2010$. <a href="https://github.com/RSGInc/VisionEval-Dev/blob/development-next/sources/modules/VETravelPerformance/inst/module_docs/CalculateVehicleOperatingCost.md#social-costs">Click here</a> for additional detailed explanation of on the way the costs are used in the model. <a href="/docs/media/STS_White_Paper_on_External_Costs_9-21-2011.pdf">See the PDF</a> for externality research.</p>
   </li>
   <li>
     <p><strong>Per mile time-equivalent costs.</strong> Users can define the <a href="#value-of-time"><span style="color:green">value of time</span></a>, which is included in <a href="#vehicle-operating-costs"><span style="color:green">vehicle operating costs</span></a> calculations. The model calculates travel time (model-calculated), which includes time to access vehicle on both ends of trip (between vehicle parking location and origin or end destination), multiplied by value of time.</p>
@@ -882,7 +846,7 @@
     <p><strong>Annual vehicle ownership costs.</strong> <a href="#vehicle-operating-costs"><span style="color:green">Vehicle ownership cost</span></a> inputs are defined at the Azone-level by year. These inputs include annual vehicle fees (flat fee and/or tax on vehicle value), <a href="#pay-as-you-drive"><span style="color:green">pay-as-you-drive (PAYD)</span></a> insurance participation rates, residential parking limitations and fees, that are combined with model-estimated ownership costs (financing, depreciation, insurance).</p>
   </li>
   <li>
-    <p><strong>Congestion Fees.</strong> <a href="#congestion-fees"><span style="color:green">Congestion fees</span></a> are defined by Marea. The input is the average amount paid per mile in congestion pricing fee.</p>
+    <p><strong>Congestion Fees.</strong> <a href="#congestion-fees"><span style="color:green">Congestion fees</span></a> are defined by Marea. The input is the average amount paid per mile in congestion pricing fee. The congestion fees are specified for each of the congestion bands in the model for both Arterial Congestion Fees and Freeway Congestion Fees.</p>
   </li>
 </ul>
 
@@ -898,7 +862,7 @@
       <li><strong>Freeway incident management</strong> - Incident Response programs are designed to quickly detect and remove incidents which impede traffic flow. The UMR study  reports incident-related freeway delay reductions of 0 to 40%, with an average of 8%, for the 79 U.S. urban areas with incident response programs. This reflects the combined effects of both service patrols to address the incidents and surveillance cameras to detect the incidents. Effects were seen in all sizes of urban area, though the impacts were greater in larger cities.</li>
       <li><strong>Arterial access management</strong> – Access management on arterials can increase speeds by reducing the number of enter/exit points on the arterial and reduce crashes by reducing conflict points. Although improvements such as raised medians can reduce throughput by causing turning queue spillback during heavy congestion, other types of access management, such as reduced business ingress/egress points, show consistent benefits system-wide.</li>
       <li><strong>Arterial signal coordination</strong> – Traffic signal coordination, particularly for adaptive traffic signals, can reduce arterial delay by increasing throughput in peak flow directions. UMR and other analysis estimates delay reductions of up to 6-9% due to signal coordination, with more potential savings from more sophisticated control systems. An average arterial delay savings was found to be about 1%.</li>
-      <li><strong>Other ops programs</strong> – A seperate input that gives users the ability to accommodate future enhancements.  Further research and significant program investment would be needed to justify benefits in these enhanced ITS programs.</li>
+      <li><strong>Other ops programs</strong> – A separate input that gives users the ability to accommodate future enhancements.  Further research and significant program investment would be needed to justify benefits in these enhanced ITS programs.</li>
     </ul>
   </li>
   <li><strong>Speed smoothing programs.</strong> Proportion of VMT by <a href="#road-class"><span style="color:green">road class</span></a> covered by ITS <a href="#speed-smoothing"><span style="color:green">speed smoothing</span></a>, and <a href="#ecodrive"><span style="color:green">Eco-drive programs</span></a>. These programs reduce vehicle accelerations and decelerations, but do not affect delay.
@@ -3120,7 +3084,7 @@
 
 <h3 id="verspm-region_hh_driver_adjust_prop.csv">region_hh_driver_adjust_prop.csv</h3>
 
-<p>This file is optional and can be used to adjust the estimate of household drivers by age cohort. The file specifies the relative driver licensing rate relative to the model estimation data year in order to account for observed or projected changes in licensing rates.</p>
+<p>This file is OPTIONAL and can be used to adjust the estimate of household drivers by age cohort. The file specifies the relative driver licensing rate relative to the model estimation data year in order to account for observed or projected changes in licensing rates.</p>
 
 <ul>
   <li><strong>Drv15to19AdjProp</strong>: Target proportion of unadjusted model number of drivers 15 to 19 years old (<code class="language-plaintext highlighter-rouge">1</code> = no adjustment)</li>
@@ -3201,9 +3165,17 @@
 </tbody>
 </table>
 
+<h3 id="verspm-region_co2e_costs.csv">region_co2e_costs.csv</h3>
+
+<p>This is an OPTIONAL file. The input accounts for the environmental and social cost of CO2e emissions per metric ton. The Unit can be defined, but default is USD. The year of the USD is based on the model year.  [<a href="https://github.com/VisionEval/VisionEval/blob/master/sources/modules/VETravelPerformance/inst/module_docs/CalculateVehicleOperatingCost.md#region_co2e_costscsv">More details here on the GitHub site</a>]</p>
+
+<ul>
+  <li><strong>CO2eCost</strong>: Cost of CO2e emissions per metric ton.</li>
+</ul>
+
 <h3 id="verspm-region_prop_externalities_paid.csv">region_prop_externalities_paid.csv</h3>
 
-<p>Proportional external costs for the ragion  (This file supplies data for climate change and other social costs.</p>
+<p>Proportional external costs for the region  (This file supplies data for climate change and other social costs.</p>
 
 <ul>
   <li><strong>PropClimateCostPaid</strong>: Proportion of climate change costs paid by users (i.e. ratio of carbon taxes to climate change costs</li>

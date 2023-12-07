@@ -26,8 +26,7 @@ To complete the installation and start VisionEval, simply:
 
 ## Getting Started
 
-Once you have been welcomed to VisionEval, you can follow the instructions under "Editing and Running Models" on the
-<a href="https://visioneval.org/docs/getting-started.html#editrun">Getting Started</a> page.
+Once you have been welcomed to VisionEval, you can follow the instructions under "Editing and Running Models" on the [Getting Started]({{ site.url }}/docs/getting-started.html#editrun) page.
 Your destination folder contains everything you need from the VisionEval "sources" folder.
 
 ## Requirements
@@ -36,7 +35,7 @@ If the above installation steps did not succeed, ensure that you have downloaded
 
 #### R
 
-The current version of VisionEval is built for R, 4.1.3.  If you have a different version installed and cannot install 4.1.3, please contact us at <a href="mailto:info@visioneval.org">info@visioneval.org</a> for a VisionEval built for your R version.
+The current version of VisionEval is built for R, 4.1.3.  If you have a different version installed and cannot install 4.1.3, please contact us at <a href="mailto:">jeremy.raw@dot.gov</a> for a VisionEval built for your R version.
 
 You can find the <a
 href="https://cran.r-project.org/bin/windows/base/old/4.1.3/R-4.1.3-win.exe" target="_blank">R 4.1.3 installer for Windows here</a>.
@@ -51,7 +50,7 @@ VisionEval can be installed from source as well. Contact Jeremy Raw for more inf
 
 ## Questions
 
-Questions about VisionEval installation can be directed to Jeremy.Raw or Daniel.Flynn at dot.gov, or more generally to <a href="mailto:info@visioneval.org">info@visioneval.org</a>.
+Questions about VisionEval installation can be directed to Jeremy.Raw or Daniel.Flynn at dot.gov, or more generally to <a href="mailto:jeremy.raw@dot.gov">jeremy.raw@dot.gov</a>.
 
 The installers were built with the using the process described <a target="_blank" href="https://github.com/VisionEval/VisionEval-Dev/blob/development/build/Building.md">here on GitHub</a>
 
