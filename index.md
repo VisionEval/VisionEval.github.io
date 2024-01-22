@@ -15,7 +15,7 @@ We are honored to announce that VisionEval received the
 
 ### Resources
 
-- The collaborative development of VisionEval occurs on <a href="https://www.github.com/visioneval/visioneval" target="_blank">GitHub</a>.
+- The collaborative development of VisionEval occurs on <a href="https://www.github.com/visioneval/VisionEval-Dev" target="_blank">GitHub</a>.
 - End User and Developer documentation can be found in the [Docs]({{ site.url }}/docs/).
 - For introductions to the key models of VisionEval, including the Regional Strategic Planning Model (VE-RSPM) and the Rapid Policy Analysis Tool (VE-RPAT), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/category/users) pages.
 - The [Concept Primer]({{ site.url }}/docs/conceptprimer.html) covers the concepts of VisionEval for transportation planners.
