@@ -4,7 +4,7 @@ title: Download
 excerpt: "How to download and install VisionEval"
 ---
 
-## Get VisionEval Here (The next release is under construction; please check back shortly)
+## [Get VisionEval Here](https://github.com/VisionEval/VisionEval-Dev/releases/download/VE-3.1.1/VE-3.1-Installer-Windows-R4.3.2_2024-01-23.zip)
 
 *Version 3.1. 468 Mb download! Packaged for R 4.3.2*
 
