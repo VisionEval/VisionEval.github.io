@@ -14,9 +14,6 @@ title: VisionEval
 - For introductions to the key models of VisionEval, including the Regional Strategic Planning Model (VE-RSPM) and the Rapid Policy Analysis Tool (VE-RPAT), see the [About]({{ site.url }}/about) and [Users]({{ site.url }}/category/users) pages.
 - The [Concept Primer]({{ site.url }}/docs/conceptprimer.html) covers the concepts of VisionEval for transportation planners.
 
-### Video introduction to VisionEval
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w5xeV97rZug?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <!-- ### Partner agencies -->
 
