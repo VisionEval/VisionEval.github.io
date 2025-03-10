@@ -21,8 +21,7 @@ Please see this page on the VisionEval documentation [latest instructions for ge
 
 ## Tutorials
 
-- [VE-RSPM](https://github.com/VisionEval/VisionEval-Docs/blob/master/tutorials/verspm/Main.md)
-- [VE-State](https://github.com/VisionEval/VisionEval-Docs/blob/master/tutorials/ve-state/Main.md)
+- The [Tutorial]({{ site.url }}/docs/tutorial.html#tutorial) provides a tutorial on selecting and using a VisionEval model 
 
 ## The VisionEval project
 
