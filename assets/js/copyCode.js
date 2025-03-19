@@ -1,5 +1,5 @@
 // This assumes that you're using Rouge; if not, update the selector
-const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
+const codeBlocks = document.querySelectorAll('.language-R + .highlighter-rouge');
 const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
 copyCodeButtons.forEach((copyCodeButton, index) => {
