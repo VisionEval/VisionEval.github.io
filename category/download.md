@@ -4,6 +4,31 @@ title: Download
 excerpt: "How to download and install VisionEval"
 ---
 
+## Try the new installer script mechanism.
+
+Copy the following line of code to an instance of R with its working directory set to where you want to install
+VisionEvel.
+
+If you would like to review the script before running it,
+just [visit it in your browser](https://visioneval.github.io/assets/install/VE4-install.R).
+
+{% include codeHeader.html %}
+```R
+source("https://visioneval.github.io/assets/install/VE4-install.R")
+```
+
+The one-liner will download and run the VisionEval 4 installer script. The script will retrieve VisionEval packages from
+a selected VisionEval Github release (default: the latest release). There are a couple of different installation options
+you can pick from (default: install binary VisionEval packages for Windows). You can choose to install from the source
+packages if your particular R version is not supported with a binary installer for Windows, or if you are installing on
+a Macintosh or Linux system. You will need at least R 4.0.0 to install VisionEval. Pre-built packages are currently only
+available for R 4.4.0 and later versions.
+
+If you are installing source packages on Windows, you will probably need to install
+[the RTools package for your R version (4.0.0 or later)](https://cran.r-project.org/bin/windows/Rtools).
+
+## Previous Installation Mechanism
+
 ## [Get VisionEval Here](https://github.com/VisionEval/VisionEval-Dev/releases/download/VE-3.1.1/VE-3.1-Installer-Windows-R4.3.2_2024-01-23.zip)
 
 *Version 3.1. 468 Mb download! Packaged for R 4.3.2*
