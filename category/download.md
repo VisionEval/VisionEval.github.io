@@ -14,7 +14,7 @@ just [visit it in your browser](https://visioneval.github.io/assets/install/VE4-
 
 {% include codeHeader.html %}
 ```R
-source("https://visioneval.github.io/assets/install/VE4-install.R")
+source(ve.url<-"https://visioneval.github.io/assets/install/VE4-install.R")
 ```
 
 The one-liner will download and run the VisionEval 4 installer script. The script will retrieve VisionEval packages from
