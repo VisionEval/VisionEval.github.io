@@ -72,12 +72,12 @@ if ( ! exists("ve.url") ) {
 
 # Identify UI Script
 caps <- capabilities()
-UI.source <- if ( caps["tcltk"] ) {
+using.tcltk <- if ( isTRUE(caps["tcltk"]) ) {
   UI.script <- file.path(dirname(ve.url),"VE4-UI-tcltk.R")
-  UI.source <- try( source(UI.script), silent=TRUE )
-  if ( inherits(UI.source,"try-error") ) NA else TRUE
-} else NA
-if ( isFALSE(UI.source)  ) {
+  load.tcltk <- try( suppressWarnings(source(UI.script)), silent=TRUE )
+  if ( inherits(load.tcltk,"try-error") ) FALSE else TRUE
+} else FALSE
+if ( isFALSE(using.tcltk)  ) {
   message("Dialogs are not available for installation; installing most recent available release")
   # Load text interface functions (just uses defaults all the way through for latest useful release)
   select.ve.home.dialog <- function(ve.home) ve.home
@@ -92,7 +92,7 @@ if ( isFALSE(UI.source)  ) {
     # Returns the "selected" structure (first in installer in the first release in the first repository)
     list(
       Runtime   = build.type,
-      Repos     = names(all.release)[1],
+      Repos     = names(all.releases)[1],
       Release   = names(all.releases[[1]])[1],
       Installer = names(all.releases[[1]][[1]][["assets"]])[1],
       DoIt      = "Install"
@@ -492,14 +492,20 @@ doInstallation <- function(retrieved) {
   # Return a function to launch VE (bootstrap or load VEStart)
   # Return a text error message if install failed.
   installType <- attr(retrieved,"InstallType")
-  confirm <- tkmessageBox(
-    title = "Complete Installation?", icon = "question", type = "yesno",
-    message = paste(
-      "Ready to install:\n\n",retrieved,
-      "\nInstallation Type: ",installType,  
-      "\n\nWould you like to proceed?"
+  confirm <- if ( using.tcltk ) {
+    tkmessageBox(
+      title = "Complete Installation?", icon = "question", type = "yesno",
+      message = paste(
+        "Ready to install:\n\n",retrieved,
+        "\nInstallation Type: ",installType,  
+        "\n\nWould you like to proceed?"
+      )
     )
-  )
+  } else {
+    conf.yn <- askYesNo("Complete Installation?",prompts="Y/N/C") # Text confirmation
+    if ( conf.yn) "yes" else "no"
+  }
+      
   if ( as.character(confirm) != "yes" ) {
     stop("Installation cancelled. Restart to try again.",call.=FALSE)
   }
