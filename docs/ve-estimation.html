@@ -7,7 +7,7 @@
 <title>Chapter 13 Estimation in VisionEval | VisionEval User Guide</title>
 <meta name="author" content="VisionEval Pooled Fund Team">
 <meta name="description" content="13.1 Introduction  13.1.1 Overview and Content of this Chapter Model estimation in VisionEval, either statistical estimation of model parameters (such as estimating linear regression or logit...">
-<meta name="generator" content="bookdown 0.37 with bs4_book()">
+<meta name="generator" content="bookdown 0.42 with bs4_book()">
 <meta property="og:title" content="Chapter 13 Estimation in VisionEval | VisionEval User Guide">
 <meta property="og:type" content="book">
 <meta property="og:url" content="https://visioneval.org/docs/ve-estimation.html">
@@ -19,7 +19,7 @@
 <meta name="twitter:image" content="https://visioneval.org/docs/images/cover.png">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
-<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.6.1/transition.js"></script><script src="libs/bs3compat-0.6.1/tabs.js"></script><script src="libs/bs3compat-0.6.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.5.1/transition.js"></script><script src="libs/bs3compat-0.5.1/tabs.js"></script><script src="libs/bs3compat-0.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
 <script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="libs/kePrint-0.0.1/kePrint.js"></script><link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 <link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet">
 <script src="libs/bsTable-3.3.7/bootstrapTable.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
@@ -61,7 +61,7 @@
 <li><a class="" href="developing-scenarios.html"><span class="header-section-number">9</span> Developing Scenarios</a></li>
 <li><a class="" href="verspm.html"><span class="header-section-number">10</span> VERSPM Model Details</a></li>
 <li><a class="" href="vestate.html"><span class="header-section-number">11</span> VE-State Model Details</a></li>
-<li><a class="" href="verpat.html"><span class="header-section-number">12</span> VERPAT Model Details</a></li>
+<li><a class="" href="page-is-no-longer-supported.html"><span class="header-section-number">12</span> Page is no longer supported</a></li>
 <li><a class="active" href="ve-estimation.html"><span class="header-section-number">13</span> Estimation in VisionEval</a></li>
 <li><a class="" href="ve-buildprocess.html"><span class="header-section-number">14</span> VisionEval Module Build Process</a></li>
 <li><a class="" href="common-use-cases.html"><span class="header-section-number">15</span> Common Use Cases</a></li>
@@ -92,7 +92,7 @@
 <ul>
 <li>It is difficult to replace models with local or updated data due to complexity and lack of documentation</li>
 <li>Several modules obscure data and parameters in the estimation portion of the package and therefore require package rebuilds if changes are made</li>
-<li>Legacy model estimation (i.e., from earlier work prior to the development of the VE framework and which does not conform to the current recommended code structure for implementing modules in VE) is incorporated in several modules, e.g., modules that were part of the RPAT model</li>
+<li>Legacy model estimation (i.e., from earlier work prior to the development of the VE framework and which does not conform to the current recommended code structure for implementing modules in VE) is incorporated in several modules.</li>
 <li>There are data discontinuities preventing users from estimating models where, for example, restricted or confidential data have been used to estimate model components (e.g., use of restricted spatial data in VETravelDemandMM) preventing the data from being included in the model package.</li>
 </ul>
 <p>This chapter forms an element of work to improve the ability for those applying VE to incorporate newer publicly available datasets or custom datasets to develop locally relevant models for use in VE. This work will include defining a process for users to make use of the latest NHTS data, local HTS data, and local PUMS data, to update models estimated using older versions of the NHTS and PUMS data from different states or regions.</p>
@@ -161,21 +161,9 @@
 <li>Consider alternative methods for attributing the NHTS with the neighborhood land use variables that might not require confidentiality requirements.</li>
 </ul>
 </div>
-<div id="modules-imported-from-rpat" class="section level3" number="13.2.3">
+<div id="modules-estimated-with-local-data" class="section level3" number="13.2.3">
 <h3>
-<span class="header-section-number">13.2.3</span> Modules imported from RPAT<a class="anchor" aria-label="anchor" href="#modules-imported-from-rpat"><i class="fas fa-link"></i></a>
-</h3>
-<p>VERPAT is the VE implementation of the RPAT model, which was originally developed as part of the SHRP 2 C16 project. While the RPAT model was converted to run as a set of VE modules, the modules do not incorporate model estimation during package build. In most cases, RPAT used models imported from the GreenSTEP model, which were later incorporated into VE and form the basis of many of the models still used in, for example, the VEHouseholdTravel module.</p>
-<p>If VERPAT is to be maintained, it would be of benefit to re-establish the connections back to the model estimation processes used in modules such as VEHouseholdTravel and VEHouseholdVehicles</p>
-<p>The development requirements here are:</p>
-<ul>
-<li>Identify the specific connections between VERPAT models and the locations where those models are now estimated in VE modules.</li>
-<li>Replace the hardcoded models and imported model objects currently used in VERPAT modules with references to the models estimated during a build of VE. This would allow, for example, connections to updated NHTS data and/or local household travel survey data discussed above.</li>
-</ul>
-</div>
-<div id="modules-estimated-with-local-data" class="section level3" number="13.2.4">
-<h3>
-<span class="header-section-number">13.2.4</span> Modules estimated with local data<a class="anchor" aria-label="anchor" href="#modules-estimated-with-local-data"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.2.3</span> Modules estimated with local data<a class="anchor" aria-label="anchor" href="#modules-estimated-with-local-data"><i class="fas fa-link"></i></a>
 </h3>
 <p>In some cases, locally specific data were used to develop model inputs and estimate models that are incorporated into modules. One example is the use of the Census Public User Microdata Sample (PUMS) for Oregon, which is used to estimate income models and to develop probability distributions used in the VESimHouseholds package.</p>
 <p>Ideally, the implementation of a VE model in another state would replace the Oregon data with a local dataset. The data are also from 2001, and would ideally be replaced with a more recent version of the PUMS data, for example from the American Community Survey (ACS) 5 year data or an alternative local data source.</p>
@@ -185,9 +173,9 @@
 <li>Consider the development of a separate package or module in VESimHouseholds to process a selected state or region’s ACS data via an automatic download or API call to source the data.</li>
 </ul>
 </div>
-<div id="modules-estimated-with-other-types-of-data" class="section level3" number="13.2.5">
+<div id="modules-estimated-with-other-types-of-data" class="section level3" number="13.2.4">
 <h3>
-<span class="header-section-number">13.2.5</span> Modules estimated with other types of data<a class="anchor" aria-label="anchor" href="#modules-estimated-with-other-types-of-data"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.2.4</span> Modules estimated with other types of data<a class="anchor" aria-label="anchor" href="#modules-estimated-with-other-types-of-data"><i class="fas fa-link"></i></a>
 </h3>
 <p>Several other data sources are used in the development of modules, particularly those that deal with vehicle operations and congestion. These are generally reasonably well documented and the estimation process is traceable from data included in the modules through an estimation script to a final model object. The estimation work could be considered for updating by model users where local conditions are sufficiently different from those covered in the original estimation date, or over time as the original estimation data being aged and are superseded.</p>
 <p>The development requirements here are:</p>
@@ -530,16 +518,16 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="calculateinduceddemand-1" class="section level4" number="13.3.2.6">
+<div id="calculateinduceddemand" class="section level4" number="13.3.2.6">
 <h4>
-<span class="header-section-number">13.3.2.6</span> CalculateInducedDemand<a class="anchor" aria-label="anchor" href="#calculateinduceddemand-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.2.6</span> CalculateInducedDemand<a class="anchor" aria-label="anchor" href="#calculateinduceddemand"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates average daily vehicle miles traveld for households. It also calculates average DVMT, daily consumption of fuel (in gallons), and average daily Co2 equivalent greenhouse emissions for all vehicles.</p>
 <p>This module step has no estimated parameters or other model types derived from data.</p>
 </div>
-<div id="calculatepolicyvmt-1" class="section level4" number="13.3.2.7">
+<div id="calculatepolicyvmt" class="section level4" number="13.3.2.7">
 <h4>
-<span class="header-section-number">13.3.2.7</span> CalculatePolicyVmt<a class="anchor" aria-label="anchor" href="#calculatepolicyvmt-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.2.7</span> CalculatePolicyVmt<a class="anchor" aria-label="anchor" href="#calculatepolicyvmt"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module models adjusts the VMT for the policies entered for the scenario. The outputs form this module contains ‘Policy’ as the suffix in their names</p>
 <ul>
@@ -582,9 +570,9 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="calculatetraveldemand-1" class="section level4" number="13.3.2.8">
+<div id="calculatetraveldemand" class="section level4" number="13.3.2.8">
 <h4>
-<span class="header-section-number">13.3.2.8</span> CalculateTravelDemand<a class="anchor" aria-label="anchor" href="#calculatetraveldemand-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.2.8</span> CalculateTravelDemand<a class="anchor" aria-label="anchor" href="#calculatetraveldemand"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates average daily vehicle miles traveld for households. It also calculates average DVMT, daily consumption of fuel (in gallons), and average daily Co2 equivalent greenhouse emissions for all vehicles.</p>
 <ul>
@@ -627,9 +615,9 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="calculatetraveldemandfuture-1" class="section level4" number="13.3.2.9">
+<div id="calculatetraveldemandfuture" class="section level4" number="13.3.2.9">
 <h4>
-<span class="header-section-number">13.3.2.9</span> CalculateTravelDemandFuture<a class="anchor" aria-label="anchor" href="#calculatetraveldemandfuture-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.2.9</span> CalculateTravelDemandFuture<a class="anchor" aria-label="anchor" href="#calculatetraveldemandfuture"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates average daily vehicle miles traveld for households. It also calculates average DVMT, daily consumption of fuel (in gallons), and average daily Co2 equivalent greenhouse emissions for all vehicles.</p>
 <p>This module step has no estimated parameters or other model types derived from data.</p>
@@ -967,9 +955,9 @@ inst/extdata/tdm_parameters.csv</li>
 </li>
 </ul>
 </div>
-<div id="calculatebaseplacetypes-1" class="section level4" number="13.3.4.10">
+<div id="calculatebaseplacetypes" class="section level4" number="13.3.4.10">
 <h4>
-<span class="header-section-number">13.3.4.10</span> CalculateBasePlaceTypes<a class="anchor" aria-label="anchor" href="#calculatebaseplacetypes-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.4.10</span> CalculateBasePlaceTypes<a class="anchor" aria-label="anchor" href="#calculatebaseplacetypes"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates place types for households and firms for the base year.</p>
 <ul>
@@ -992,9 +980,9 @@ inst/extdata/tdm_parameters.csv</li>
 </li>
 </ul>
 </div>
-<div id="calculatefutureplacetypes-1" class="section level4" number="13.3.4.11">
+<div id="calculatefutureplacetypes" class="section level4" number="13.3.4.11">
 <h4>
-<span class="header-section-number">13.3.4.11</span> CalculateFuturePlaceTypes<a class="anchor" aria-label="anchor" href="#calculatefutureplacetypes-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.4.11</span> CalculateFuturePlaceTypes<a class="anchor" aria-label="anchor" href="#calculatefutureplacetypes"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates place types for households and firms for the future year.</p>
 <ul>
@@ -1106,9 +1094,9 @@ This module contains the following step(s):</p>
 <p>This module assigns a life cycle category to each household. The life cycle categories are similar, but not the same as, those established for the NHTS. </p>
 <p>This module step has no estimated parameters or other model types derived from data.</p>
 </div>
-<div id="createhouseholds-1" class="section level4" number="13.3.6.2">
+<div id="createhouseholds" class="section level4" number="13.3.6.2">
 <h4>
-<span class="header-section-number">13.3.6.2</span> CreateHouseholds<a class="anchor" aria-label="anchor" href="#createhouseholds-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.6.2</span> CreateHouseholds<a class="anchor" aria-label="anchor" href="#createhouseholds"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module creates a Household table in the datastore and populates the table with datasets characterizing simulated households.</p>
 <ul>
@@ -1131,9 +1119,9 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="predictincome-2" class="section level4" number="13.3.6.3">
+<div id="predictincome-1" class="section level4" number="13.3.6.3">
 <h4>
-<span class="header-section-number">13.3.6.3</span> PredictIncome<a class="anchor" aria-label="anchor" href="#predictincome-2"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.6.3</span> PredictIncome<a class="anchor" aria-label="anchor" href="#predictincome-1"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module predicts the income for each simulated household given the number of workers in each age group and the average per capita income for the Azone where the household resides.</p>
 <ul>
@@ -1166,9 +1154,9 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="predictworkers-1" class="section level4" number="13.3.6.4">
+<div id="predictworkers" class="section level4" number="13.3.6.4">
 <h4>
-<span class="header-section-number">13.3.6.4</span> PredictWorkers<a class="anchor" aria-label="anchor" href="#predictworkers-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.6.4</span> PredictWorkers<a class="anchor" aria-label="anchor" href="#predictworkers"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module assigns workers by age to households and to noninstitutional group quarters population. It is a simple model which predicts workers as a function of the age composition of household members.</p>
 <ul>
@@ -1443,16 +1431,16 @@ This module contains the following step(s):</p>
 </h3>
 <p>VisionEval Synthetic Firms module
 This module contains the following step(s):</p>
-<div id="createbasesyntheticfirms-1" class="section level4" number="13.3.10.1">
+<div id="createbasesyntheticfirms" class="section level4" number="13.3.10.1">
 <h4>
-<span class="header-section-number">13.3.10.1</span> CreateBaseSyntheticFirms<a class="anchor" aria-label="anchor" href="#createbasesyntheticfirms-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.10.1</span> CreateBaseSyntheticFirms<a class="anchor" aria-label="anchor" href="#createbasesyntheticfirms"><i class="fas fa-link"></i></a>
 </h4>
 <p>Creates a list of base year synthetic firms</p>
 <p>This module step has no estimated parameters or other model types derived from data.</p>
 </div>
-<div id="createfuturesyntheticfirms-1" class="section level4" number="13.3.10.2">
+<div id="createfuturesyntheticfirms" class="section level4" number="13.3.10.2">
 <h4>
-<span class="header-section-number">13.3.10.2</span> CreateFutureSyntheticFirms<a class="anchor" aria-label="anchor" href="#createfuturesyntheticfirms-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.10.2</span> CreateFutureSyntheticFirms<a class="anchor" aria-label="anchor" href="#createfuturesyntheticfirms"><i class="fas fa-link"></i></a>
 </h4>
 <p>Creates a list of future year synthetic firms</p>
 <p>This module step has no estimated parameters or other model types derived from data.</p>
@@ -1505,9 +1493,9 @@ This module contains the following step(s):</p>
 </h3>
 <p>VisionEval module for roadway speeds, delay, and congestion costs using run year data
 This module contains the following step(s):</p>
-<div id="calculatecongestionbase-1" class="section level4" number="13.3.12.1">
+<div id="calculatecongestionbase" class="section level4" number="13.3.12.1">
 <h4>
-<span class="header-section-number">13.3.12.1</span> CalculateCongestionBase<a class="anchor" aria-label="anchor" href="#calculatecongestionbase-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.12.1</span> CalculateCongestionBase<a class="anchor" aria-label="anchor" href="#calculatecongestionbase"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates the amount of congestion for base year - automobile, light truck, truck, and bus vmt are allocated to freeways, arterials, and other roadways.</p>
 <ul>
@@ -1532,9 +1520,9 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="calculatecongestionfuture-1" class="section level4" number="13.3.12.2">
+<div id="calculatecongestionfuture" class="section level4" number="13.3.12.2">
 <h4>
-<span class="header-section-number">13.3.12.2</span> CalculateCongestionFuture<a class="anchor" aria-label="anchor" href="#calculatecongestionfuture-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.12.2</span> CalculateCongestionFuture<a class="anchor" aria-label="anchor" href="#calculatecongestionfuture"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates the amount of congestion for future year - automobile, light truck, truck, and bus vmt are allocated to freeways, arterials, and other roadways.</p>
 <ul>
@@ -1559,9 +1547,9 @@ This module contains the following step(s):</p>
 </li>
 </ul>
 </div>
-<div id="calculatecongestionpolicy-1" class="section level4" number="13.3.12.3">
+<div id="calculatecongestionpolicy" class="section level4" number="13.3.12.3">
 <h4>
-<span class="header-section-number">13.3.12.3</span> CalculateCongestionPolicy<a class="anchor" aria-label="anchor" href="#calculatecongestionpolicy-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.12.3</span> CalculateCongestionPolicy<a class="anchor" aria-label="anchor" href="#calculatecongestionpolicy"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates the amount of congestion - automobile, light truck, truck, and bus vmt are allocated to freeways, arterials, and other roadways adjusted by policy applied for the selected scenario.</p>
 <ul>
@@ -2115,9 +2103,9 @@ This module contains the following step(s):</p>
 </h3>
 <p>This module calculates and reports various performance metrics
 This module contains the following step(s):</p>
-<div id="reportrpatmetrics-1" class="section level4" number="13.3.15.1">
+<div id="reportrpatmetrics" class="section level4" number="13.3.15.1">
 <h4>
-<span class="header-section-number">13.3.15.1</span> ReportRPATMetrics<a class="anchor" aria-label="anchor" href="#reportrpatmetrics-1"><i class="fas fa-link"></i></a>
+<span class="header-section-number">13.3.15.1</span> ReportRPATMetrics<a class="anchor" aria-label="anchor" href="#reportrpatmetrics"><i class="fas fa-link"></i></a>
 </h4>
 <p>This module calculates and reports various performance metrics. These performance metrics include environment and energey impacts, financial and economic impacts, and community impacts.</p>
 <ul>
@@ -2688,7 +2676,7 @@ if (!file.exists("data-raw/Hh_df.rda")) {
   )
 )</code></pre>
 <p>Following are detailed descriptions and examples of each component of the specifications list.</p>
-<p>The <strong>RunBy</strong> component specifies the level of geography that the model is to be run at. For example, the congestion submodel in the GreenSTEP and RSPM models runs at the Marea level. This specification is used by the software framework to determine how to index data that is read from the datastore and data that is written to the datastore. Acceptable values are “Region”, “Azone”, “Bzone”, and “Marea”. The <em>RunBy</em> specification looks like the following example:</p>
+<p>The <strong>RunBy</strong> component specifies the level of geography that the model is to be run at. For example, the congestion submodel in the RSPM model runs at the Marea level. This specification is used by the software framework to determine how to index data that is read from the datastore and data that is written to the datastore. Acceptable values are “Region”, “Azone”, “Bzone”, and “Marea”. The <em>RunBy</em> specification looks like the following example:</p>
 <pre><code>RunBy = "Marea",</code></pre>
 <p>The <strong>NewInpTable</strong> and <strong>NewSetTable</strong> components specify any new tables that need to be created in the datastore to accommodate input data or data produced by a module respectively. The following specifications are required for each new table that is to be created.<br>
 - TABLE: the name of the table that is to be created; and,
@@ -2859,7 +2847,7 @@ Call = items(
 <h4>
 <span class="header-section-number">13.4.1.4</span> OPTIONAL Attribute<a class="anchor" aria-label="anchor" href="#optional-attribute"><i class="fas fa-link"></i></a>
 </h4>
-<p>Module developers can use the OPTIONAL attribute to identify optional inputs or data to be retrieved from the datastore. This enables modules to be written to respond to optional inputs. For example, in the GreenSTEP and RSPM models, users may provide inputs on the average carbon intensity of fuels (grams CO2e per megajoule) by model run year. This allows users to model a scenario where state regulations require the average carbon intensity of fuels to be reduced over time. If the user supplies those data, the models calculate carbon emissions using those inputs. If not, the model calculates emissions using data on the carbon intensities of different fuel types and the mix of those fuel types.</p>
+<p>Module developers can use the OPTIONAL attribute to identify optional inputs or data to be retrieved from the datastore. This enables modules to be written to respond to optional inputs. For example, this allows users to model a scenario where state regulations will lead to a change in a particular VisionEval input over time. If the user supplies those data, the models uses these inputs.</p>
 <p>If the OPTIONAL attribute for an item is missing, then the item is not optional. If the OPTIONAL attribute is not missing but is set equal to <em>FALSE</em> then the item is not optional as well. Only when the OPTIONAL attribute is present and set equal to <em>TRUE</em> does the framework regard the item as optional (<code>OPTIONAL = TRUE</code>).</p>
 <p>If an input (<em>Inp</em>) item is identified as optional, the framework checks whether the identified input file is present. If the file is present, then the framework will process the data and load it into the datastore. Otherwise the item is ignored. Note that optional inputs can’t be combined with non-optional inputs in the same file. This will cause an error. Also not that since the framework does not automatically supply inputs to the module, there must be optional <em>Get</em> items corresponding to the optional <em>Inp</em> items. When the framework sees an optional <em>Get</em> item, it checks the datastore to see whether the optional dataset(s) are present. If so, it retrieves them.</p>
 </div>
@@ -2875,7 +2863,7 @@ Call = items(
   CalcVehTrips = "CalculateVehicleTrips",
   CalcAltTrips = "CalculateAltModeTrips"
 )</code></pre>
-<p>The <em>alias</em> is the name that the called module will be referred to by the calling module code. The <em>module</em> is the name of the called module. The VisionEval framework software identifies which package the module resides in from the <em>ModulesByPackage_df</em> table in the <em>ModelState_ls</em> list. It is also possible to hard code the package name in the call definition. For example the <em>CalcDvmt</em> alias could be assign to <code><a href="https://rdrr.io/pkg/VEHouseholdTravel/man/CalculateHouseholdDvmt.html">VEHouseholdTravel::CalculateHouseholdDvmt</a></code>. This is discouraged, however, because doing so limits the ability to maintain different versions of packages that have module modifications.</p>
+<p>The <em>alias</em> is the name that the called module will be referred to by the calling module code. The <em>module</em> is the name of the called module. The VisionEval framework software identifies which package the module resides in from the <em>ModulesByPackage_df</em> table in the <em>ModelState_ls</em> list. It is also possible to hard code the package name in the call definition. For example the <em>CalcDvmt</em> alias could be assign to <code>VEHouseholdTravel::CalculateHouseholdDvmt</code>. This is discouraged, however, because doing so limits the ability to maintain different versions of packages that have module modifications.</p>
 <pre><code>Call = items(
   CalcDvmt = "VEHouseholdTravel::CalculateHouseholdDvmt"
 )</code></pre>
@@ -3039,8 +3027,8 @@ Call = items(
 <h3>
 <span class="header-section-number">13.4.4</span> The tests Directory<a class="anchor" aria-label="anchor" href="#the-tests-directory"><i class="fas fa-link"></i></a>
 </h3>
-<p>The ‘tests’ directory contains R scripts and the results of module tests. The <em>scripts</em> directory contains all the scripts used to carry out module tests. The directory also contains subdirectories for each of the model types the module is to be tested with (e.g VE-RSPM, VE-State, VE-RPAT). Two approaches are available for handing module data that includes input files the module uses, all the <em>defs</em> files, and a datastore which contains all the datasets used by the module aside from those in the input files. These data can be included in the package or they may be kept in a central repository. If they are included in the package, they must be placed in the directory for the corresponding model. This is necessary to avoid conflicts in the test data for different models. The scripts directory includes a testing script which runs the tests on all modules in a package for a particular module. For example, the script for testing modules in a VE-State application is named <em>vestate_test.R</em>. The scripts directory also includes a <em>test.R</em> script which calls the individual model test scripts for automated package testing. If the centralized data testing approach is used, a <em>test_functions.R</em> script needs to be included. This includes functions needed to support the centralized test data approach. The test process is still not finalized. In the future this functionality will be included in the framework software. Following is an example of a test script using the central data approach:</p>
-<pre><code><a href="https://github.com/gregorbj/VisionEval">#vestate_test.R
+<p>The ‘tests’ directory contains R scripts and the results of module tests. The <em>scripts</em> directory contains all the scripts used to carry out module tests. The directory also contains subdirectories for each of the model types the module is to be tested with (e.g VE-RSPM, VE-State). Two approaches are available for handing module data that includes input files the module uses, all the <em>defs</em> files, and a datastore which contains all the datasets used by the module aside from those in the input files. These data can be included in the package or they may be kept in a central repository. If they are included in the package, they must be placed in the directory for the corresponding model. This is necessary to avoid conflicts in the test data for different models. The scripts directory includes a testing script which runs the tests on all modules in a package for a particular module. For example, the script for testing modules in a VE-State application is named <em>vestate_test.R</em>. The scripts directory also includes a <em>test.R</em> script which calls the individual model test scripts for automated package testing. If the centralized data testing approach is used, a <em>test_functions.R</em> script needs to be included. This includes functions needed to support the centralized test data approach. The test process is still not finalized. In the future this functionality will be included in the framework software. Following is an example of a test script using the central data approach:</p>
+<pre><code><a href="https://rdrr.io/r/base/library.html">#vestate_test.R
 #--------------
 
 #Load packages and test functions
@@ -3078,7 +3066,7 @@ saveTestResults(TestSetup_ls)
 </div>
 
   <div class="chapter-nav">
-<div class="prev"><a href="verpat.html"><span class="header-section-number">12</span> VERPAT Model Details</a></div>
+<div class="prev"><a href="page-is-no-longer-supported.html"><span class="header-section-number">12</span> Page is no longer supported</a></div>
 <div class="next"><a href="ve-buildprocess.html"><span class="header-section-number">14</span> VisionEval Module Build Process</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
@@ -3094,9 +3082,8 @@ saveTestResults(TestSetup_ls)
 <a class="nav-link" href="#ve-estimation-classification"><span class="header-section-number">13.2</span> VE Estimation Classification</a><ul class="nav navbar-nav">
 <li><a class="nav-link" href="#modules-importing-data-from-venhts2001"><span class="header-section-number">13.2.1</span> Modules importing data from VENHTS2001</a></li>
 <li><a class="nav-link" href="#modules-using-confidential-nhts-data"><span class="header-section-number">13.2.2</span> Modules using confidential NHTS data</a></li>
-<li><a class="nav-link" href="#modules-imported-from-rpat"><span class="header-section-number">13.2.3</span> Modules imported from RPAT</a></li>
-<li><a class="nav-link" href="#modules-estimated-with-local-data"><span class="header-section-number">13.2.4</span> Modules estimated with local data</a></li>
-<li><a class="nav-link" href="#modules-estimated-with-other-types-of-data"><span class="header-section-number">13.2.5</span> Modules estimated with other types of data</a></li>
+<li><a class="nav-link" href="#modules-estimated-with-local-data"><span class="header-section-number">13.2.3</span> Modules estimated with local data</a></li>
+<li><a class="nav-link" href="#modules-estimated-with-other-types-of-data"><span class="header-section-number">13.2.4</span> Modules estimated with other types of data</a></li>
 </ul>
 </li>
 <li>
@@ -3144,7 +3131,7 @@ saveTestResults(TestSetup_ls)
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>VisionEval User Guide</strong>" was written by VisionEval Pooled Fund Team. It was last built on 2024-03-25.</p>
+    <p>"<strong>VisionEval User Guide</strong>" was written by VisionEval Pooled Fund Team. It was last built on 2025-03-18.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
