@@ -6,6 +6,7 @@
 # - Create ve.env (passed through to VEStart or VEBuild/Boostrap)
 #
 # - Load VE_HOME and get user to confirm location via dialog
+#   * If VE_INSTALL is set, we'll go do our work there rather than VE_HOME (for testing the script)
 #   * Ideally, option for text dialog (initial text request)
 #   * Copy ve-install-config.yml if new VE_HOME selected
 
@@ -21,7 +22,7 @@
 #   * Get releases and select installer (tcltk dialog)
 #   * Three installation options
 #     - Package release (binary, library or source) where available
-#       If VE_BUILD is set in .Renviron, also consider releases in VE_BUILD/install
+##       If VE_BUILD or VE_PREBUILD is set in .Renviron, also consider releases in VE_PREBUILD/install
 #     - Release zipball (for VE-Bootstrap.R build)
 #     - Local Repository Clone (dialog to browse directory)
 #       (just relays to VE-Bootstrap.R but keeps VE_HOME/ve-lib and built locations from installer)
@@ -331,9 +332,8 @@ getReleases <- function(build.type,cache=FALSE) {
     }
     # If we're doing standard releases, create a virtual release for installers we may have built
     # locally. This is intended for testing the install script with updated local installers.
-    if ( build.type == "Release" && ! is.na(ve.build <- Sys.getenv("VE_BUILD",NA) ) ) {
-      message("ve.build = ",ve.build)
-      if ( dir.exists(local.releases <- file.path(ve.build,"install") ) ) { # Locally built installers
+    if ( build.type == "Release" && ! is.na(ve.build.dir <- Sys.getenv("VE_PREBUILD",Sys.getenv("VE_BUILD",NA))) ) {
+      if ( dir.exists(local.releases <- file.path(ve.build.dir,"install") ) ) { # Locally built installers
         release.data <- list()
         for ( release.name in rev(dir(local.releases,full.names=TRUE)) ) {
           if ( ! dir.exists(release.name) ) next # may be a file not a folder
@@ -503,7 +503,7 @@ doInstallation <- function(retrieved) {
     )
   } else {
     conf.yn <- askYesNo("Complete Installation?",prompts="Y/N/C") # Text confirmation
-    if ( conf.yn) "yes" else "no"
+    if ( isTRUE(conf.yn) ) "yes" else "no"
   }
       
   if ( as.character(confirm) != "yes" ) {
@@ -512,9 +512,9 @@ doInstallation <- function(retrieved) {
 
   if ( installType == "LocalClone" ) {
     # LocalClone is just looking at a directory containing VE-Bootstrap.R
-    # Point VE_SOURCE at it, then run its VE_Bootstrap.R
+    # Point VE_SOURCE at the sources folder within it, then run its VE_Bootstrap.R
     Sys.setenv(
-      VE_SOURCE=file.path(retrieved)
+      VE_SOURCE=file.path(retrieved,"sources")
     ) # 
     return(
       function() {

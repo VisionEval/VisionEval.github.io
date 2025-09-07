@@ -438,6 +438,10 @@ setup.dialog <- function(build.type,all.releases,load.install.config,max_width=8
     tclvalue(installer) <- names(all.releases[[1]][[1]][["assets"]])[1]
 
     # Button management
+    # TODO: disable repos, release and installer depending on whether
+    # there is anything available for that type (i.e. no selection if
+    # only one repository defined, no releases if only one release
+    # defined, no installers if only one installer defined).
     disable_buttons <- function() {
       tkconfigure(repos_button,state="disabled")
       tkconfigure(release_button,state="disabled")
@@ -455,8 +459,10 @@ setup.dialog <- function(build.type,all.releases,load.install.config,max_width=8
     repos_button <- tkbutton(tt, text = "Repository", command = function() {
       disable_buttons()
       repos.list <- names(all.releases)
-      if ( length(repos.list) < 2 ) return() # Button does nothing if not enough items
-
+      if ( length(repos.list) < 2 ) {
+        enable_buttons()
+        return() # Button does nothing if not enough items
+      }
       # Run the selection dialog, then look up the selected release and choose the
       # default installer from that release.
       select.from.list(tt,repository,repos.list) # will update repository variable
@@ -470,8 +476,10 @@ setup.dialog <- function(build.type,all.releases,load.install.config,max_width=8
     release_button <- tkbutton(tt, text = "Release", state="normal", command = function() {
       disable_buttons()
       release_list <- names(all.releases[[tclvalue(repository)]])
-      if ( length(release_list) < 2 ) return() # Do nothing if too few items
-
+      if ( length(release_list) < 2 )  {
+        enable_buttons()
+        return() # Button does nothing if not enough items
+      }
       # If release changes, change the installer to the default one.
       select.from.list(tt,release,release_list) # will update repository variable
       inst_list <- all.releases[[tclvalue(repository)]][[tclvalue(release)]][["assets"]]
@@ -482,7 +490,10 @@ setup.dialog <- function(build.type,all.releases,load.install.config,max_width=8
     installer_button <- tkbutton(tt, text = "Installer", state="normal", command = function() {
       disable_buttons()
       installer_list <- names(all.releases[[tclvalue(repository)]][[tclvalue(release)]][["assets"]])
-      if ( length(installer_list) < 2 ) return() # Do nothing if there are too few installers
+      if ( length(installer_list) < 2 )  {
+        enable_buttons()
+        return() # Button does nothing if not enough items
+      }
       select.from.list(tt,installer,installer_list) # will update installer variable
       enable_buttons()
     })
