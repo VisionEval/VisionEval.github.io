@@ -2,10 +2,14 @@
 layout: page
 title: VisionEval
 ---
+Using **strategic tools** for long range **performance-based** planning (23 U.S. Code § 134, 135) is a valued analytical approach to complement traditional travel modeling methods that helps state and metropolitan area governments select policies and actions to address pressing  long-range goals, especially those fraught with uncertainty. 
 
-
-VisionEval is a collaborative project to build a family of strategic tools for performance-based transportation planning into a single open-source programming framework. Strategic tools are designed to evaluate many alternative futures and policies to help state and metropolitan area governments address pressing issues, despite uncertainty. The common framework enables new model features to be added in a 'plug-and-play' fashion so they can be easily shared among models. Use the resources below to learn more about this exciting project and how your agency can get involved. In 2021, VisionEval received the
+VisionEval (https://visioneval.org) is a collaborative project that built a family of strategic tools for performance-based transportation planning into a single open-source programming framework. A supporting community of partner agencies and others share in its use and enhancement.  In 2021, VisionEval received the
 <a href="https://zephyrtransport.org/technical-achievement-award/" target = "_blank">Zephyr Foundation Exceptional Technical Achievement Award</a>.
+
+Users support the continuing development of VisionEval via a Pooled Fund, drawing from successful past and interested future users. 
+
+### A new Pooled Fund study will be opening soon! Contact the user group at info@visioneval.org   
 
 ### Resources
 
