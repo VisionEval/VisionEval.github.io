@@ -10,8 +10,9 @@
 #   * Ideally, option for text dialog (initial text request)
 #   * Copy ve-install-config.yml if new VE_HOME selected
 
-# - Load and create ve.lib within VE_HOME (once selected)
-#   * Create ve-inst-lib for packages using by VE4-install itself
+# - Load and create ve.lib within VE_HOME once selected
+#   * VE_INSTALL will be used as the ve.lib destination, if it's available
+#   * Create ve-inst-lib for packages used by VE4-install itself
 #     (So we can load them again if needed into final ve-lib)
 
 # - Identify ve-install-config.yml if it exists and edit with dialog
@@ -45,6 +46,8 @@
 #  https://pak.r-lib.org/reference/sysreqs.html
 #  Using pak will require replacing the standard "install.packages" for the non-VE dependencies
 # TODO: Use pak within VEBuild::ve.build() so we can run ve.build on non-Windows machines
+# The installer should work just as well on Windows or another OS provided package support can be
+#  installed.
 
 # - Complete the installation
 #     * WinLibrary:
@@ -59,7 +62,8 @@
 #         Checks for VE-Bootstrap.R in unzipped VE_SOURCE subfolder and sources that script
 #         (Effectively starting a build process, using VE_HOME from the installer environment)
 
-# - Start VisionEval
+# - Start VisionEval (either as a binary runtime in VE_RUNTIME, or by launching VE-Bootstrap.R
+#   in a code repository snapshot or clone).
 
 ######## Load the user interface
 
