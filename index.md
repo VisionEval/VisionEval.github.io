@@ -9,7 +9,7 @@ VisionEval (https://visioneval.org) is a collaborative project that built a fami
 
 Users support the continuing development of VisionEval via a Pooled Fund, drawing from successful past and interested future users. 
 
-### A new Pooled Fund study will be opening soon! Contact the user group at info@visioneval.org   
+### A new [Pooled Fund study](https://pooledfund.org/Details/Solicitation/1651) is now open! Contact the user group at info@visioneval.org for more information   
 
 ### Resources
 
