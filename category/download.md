@@ -48,9 +48,9 @@ Once R starts and you have been welcomed to VisionEval, you can follow the instr
 
 ## Requirements
 
-#### R
+#### R Versions
 
-The current version of VisionEval is built for recent versions of R (R 4.4 and later). If you have a
+The current version of VisionEval is built for recent versions of R (R 4.5 and later). If you have a
 different version installed and cannot install one of the supported versions (and if you can't or
 don't want to do the full build yourself), please contact <a href="mailto:info@visioneval.org">the
 VisionEval support team</a>. You can [get R here](https://cran.r-project.org).
@@ -69,6 +69,22 @@ VisionEval can be installed from source as well. Contact <a href="mailto:info@vi
 VisionEval support team</a> for more information on source installations. It's a tedious process,
 but should work provided you have a capacious server (probably 16Gb RAM needed) and the patience to
 incrementally install quite a few operating system packages.
+
+## Manual Installation
+
+You can install the latest VisionEval release manually (without using the one-line installer script
+above). You may need to do that if your system is on a fire-walled network that won't let R
+communicate directly with the internet.
+
+You will need to download and run an R installer (no administrative rights needed), and you will
+need to be able to download one of the installer zip files from Github. You can do those offline and
+transport the R installer and VisionEval zip file to your computer; that approach has been
+successfully used to put VE on cloud servers. Note that without administrative rights, you cannot
+install R Studio, so you'll be limited to base R, which is entirely serviceable for setting up and
+running models.
+
+You can download this PDF for detailed instructions:
+[VisionEval Manual Installation (PDF)](https://visioneval.github.io/assets/install/VisionEval-Manual-Installation_2026-09-08.pdf)
 
 ## Questions
 
